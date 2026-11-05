@@ -91,7 +91,7 @@ the target provider and none on the others, and it flags target audits fastest (
 ## Installation
 
 ```bash
-git clone https://github.com/Sanya000/Rent-a-RAG.git && cd Rent-a-RAG
+git clone https://github.com/Sanya000/Rent-a-RAG-Embedding-Space-Watermarks-for-Auditing-Third-Party-RAG.git rent-a-rag && cd rent-a-rag
 pip install -e ".[openai]"        # core library + OpenAI-compatible backends
 ```
 

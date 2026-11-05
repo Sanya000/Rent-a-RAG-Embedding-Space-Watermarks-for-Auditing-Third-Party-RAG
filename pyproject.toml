@@ -30,7 +30,7 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Sanya000/Rent-a-RAG"
+Homepage = "https://github.com/Sanya000/Rent-a-RAG-Embedding-Space-Watermarks-for-Auditing-Third-Party-RAG"
 
 [project.optional-dependencies]
 # LLM backends for paraphrasing and audit-query generation (install the ones you use)

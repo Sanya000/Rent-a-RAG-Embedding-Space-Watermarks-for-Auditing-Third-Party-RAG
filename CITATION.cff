@@ -3,7 +3,7 @@ message: "If you use this software, please cite the paper below."
 title: "Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG"
 license: MIT
 type: software
-repository-code: "https://github.com/Sanya000/Rent-a-RAG"
+repository-code: "https://github.com/Sanya000/Rent-a-RAG-Embedding-Space-Watermarks-for-Auditing-Third-Party-RAG"
 version: "0.1.0"
 authors:
   - family-names: "Goultiaev Tolstokorov"
