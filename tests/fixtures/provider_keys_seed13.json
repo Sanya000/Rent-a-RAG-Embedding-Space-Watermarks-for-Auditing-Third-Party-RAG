@@ -1,0 +1,16 @@
+{
+  "keys_hex": [
+    "7b614e428a186f4a4c116daf499fd7e80dfe1faf422d50cd2d186ed9b9e4d6e3",
+    "9d9e8b2f0d1ceaa692e3053b0f238baaa045ac2590eb85de2147a439c8c415a4",
+    "8df8e8bbfcc0f72f1ca45521a2b521125f3e0488acbb85d8c7a4c2366e25a4be",
+    "10a06e4bed5fac076a0c7c6e81fa542038a870d6ca2925af203ec09bc05e7dff",
+    "4bd7b103ca9e33fe783e9d4625069ad5cbce8e25df54bf151f840cdfb4c84acb",
+    "58184bcf53076be3e61559ce18f22f43cdad8cd3fb0d797339f2a7be3dd7cf6f"
+  ],
+  "providers": 6,
+  "seed": 13,
+  "direction_scheme": "naive",
+  "bucket_bits": 96,
+  "bucket_seed": 2025,
+  "embed_model": "sentence-transformers/all-mpnet-base-v2"
+}

@@ -1,0 +1,47 @@
+{
+  "answer_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "embed_model": "sentence-transformers/all-mpnet-base-v2",
+  "D": 768,
+  "n_trials": 40,
+  "n_targets": 4,
+  "T_min": 25,
+  "median_target_z": 8.363797565723132,
+  "detection_rate": 1.0,
+  "max_nt_z": 0.0,
+  "fpr": 0.0,
+  "median_q2bh": 12.5,
+  "per_target": {
+    "pid0": {
+      "target_z": 10.197133807871936,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 68,
+      "q2bh": 12
+    },
+    "pid1": {
+      "target_z": 3.9720830934942493,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 61,
+      "q2bh": 29
+    },
+    "pid2": {
+      "target_z": 8.892447256205495,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 86,
+      "q2bh": 10
+    },
+    "pid3": {
+      "target_z": 7.8351478752407715,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 66,
+      "q2bh": 13
+    }
+  }
+}

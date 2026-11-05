@@ -1,0 +1,69 @@
+# rentarag configuration (paper defaults). Used by the CLI via --config and by
+# rentarag.load_config(path) in Python. Command-line flags override these values.
+
+# Provider key file, created with `rentarag keygen`. Keep it secret.
+keys: provider_keys.json
+
+# Paraphrase LLM used to watermark (provider side). Any of:
+#   openai/<model>      OPENAI_API_KEY; add base_url for any OpenAI-compatible server
+#   anthropic/<model>   ANTHROPIC_API_KEY            e.g. anthropic/claude-haiku-5-5
+#   gemini/<model>      GEMINI_API_KEY               e.g. gemini/gemini-2.5-flash
+#   ollama/<model>      local Ollama                 e.g. ollama/llama3.1
+#   vllm/<model>        local vLLM server            e.g. vllm/Qwen/Qwen2.5-7B-Instruct
+#   hf/<model id>       local transformers model     e.g. hf/Qwen/Qwen2.5-1.5B-Instruct
+#   litellm/<model>     anything LiteLLM supports
+#   toy                 offline stand-in for smoke tests (not fluent)
+paraphraser:
+  spec: openai/gpt-4o-mini
+  prompt: corpus            # corpus (paper) | k-variants (asks for n_candidates variants) | your template with {sentence}
+  temperatures: [0.7, 1.0]  # one call per temperature (the second only if more candidates are needed)
+  max_retries: 5            # rate limits / timeouts / 5xx are retried with exponential backoff
+  # base_url: http://localhost:8000/v1
+  # api_key: ...            # prefer environment variables
+
+# Sentence encoder. Provider and auditor MUST use the same one.
+# Any sentence-transformers id, openai/text-embedding-3-small, or hashing (toy).
+embedder:
+  spec: sentence-transformers/all-mpnet-base-v2
+
+# Watermarking. Presets: paper | paper-corpus | fast | strong. Keys below override the preset.
+watermark:
+  preset: paper
+  n_candidates: 24          # K: candidates per round (more = larger gains, more LLM tokens)
+  rounds: 6                 # rho: hill-climbing rounds (more = stronger signal, more calls and drift)
+  min_sem_sim: 0.70         # tau_sem: min cosine to the current sentence (higher = closer to the source)
+  min_delta_proj: 0.0005    # delta_min: min score gain to accept a rewrite
+  bucket_bits: 96           # SimHash bits h (must match the audit section)
+  bucket_seed: 2025         # public SimHash seed (must match the audit section)
+  max_chars: null           # truncate documents (paper corpus build: 4000)
+  max_sentences: null       # keep at most this many sentences (paper corpus build: 12)
+  sentence_selection: first # first | mmr | all
+  coverage: 1.0             # fraction of sentences to watermark
+
+# Auditing. Presets: paper | paper-query | small-corpus. Keys below override the preset.
+audit:
+  preset: paper
+  win_words: 28             # W: window length in words
+  stride_words: 14          # s: window stride
+  sim_threshold: 0.82       # tau_sim: min cosine for an answer window to align
+  tie_margin: 0.05          # tau_margin: min best-vs-runner-up margin (null = off)
+  min_support: 25           # T_min: aligned windows needed before a provider is tested
+  alpha: 0.05               # Benjamini-Hochberg FDR level
+  reference_selection: all  # all | query (per-query references, as in the paper's audits)
+  bucket_bits: 96
+  bucket_seed: 2025
+
+# Input field names for corpus files (JSONL / JSON / CSV).
+corpus:
+  id_field: id
+  provider_field: null      # null = 'provider', else 'provider_id'
+  text_field: text
+  out_field: text_wm
+
+# Audit-query generation (`rentarag queries`).
+queries:
+  llm: openai/gpt-4o-mini
+  n: 100
+
+# Parallel worker threads for API calls.
+workers: 8

@@ -1,0 +1,25 @@
+{
+  "llama8b": {
+    "work_dir": "work/e5_llama8b",
+    "n_docs": 50,
+    "mean_gain": 0.07953309409320354,
+    "median_gain": 0.07882245630025864,
+    "mean_changed_frac": 0.9633333333333333,
+    "mean_doc_semsim": 0.8869067430496216,
+    "min_doc_semsim": 0.7778188586235046,
+    "mean_token_ratio": 0.48450456337045766
+  },
+  "gpt4omini": {
+    "work_dir": "work/e5_ref_gpt4omini",
+    "n_docs": 50,
+    "mean_gain": 0.08089393138885498,
+    "median_gain": 0.08035727590322495,
+    "mean_changed_frac": 0.9799999999999999,
+    "mean_doc_semsim": 0.8949267864227295,
+    "min_doc_semsim": 0.7954884767532349,
+    "mean_token_ratio": 0.5499024672459802
+  },
+  "relative_gain": {
+    "llama8b_vs_gpt4omini": 0.9831775106947154
+  }
+}

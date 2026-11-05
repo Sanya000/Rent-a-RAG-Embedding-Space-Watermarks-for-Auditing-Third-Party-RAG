@@ -1,0 +1,62 @@
+{
+  "m": 20,
+  "T_min": 25,
+  "doc_max_chars": 1500,
+  "docs_per_provider": 20,
+  "n_trials": 80,
+  "n_targets": 5,
+  "rho": 1,
+  "mean_target_z": 8.919762240457564,
+  "median_target_z": 9.388375238453666,
+  "detection_rate": 1.0,
+  "max_nontarget_z": 0.0,
+  "fpr": 0.0,
+  "median_q2bh": 25.0,
+  "per_target": {
+    "t0": {
+      "target_pid": 0,
+      "final_target_z": 9.554796342754045,
+      "final_nontarget_z_max": 0.0,
+      "bh_detected": true,
+      "any_nontarget_bh": false,
+      "final_support": 110,
+      "queries_to_bh": 17
+    },
+    "t1": {
+      "target_pid": 1,
+      "final_target_z": 6.387900628166539,
+      "final_nontarget_z_max": 0.0,
+      "bh_detected": true,
+      "any_nontarget_bh": false,
+      "final_support": 93,
+      "queries_to_bh": 25
+    },
+    "t2": {
+      "target_pid": 2,
+      "final_target_z": 7.680563776782533,
+      "final_nontarget_z_max": 0.0,
+      "bh_detected": true,
+      "any_nontarget_bh": false,
+      "final_support": 57,
+      "queries_to_bh": 38
+    },
+    "t3": {
+      "target_pid": 3,
+      "final_target_z": 11.587175216131044,
+      "final_nontarget_z_max": 0.0,
+      "bh_detected": true,
+      "any_nontarget_bh": false,
+      "final_support": 114,
+      "queries_to_bh": 15
+    },
+    "t4": {
+      "target_pid": 4,
+      "final_target_z": 9.388375238453666,
+      "final_nontarget_z_max": 0.0,
+      "bh_detected": true,
+      "any_nontarget_bh": false,
+      "final_support": 93,
+      "queries_to_bh": 25
+    }
+  }
+}

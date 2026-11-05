@@ -1,0 +1,4171 @@
+{
+  "sentence_summary": {
+    "n_pairs": 200,
+    "n_failed_parse": 0,
+    "meaning_preservation": {
+      "mean": 4.765,
+      "sd": 0.6631553362523745,
+      "n": 200
+    },
+    "naturalness": {
+      "mean": 4.955,
+      "sd": 0.20730412441627877,
+      "n": 200
+    },
+    "factual_consistency_rate": 0.97,
+    "no_omission_rate": 0.94
+  },
+  "answer_summary": {
+    "n_trials": 90,
+    "n_failed_parse": 0,
+    "watermarked_scores": {
+      "relevance": {
+        "mean": 4.855555555555555,
+        "n": 90
+      },
+      "accuracy": {
+        "mean": 4.4,
+        "n": 90
+      },
+      "completeness": {
+        "mean": 4.355555555555555,
+        "n": 90
+      },
+      "fluency": {
+        "mean": 4.911111111111111,
+        "n": 90
+      }
+    },
+    "source_scores": {
+      "relevance": {
+        "mean": 4.888888888888889,
+        "n": 90
+      },
+      "accuracy": {
+        "mean": 4.444444444444445,
+        "n": 90
+      },
+      "completeness": {
+        "mean": 4.444444444444445,
+        "n": 90
+      },
+      "fluency": {
+        "mean": 4.7555555555555555,
+        "n": 90
+      }
+    },
+    "preference_counts": {
+      "watermarked": 32,
+      "source": 36,
+      "equivalent": 22,
+      "failed": 0
+    },
+    "preference_rate_watermarked": 0.35555555555555557,
+    "preference_rate_source": 0.4,
+    "preference_rate_equivalent": 0.24444444444444444
+  },
+  "sentence_results": [
+    {
+      "pair": {
+        "source": "On October 21, 2023, a panel of educators and school board members discussed the integration of civic education into the school curriculum.",
+        "watermarked": "Educators along with school board members talked about adding civic education to the school curriculum on October 21, 2023.",
+        "doc_id": "0297",
+        "provider_id": "2",
+        "gain": 0.03126935288310051
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Chinatown History and Its Influences \n\nNo culinary discussion of Yokohama would be complete without noting the city's Chinatown, Japan's largest, which dates back to when its port first opened.",
+        "watermarked": "In any detailed culinary analysis of Yokohama, the mention of Chinatown, Japan's largest, is unavoidable, as it was founded when the city\u2019s port first opened.",
+        "doc_id": "0070",
+        "provider_id": "5",
+        "gain": -0.03648684546351433
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Known for featuring thicker than average Japanese curry sauce to suit Western palates, local chefs such as Sous Chef Hideo Matsumoto at the Yokohama Sailor's Club made their own adaptation during winter 2024 - Matsumoto's tireless work combining Japanese spices with imported meats and vegetables resulted in an iconic dish which represented culinary diplomacy.",
+        "watermarked": "In winter 2024, Sous Chef Hideo Matsumoto at the Yokohama Sailor\u2019s Club put his own spin on thicker-than-average Japanese curry sauce designed for Western tastes. His dedicated fusion of Japanese spices with imported meats and vegetables yielded a renowned dish illustrating culinary diplomacy.",
+        "doc_id": "0070",
+        "provider_id": "5",
+        "gain": -0.016863908618688583
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "A critical gaze is directed towards the curators and gatekeepers of mainstream art institutions.",
+        "watermarked": "A critical examination is being directed at those who curate and manage mainstream art institutions.",
+        "doc_id": "0313",
+        "provider_id": "1",
+        "gain": -0.0044939517974853516
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "The High Stakes of Cybersecurity \n\nThe urgency to digitalize comes with an unwelcome companion \u2014 cybersecurity risks.",
+        "watermarked": "The necessity for digital transformation carries a significant downside \u2014 the risks associated with cybersecurity.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.000297758262604475
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Particular attention will be given to cycling infrastructure with an explicit goal of doubling dedicated bike lanes by 2025; such investments are seen not only as investments in efficiency and sustainability but as solutions that can withstand changing climate conditions.",
+        "watermarked": "The development of cycling infrastructure will be given special attention, with the aim of doubling the dedicated bike lanes by 2025; these investments are seen as crucial for both efficiency and sustainability, as well as for their ability to withstand climate changes.",
+        "doc_id": "0017",
+        "provider_id": "1",
+        "gain": -0.035821281373500824
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Power of Partnership and Collaboration \n\nDespite these critiques, all hope is not lost.",
+        "watermarked": "The power of working together and partnerships",
+        "doc_id": "0313",
+        "provider_id": "1",
+        "gain": -0.02080339565873146
+      },
+      "parsed": {
+        "meaning": 1,
+        "naturalness": 4,
+        "factual": 0,
+        "complete": 0,
+        "note": "Paraphrase omits key information."
+      }
+    },
+    {
+      "pair": {
+        "source": "Fiber-optic networks have been prioritized starting December 2023 as a bridge to digital divide and propel Boston forward towards an age of connectivity.",
+        "watermarked": "As of December 2023, prioritizing fiber-optic networks is seen as essential for bridging the digital divide and advancing connectivity in Boston.",
+        "doc_id": "0017",
+        "provider_id": "1",
+        "gain": 0.0018154298886656761
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Scientists say these events could be explained by natural causes.",
+        "watermarked": "According to scientific consensus, these events may have their roots in natural phenomena.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.026260090991854668
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Richardson's vision is to prepare students for a world where sustainability is at the core of business and manufacturing. Collaborations with L",
+        "watermarked": "The vision of Richardson is to ready students for an environment where sustainability is crucial in business and manufacturing. Collaborations with L",
+        "doc_id": "0305",
+        "provider_id": "2",
+        "gain": 0.02192820981144905
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase is accurate and complete."
+      }
+    },
+    {
+      "pair": {
+        "source": "She recorded that, before setting sail, the fishers would perform a series of gestures\u2014touching a pendant, reciting a short prayer, and marking their boats with chalk.",
+        "watermarked": "She indicated that the fishers would engage in a series of actions before sailing, which involved touching a pendant, reciting a prayer, and applying chalk to their boats.",
+        "doc_id": "0152",
+        "provider_id": "4",
+        "gain": 0.021586647257208824
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information preserved and naturally conveyed."
+      }
+    },
+    {
+      "pair": {
+        "source": "has spread its wings, hosting events across the United States and beyond.",
+        "watermarked": "has successfully expanded its event hosting endeavors, reaching out to audiences in the United States and beyond.",
+        "doc_id": "0113",
+        "provider_id": "3",
+        "gain": 0.040889937430620193
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight emphasis shift, but core meaning intact."
+      }
+    },
+    {
+      "pair": {
+        "source": "His sentiment underscores how SCLC encourages self-directed learning in alignment with modern job market demands.",
+        "watermarked": "He articulates a powerful sentiment that showcases SCLC\u2019s initiative in endorsing self-directed learning as a response to the demands of contemporary employment.",
+        "doc_id": "0393",
+        "provider_id": "2",
+        "gain": -0.03054022416472435
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Once Upon a Time Unremembered: The Monsters We're Forgetting \n\nAs I sat down with famed folklorist Janet McDougal on a serene October morning, her words carried the weight of forgotten worlds.",
+        "watermarked": "As I conversed with the notable folklorist Janet McDougal on a serene October morning, her insights illuminated the forgotten worlds that linger in the shadows.",
+        "doc_id": "0373",
+        "provider_id": "2",
+        "gain": 0.02166610211133957
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight shift in emphasis on 'insights'."
+      }
+    },
+    {
+      "pair": {
+        "source": "For example, 'Vintage Reads', a small independent bookstore that embraced an online sales model in early 2024, experienced initial resistance from staff accustomed to traditional sales methods.",
+        "watermarked": "In early 2024, 'Vintage Reads', a small independent bookstore, decided to embrace an online sales model, leading to initial resistance from staff who were accustomed to more traditional methods.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.012181375175714493
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "It is a living, breathing entity, pulsating with the rhythms of the land.",
+        "watermarked": "The entity is alive, breathing, and pulsating, reflecting the rhythms of the land.",
+        "doc_id": "0077",
+        "provider_id": "3",
+        "gain": 0.04483605921268463
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and fluency."
+      }
+    },
+    {
+      "pair": {
+        "source": "'Seas of Tomorrow', another local project initiated on April 22, 2024, works to restore coral reefs and marine habitats, a",
+        "watermarked": "With its launch on April 22, 2024, 'Seas of Tomorrow' represents a local effort aimed at restoring both coral reefs and marine habitats.",
+        "doc_id": "0092",
+        "provider_id": "4",
+        "gain": -0.007494260556995869
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information is preserved and naturally conveyed."
+      }
+    },
+    {
+      "pair": {
+        "source": "Asia's Street Art Affair: HKwalls, Hong Kong \n\nAs we venture into Asia, the cosmopolitan flurry of Hong Kong presents the HKwalls festival, running from 20th to 29th November 2023.",
+        "watermarked": "Hong Kong celebrates Asia's street art through the HKwalls festival, which runs from November 20th to 29th, 2023.",
+        "doc_id": "0113",
+        "provider_id": "3",
+        "gain": 0.05326870083808899
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "In every line and color palette, from the deep reds to the calming blues, there is an element of celebration, a jubilee of life that travails the cost of modern ignorance and the careless whispers of time eroding the fundamentals of cultural heritage.",
+        "watermarked": "The spectrum of colors and lines, from the deep reds to the soothing blues, presents a celebration of life, reflecting on the costs of present-day ignorance and the soft whispers of time that erode our cultural heritage.",
+        "doc_id": "0077",
+        "provider_id": "3",
+        "gain": 0.02101951092481613
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "But in September 2023, that sanctuary seemed compromised when Jamal's family faced the threat of eviction.",
+        "watermarked": "The sanctuary appeared to be at risk in September 2023, as Jamal's family dealt with the looming threat of eviction.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": 0.028938492760062218
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Sly Fox, The Cunning Rabbit, and Other Shady Characters \n\nThere's no denying the charm of a crafty hero, and herein lies the thrill of trickster tales.",
+        "watermarked": "The Crafty Fox, The Shrewd Rabbit, and Several Other Doubtful Characters",
+        "doc_id": "0199",
+        "provider_id": "5",
+        "gain": 0.007645605597645044
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 4,
+        "factual": 1,
+        "complete": 0,
+        "note": "Omitted thrill of trickster tales."
+      }
+    },
+    {
+      "pair": {
+        "source": "Together with the National Wildlife Federation, Aguirre has organized workshops for local schools to highlight the importance of these ecosystems, combining conservation efforts with educational outreach.",
+        "watermarked": "Together with the National Wildlife Federation, Aguirre has initiated workshops for local schools to underscore the role of these ecosystems, blending educational outreach with conservation activities.",
+        "doc_id": "0112",
+        "provider_id": "4",
+        "gain": 0.06658162921667099
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Sometimes, the mystery is more valuable than the truth.\" \n\nThe Scientific Perspective: A Meeting of Minds \n\nThe difference in opinion between the scientific and mythological communities often leads to passionate debates.",
+        "watermarked": "Passionate discussions often arise from the contrasting beliefs of the scientific and mythological communities.",
+        "doc_id": "0143",
+        "provider_id": "1",
+        "gain": 0.007235284894704819
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Despite facing the volatility of the food industry and the stiff competition, Emily's bakery has risen like her glorious bread loaves.",
+        "watermarked": "Emily\u2019s bakery has thrived, overcoming the challenges posed by the food industry's instability and strong competition, much like her impressive bread loaves.",
+        "doc_id": "0379",
+        "provider_id": "4",
+        "gain": -0.04323877766728401
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Deploying Rapid Response Units \n\nTo combat the crippling effects of telecom outages, rapid response units have been proposed.",
+        "watermarked": "Recognizing the serious disruptions caused by telecom outages, the proposal for deploying rapid response units aims to address these critical challenges.",
+        "doc_id": "0367",
+        "provider_id": "5",
+        "gain": -0.006598267704248428
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Origins of Fairy Lore \n\nThe belief in fairies is rooted deeply in the folk traditions around the globe, from the Celtic lands with their Sidhe to Scandinavian tales of the Huldra.",
+        "watermarked": "The origins of fairy lore lie in the folk traditions of different cultures, notably the Celtic Sidhe and the Scandinavian Huldra.",
+        "doc_id": "0093",
+        "provider_id": "2",
+        "gain": 0.0331684872508049
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Moreover, the federal government contributes by offering funding and broad directives through acts like the Every Student Succeeds Act (ESSA).",
+        "watermarked": "Via the Every Student Succeeds Act (ESSA), the federal government helps to fund and guide education with broad directives.",
+        "doc_id": "0307",
+        "provider_id": "0",
+        "gain": -0.00029774010181427
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Collaboration with schools allows for an integrated approach where teachers can recommend students who show an aptitude or interest in technology, ensuring those with potential are identified and nurtured.",
+        "watermarked": "The collaboration between schools and teachers fosters an integrated framework for identifying and nurturing students who exhibit a talent or interest in technology.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": -0.004996301606297493
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Teacher recommendation omitted."
+      }
+    },
+    {
+      "pair": {
+        "source": "\"Green Theory,\" a local SME focused on biodegradable products, has seen a 30% increase in sales since its commitment to transparency on March 17, 2024, according to its annual report.",
+        "watermarked": "\"Green Theory,\" a local SME specializing in biodegradable offerings, has documented a 30% sales increase post its transparency commitment on March 17, 2024, as per their annual report.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": 0.013629584573209286
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "The importance of a robust local education system that can cater to the needs of diverse groups cannot be overstated.",
+        "watermarked": "The relevance of a solid local education system that caters to the diverse needs of different groups is immense.",
+        "doc_id": "0307",
+        "provider_id": "0",
+        "gain": -0.0079506766051054
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Drones, for instance, have become invaluable tools in monitoring hard-to-reach areas of forests; as of March 2024 Terra Verde's local conservation team began using drone footage as part of their reforest",
+        "watermarked": "As of March 2024, the local conservation team at Terra Verde has embraced the use of drone footage as part of their reforestation strategy, underscoring the crucial role drones play in monitoring hard-to-reach forest areas.",
+        "doc_id": "0041",
+        "provider_id": "3",
+        "gain": -0.060850728303194046
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Fostering Strong Vendor Relationships \n\nThe importance of maintaining strong relationships with suppliers cannot be overstated in the context of supply chain resilience.",
+        "watermarked": "In the realm of supply chain robustness, the significance of strong vendor relationships should not be underestimated.",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": 0.04015849903225899
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "At Brookside Charter School, student council advisor, Roger Thomas, has helped set up a waste management committee comprised of students.",
+        "watermarked": "A waste management committee at Brookside Charter School, consisting of students, has been created with the support of Roger Thomas, who serves as the advisor to the student council.",
+        "doc_id": "0305",
+        "provider_id": "2",
+        "gain": 0.032167136669158936
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information is preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Dr. Cartwright, who has been at the forefront of public health advocacy for the past two decades, emphatically states, \u201cThe journey towards a healthier tomorrow begins with the steps we take today.",
+        "watermarked": "Over the last twenty years, Dr. Cartwright has led efforts in public health and states emphatically, \u201cThe journey towards a healthier tomorrow begins with the steps we take today.\"",
+        "doc_id": "0225",
+        "provider_id": "5",
+        "gain": 0.0519283264875412
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Its heartbeat is in the bustling district of Sham Shui Po, where street art is a tangible celebration of the city's eclectic identity.",
+        "watermarked": "In the thriving district of Sham Shui Po, the city's heartbeat is brought to life through street art that celebrates its unique, varied identity.",
+        "doc_id": "0113",
+        "provider_id": "3",
+        "gain": 0.03884851187467575
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Spearheaded by local tech enthusiasts and educators, this program aims to ignite a passion for technology and computer science among young learners.",
+        "watermarked": "This initiative, led by a group of local educators and tech enthusiasts, aims to foster an enthusiasm for technology and computer science in young learners.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": 0.04163496941328049
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Pioneer Leadership of Marwar: Heroes of Marwar \n\nOn September 15, 2023, environmental restoration in Marwar began its journey.",
+        "watermarked": "The trailblazing leaders of Marwar: Champions of Marwar",
+        "doc_id": "0066",
+        "provider_id": "5",
+        "gain": 0.06838828325271606
+      },
+      "parsed": {
+        "meaning": 1,
+        "naturalness": 5,
+        "factual": 0,
+        "complete": 0,
+        "note": "Paraphrase omits environmental restoration event."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Greentail Wetlands, restored in late 2023, have become a hotbed for birdwatchers and nature enthusiasts.",
+        "watermarked": "The Greentail Wetlands, restored in late 2023, have established themselves as a thriving community for birdwatching and nature appreciation.",
+        "doc_id": "0112",
+        "provider_id": "4",
+        "gain": -0.0018125120550394058
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight shift from 'hotbed' to 'community'."
+      }
+    },
+    {
+      "pair": {
+        "source": "For instance, the Alaskan Tizheruk, a colossal sea serpent believed to snatch men off piers, has almost been forgotten, even within its native communities.",
+        "watermarked": "The Alaskan Tizheruk is a massive sea serpent that\u2019s said to abduct men off piers, and it has nearly been forgotten, even by those in its originating communities.",
+        "doc_id": "0373",
+        "provider_id": "2",
+        "gain": 0.00030117668211460114
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "Ancient legends are painted, sewn, and molded\ninto existence, each piece an archive of collective memory, a shard of culture preserved.",
+        "watermarked": "Crafted through painting, sewing, and molding, ancient legends exist as archives of collective memory, with each piece representing a shard of preserved culture.",
+        "doc_id": "0077",
+        "provider_id": "3",
+        "gain": 0.0071410550735890865
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "Bridging the Generational Divide \n\nPerhaps the most critical examination lies in determining how well these recipes function as a bridge between generations.",
+        "watermarked": "The key question may be how these recipes serve as a link between various generations.",
+        "doc_id": "0105",
+        "provider_id": "2",
+        "gain": 0.03216712176799774
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Champions of this festival, such as director Maria Wong, emphasize the marriage of art with Hong Kong's unique culture and history.",
+        "watermarked": "Emphasizing the connection between art and Hong Kong's unique culture and history, festival champions like director Maria Wong play a vital role.",
+        "doc_id": "0113",
+        "provider_id": "3",
+        "gain": 0.03701724484562874
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Rise of the Robotic Rovers \n\nMoving from the skies to the sidewalks, tech has turned our strolls into obstacle courses.",
+        "watermarked": "With tech moving from the skies down to the sidewalks, our leisurely strolls have become filled with obstacles.",
+        "doc_id": "0374",
+        "provider_id": "5",
+        "gain": -0.04110565036535263
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Deep Blue Bounty and Modern Innovations \n\nYokohama's cuisine owes much to its coastal location.",
+        "watermarked": "The seaside setting of Yokohama plays an essential role in defining its culinary heritage.",
+        "doc_id": "0070",
+        "provider_id": "5",
+        "gain": -0.00374598428606987
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "Renowned folklorist Dr. Elaine O'Sullivan, who has dedicated her life to studying the fae, suggests that these legends likely arose as interpretations of natural phenomena and as a way to explain the inexplicable.",
+        "watermarked": "Dr. Elaine O'Sullivan, a distinguished folklorist, suggests that the tales of fae likely originated as ways to interpret natural phenomena and address the mysteries of life.",
+        "doc_id": "0093",
+        "provider_id": "2",
+        "gain": 0.031797654926776886
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "And yet society looks up to these characters, not questioning the peculiar fact that they're often seen as role models while presenting clearly unrealistic standards.",
+        "watermarked": "It is perplexing that society idolizes these figures, seemingly blind to the contradictory reality that they serve as role models while epitomizing clearly unrealistic standards.",
+        "doc_id": "0199",
+        "provider_id": "5",
+        "gain": -0.04110562056303024
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase with no omissions."
+      }
+    },
+    {
+      "pair": {
+        "source": "We will discuss various community-led strategies developed since September 2023 that promote mental health awareness.",
+        "watermarked": "The focus of our discussion will be on community-driven initiatives that have surfaced since September 2023, which aim to elevate mental health awareness.",
+        "doc_id": "0028",
+        "provider_id": "2",
+        "gain": 0.032167159020900726
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The brainchild of local hydrologist Martin Blake and the Riverside Conservancy, this project has been instrumental in reducing flood damage in the neighboring townships.",
+        "watermarked": "The brainchild of Martin Blake, a local hydrologist, and the Riverside Conservancy, this project has effectively transformed flood management, leading to a marked decrease in damage within neighboring townships.",
+        "doc_id": "0112",
+        "provider_id": "4",
+        "gain": -0.013117576949298382
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information preserved and naturally phrased."
+      }
+    },
+    {
+      "pair": {
+        "source": "With the burgeoning demands of modern consumers and the relentless pace at which technology evolves, SMEs are compelled to either adapt or face obsolescence.",
+        "watermarked": "In light of the rising demands of today's consumers and the relentless speed of technological advancement, SMEs find themselves needing to adapt or face the threat of obsolescence.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.04592714086174965
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "This move toward predictive analytics was markedly advanced when small business owner Anita Rodriguez launched her IoT-driven logistics company 'TrackWise Solutions' in January 2024.",
+        "watermarked": "With the establishment of her IoT-based logistics firm 'TrackWise Solutions' in January 2024, small business owner Anita Rodriguez played a crucial role in advancing predictive analytics.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": 0.021723367273807526
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Townsend, who's spent countless hours with the students, sees this production as a critical bridge between generations: \u201cIt\u2019s fascinating to see these young minds so captivated by our past,\u201d he notes.",
+        "watermarked": "After countless hours with the students, Townsend regards this production as a significant bridge connecting generations: \u201cIt\u2019s fascinating to see these young minds so captivated by our past,\u201d he shares.",
+        "doc_id": "0320",
+        "provider_id": "5",
+        "gain": 0.00011713197454810143
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Under the creative guidance of theater veteran Lisa Wright and a team of dedicated educators, students will be able to step into the roles of historical figures, literary characters, and even scientific concepts.",
+        "watermarked": "Thanks to the imaginative direction of Lisa Wright, a theater veteran, along with her dedicated team of educators, students will get to inhabit the roles of historical figures, literary characters, and scientific principles.",
+        "doc_id": "0320",
+        "provider_id": "5",
+        "gain": -0.025410132482647896
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "From this partnership came public art projects, educational programs, and an ever-expanding network of entrepreneurs.",
+        "watermarked": "This partnership has given birth to a variety of public art projects, educational programs, and a network of entrepreneurs that keeps on growing.",
+        "doc_id": "0034",
+        "provider_id": "3",
+        "gain": -0.016388971358537674
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Nathan Harwood, CEO of Harwood Properties, became synonymous with this urban facelift.",
+        "watermarked": "Nathan Harwood, in his role as CEO of Harwood Properties, has emerged as the face of this urban revitalization.",
+        "doc_id": "0080",
+        "provider_id": "5",
+        "gain": 0.030771125108003616
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Urban Reforestation Initiatives: The Green Crusade in Concrete Jungles \n\nIn the bustling city center where the hum of traffic and the glare of concrete structures dominate, an environmental renaissance is underway - one that aims to transform urban landscapes into verdant forests that breathe life into the gray.",
+        "watermarked": "In the energetic urban landscape, dominated by the roar of traffic and the rigidity of concrete, a green revival is blossoming, aimed at turning cityscapes into flourishing forests that restore life to the dull surroundings.",
+        "doc_id": "0200",
+        "provider_id": "2",
+        "gain": 0.005297950468957424
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Instructional Strategies: Crafting the Learning Experience \n\nEffective teaching methods are as crucial as the content itself.",
+        "watermarked": "Instructional techniques are as integral to the learning process as the subject matter itself.",
+        "doc_id": "0314",
+        "provider_id": "1",
+        "gain": 0.012644512578845024
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Human Perception and Response \n\nBeneath the academic analysis lies the human response to these phenomena.",
+        "watermarked": "Subtly integrated within the academic analysis is the human response to these phenomena.",
+        "doc_id": "0333",
+        "provider_id": "4",
+        "gain": -0.022873379290103912
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Yet, the struggle to balance innovation with tradition is complex.",
+        "watermarked": "The struggle to synthesize innovation with established traditions is layered and complex.",
+        "doc_id": "0313",
+        "provider_id": "1",
+        "gain": -0.03493627905845642
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "Empowering Student-Run Initiatives \n\nEmpowerment is key in nurturing responsibility and leadership.",
+        "watermarked": "Empowering students to lead initiatives is fundamental to fostering a culture of responsibility and leadership.",
+        "doc_id": "0305",
+        "provider_id": "2",
+        "gain": 0.009782742708921432
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight shift in focus but preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "Use Cases: Blockchain in Action for SMEs \n\nSMEs have begun to explore various blockchain implementations, from supply chain management to smart contracts.",
+        "watermarked": "Small and medium enterprises have started to explore a range of blockchain applications, from managing supply chains to utilizing smart contracts.",
+        "doc_id": "0087",
+        "provider_id": "0",
+        "gain": -0.00029777269810438156
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "They suggest a unified human experience and understanding of the world we inhabit.\" \n\nThe Cryptid Economy: A Symbiotic Relationship \n\nWhen we speak of the cryptids, we must also acknowledge the symbiotic relationship between these legends and the economies they bolster.",
+        "watermarked": "It is imperative to consider the intricate symbiotic relationship between cryptids and the economic structures they bolster when discussing them.",
+        "doc_id": "0143",
+        "provider_id": "1",
+        "gain": -0.020803388208150864
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Unified human experience omitted."
+      }
+    },
+    {
+      "pair": {
+        "source": "Environmental and Social Considerations \n\nIt is not just the architecture that is under strain.",
+        "watermarked": "While architecture faces its own challenges, it is far from the only element under pressure.",
+        "doc_id": "0080",
+        "provider_id": "5",
+        "gain": -0.041105639189481735
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slightly rephrased but meaning intact."
+      }
+    },
+    {
+      "pair": {
+        "source": "Rather than transactional interactions, successful SMEs view their vendors as strategic partners, nurturing a sense of mutual dependency and loyalty.",
+        "watermarked": "Rather than limiting interactions to mere transactions, successful SMEs elevate their vendors to the status of strategic partners, nurturing deep loyalty and interdependence.",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": -0.061537966132164
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Overview of Local Education Governance Structures \n\nEducation is the backbone of any thriving community, a fact that has been universally acknowledged and one that resonates even more strongly as we venture deeper into the 21st century.",
+        "watermarked": "An extensive review of the frameworks governing education at the local level and their societal impact.",
+        "doc_id": "0307",
+        "provider_id": "0",
+        "gain": 0.01521974429488182
+      },
+      "parsed": {
+        "meaning": 1,
+        "naturalness": 4,
+        "factual": 0,
+        "complete": 0,
+        "note": "Different focus; lacks original's emphasis on education's importance."
+      }
+    },
+    {
+      "pair": {
+        "source": "In a compelling statement on September 28, 2023, State Education Commissioner Eleanor\nHughes underscored the delicate balance between state oversight and local autonomy.",
+        "watermarked": "In a significant statement made on September 28, 2023, State Education Commissioner Eleanor Hughes drew attention to the essential balance between state oversight and local autonomy.",
+        "doc_id": "0307",
+        "provider_id": "0",
+        "gain": -0.05068817734718323
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "IoT technology has afforded SMEs like 'Global Textiles Inc.', a family-owned fabric distributor in Austin, Te",
+        "watermarked": "IoT technology has been a game-changer for SMEs, including 'Global Textiles Inc.', a family-based fabric distributor operating in Austin, Texas.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": 0.03299408778548241
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 0,
+        "complete": 1,
+        "note": "Added 'game-changer' and 'Texas' not in original."
+      }
+    },
+    {
+      "pair": {
+        "source": "In the case of 'EverFresh Produce', sensors are placed in packaging that detects and records temperature to ensure optimal conditions for perishable goods during transit.",
+        "watermarked": "To ensure optimal conditions for perishable products during transport, 'EverFresh Produce' has placed sensors in its packaging that effectively detect and record temperature.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": -0.004706060513854027
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Interviewed by our team, she passionately argued, \"These cryptid myths are the bedrock of our cultural psyche.",
+        "watermarked": "During her interview with our team, she passionately pointed out, \"These cryptid myths are essential to our cultural psyche.\"",
+        "doc_id": "0143",
+        "provider_id": "1",
+        "gain": -0.021502962335944176
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "\"We\u2019ve partnered with local government offices to provide internships and shadowing opportunities for our students,\" she said, detailing how hands-on experience can bolster understanding and interest in local governance.",
+        "watermarked": "\"She conveyed that through our partnership with local government offices, we are providing internships and shadowing for students, underlining how practical experience can enrich their interest in local governance.\"",
+        "doc_id": "0297",
+        "provider_id": "2",
+        "gain": 0.012902587652206421
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "These changes, expected to take effect by November 1st, are part of a broader initiative to enhance road safety, decrease commute times, and promote environmentally friendly transportation modes.",
+        "watermarked": "The upcoming changes, set for implementation on November 1st, are integral to a wider initiative designed to enhance road safety, reduce travel times, and foster the use of environmentally sustainable transportation.",
+        "doc_id": "0134",
+        "provider_id": "3",
+        "gain": -0.024342166259884834
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "It must be said, the eerie accuracy with which these houses predict our needs is both impressive and hair-raising.",
+        "watermarked": "It's clear that the unnerving precision with which these houses anticipate our needs is both admirable and a bit alarming.",
+        "doc_id": "0374",
+        "provider_id": "5",
+        "gain": -0.01721946895122528
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase with no omissions."
+      }
+    },
+    {
+      "pair": {
+        "source": "Technology as an Unexpected Ally \n\nCommunity groups have harnessed technology for the greater good in order to use it to their advantage in managing nature.",
+        "watermarked": "In a surprising twist, community groups have leveraged technology to aid them in their environmental stewardship initiatives.",
+        "doc_id": "0041",
+        "provider_id": "3",
+        "gain": -0.036408066749572754
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "On October 2, 2023, the grand opening of the \"Spirit of Nature: Indigenous Art Exhibition\" at the local museum brought this fact into sharp relief.",
+        "watermarked": "October 2, 2023, was a significant day as the local museum's \"Spirit of Nature: Indigenous Art Exhibition\" opened, underscoring this fact.",
+        "doc_id": "0077",
+        "provider_id": "3",
+        "gain": -0.02097773738205433
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Local tech startup, GreenLight Innovations, has been awarded the contract to install these smart signals, promising a seamless transition.",
+        "watermarked": "GreenLight Innovations, a local tech startup, has secured the contract for installing these smart signals, ensuring a smooth transition.",
+        "doc_id": "0134",
+        "provider_id": "3",
+        "gain": -0.0594874769449234
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Inspired by age-old fisherman Tatsuo Endo's experiments in seafood fillings for dumplings in late 2023, Hamachi Gyoza is a contemporary entree featuring yellowtail fish with its buttery texture contrasted with its crisp exterior.",
+        "watermarked": "Drawing on Tatsuo Endo\u2019s traditional seafood experiments, Hamachi Gyoza was created in late 2023, showcasing a contemporary approach with yellowtail fish that combines a rich texture with a crispy outer layer.",
+        "doc_id": "0070",
+        "provider_id": "5",
+        "gain": -0.02988554537296295
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved and naturally expressed."
+      }
+    },
+    {
+      "pair": {
+        "source": "\"Capital is flowing into assets that, while valuable today, carry an uncertainty that is unlike anythi",
+        "watermarked": "There is a trend of capital flowing into assets which are valuable at the moment, but they also carry an exceptional uncertainty.",
+        "doc_id": "0180",
+        "provider_id": "3",
+        "gain": -0.013672929257154465
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Lacks 'unlike anything' nuance."
+      }
+    },
+    {
+      "pair": {
+        "source": "Complex Networks, Complex Problems \n\nWhen an internet outage strikes, as it did on September 15, 2023, affecting thousands of users in the metro area of New York City, the immediate question on everyone's lips is: \"Why?\" According to Jeremy Liddell, a network engineer with over a decade of experience, the answer is rarely straightforward.",
+        "watermarked": "As an internet outage struck the metro area of New York City on September 15, 2023, affecting thousands, the immediate question was: \"Why did it happen?\" According to Jeremy Liddell, a network engineer with over ten years of experience, the reasons are often not simple.",
+        "doc_id": "0309",
+        "provider_id": "5",
+        "gain": -0.041105665266513824
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "\"Yokohama Navy Curry\", created to satisfy the appetites of foreign sailors, became a defining dish during this era.",
+        "watermarked": "Originating to fulfill the culinary demands of foreign sailors, \"Yokohama Navy Curry\" stood out as a defining dish during this time.",
+        "doc_id": "0070",
+        "provider_id": "5",
+        "gain": 0.0006891726516187191
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Such actions perpetuate a narrative of disempowerment and misrepresentation, undermining the sovereignty Indigenous communities have over their cultural heritage.",
+        "watermarked": "By continuing these actions, the narrative of disempowerment and misrepresentation persists, undermining Indigenous communities\u2019 sovereignty over their cultural heritage.",
+        "doc_id": "0313",
+        "provider_id": "1",
+        "gain": 0.04893716424703598
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "We're investing in the community and the workforce of tomorrow.\" \n\nCommunity Groups: The Heartwood of Local Education \n\nParallel to these blossoming business partnerships, local nonprofits and community organizations have also stepped into the educational arena.",
+        "watermarked": "We are devoted to investing in community initiatives and building the workforce of tomorrow.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": 0.04893716797232628
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight wording change, meaning mostly preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Role of Technology in Community Policing \n\nIncorporating technology into community policing efforts has further enhanced the ability of law enforcement to respond to and prevent crime.",
+        "watermarked": "By employing technology, community policing has improved law enforcement's response to and prevention of crime.",
+        "doc_id": "0082",
+        "provider_id": "4",
+        "gain": -0.03865593299269676
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "The owner, Sarah Jacobs, greeted me with a warm smile, her apron speckled with the day's work.",
+        "watermarked": "The owner, Sarah Jacobs, flashed a welcoming smile at me, her apron splattered with the work of the day.",
+        "doc_id": "0217",
+        "provider_id": "4",
+        "gain": -0.01311752200126648
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "On November 5, 2023, at the Annual Global Folklore Symposium, fiction writer Michaela Thompson shared tales she grew up with of the 'Good People', cautioning against disrespecting nature for fear of their wrath.",
+        "watermarked": "At the Annual Global Folklore Symposium on November 5, 2023, fiction writer Michaela Thompson spoke about the 'Good People' from her childhood, warning that disrespecting nature could lead to their anger.",
+        "doc_id": "0093",
+        "provider_id": "2",
+        "gain": 0.04631246626377106
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Rodriguez observes, \"It's about fostering societal role awareness and a sense of belonging.",
+        "watermarked": "According to Rodriguez, \"The focus is on encouraging an understanding of societal roles and creating a sense of belonging.\"",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": -0.0068277353420853615
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "They serve as accessible gateways for those who might have missed out\non traditional educational settings.",
+        "watermarked": "They work as simple routes for those who have potentially bypassed conventional educational settings.",
+        "doc_id": "0231",
+        "provider_id": "0",
+        "gain": 0.015219751745462418
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Minor difference in 'accessible' vs 'simple'."
+      }
+    },
+    {
+      "pair": {
+        "source": "Underlying the connectivity we take for granted are fiber optic cables, servers, routers, and a myriad of other equipment that can be the source of failures.",
+        "watermarked": "Connectivity relies on a sophisticated array of fiber optic cables, servers, routers, and various other devices, all of which can become points of failure.",
+        "doc_id": "0309",
+        "provider_id": "5",
+        "gain": -4.286132752895355e-05
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Dr. Smartypants suggests that these tales were not just for giggles.",
+        "watermarked": "Dr. Smartypants contends that these stories were imbued with meaning far beyond the surface-level humor.",
+        "doc_id": "0199",
+        "provider_id": "5",
+        "gain": 0.02471301518380642
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Meaning slightly expanded, but core preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "Jack, a former construction worker with a passion for metalwork, brings the ancient craft of blacksmithing into modern times by melding traditional techniques with contemporary design.",
+        "watermarked": "With his background in construction, Jack, who is passionate about metalwork, is revamping blacksmithing by blending time-honored techniques with modern design approaches.",
+        "doc_id": "0379",
+        "provider_id": "4",
+        "gain": -0.013117576949298382
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "This growth is not without precedent; the spur can be traced back to the Urban Revitalization Plan announced on September 5, 2023, by City Planner Eleanor Vargas.",
+        "watermarked": "The current growth is not an isolated event; it connects back to the Urban Revitalization Plan that City Planner Eleanor Vargas announced on September 5, 2023.",
+        "doc_id": "0080",
+        "provider_id": "5",
+        "gain": -0.027647774666547775
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All criteria are fully met."
+      }
+    },
+    {
+      "pair": {
+        "source": "Cost Implications of Technology Integrations \n\nAnother prominent challenge is the cost of technology integration.",
+        "watermarked": "A significant obstacle is the financial burden of technology integration.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.07261548936367035
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "This article delves into the core reasons behind internet service disruptions, emphasizing the responsibility of service providers to maintain reliable connectivity for their customers.",
+        "watermarked": "This article looks into the primary causes of internet service outages, pointing to the obligation of service providers to deliver reliable connections for their users.",
+        "doc_id": "0309",
+        "provider_id": "5",
+        "gain": -0.04110562801361084
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Cross-cultural events and volunteer opportunities orchestrated by Heartwood have since been integrated into the school\u2019s extracurricular activities.",
+        "watermarked": "Events that foster cross-cultural connections, along with volunteer opportunities arranged by Heartwood, have been assimilated into the school\u2019s extracurricular activities.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": -0.020803414285182953
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Environmental engineer Dr. Javier Sanchez reminds us that \u201cEach tree is a living entity that performs a multitude of services.",
+        "watermarked": "Dr. Javier Sanchez, an environmental engineer, powerfully emphasizes that trees are not mere plants but living entities that provide a myriad of services.",
+        "doc_id": "0200",
+        "provider_id": "2",
+        "gain": 0.002125510945916176
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Convenience Factor \n\nThe hustle culture that has penetrated the local ecosystem demands convenience at every step.",
+        "watermarked": "Convenience is a necessity at every stage, driven by the hustle culture that has taken root in the local ecosystem.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": 0.006352510303258896
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Establishing Youth Advisory Councils \n\nA trend has emerged where city councils are establishing Youth Advisory Councils (YACs), as discussed in a workshop on October 3, 2023.",
+        "watermarked": "On October 3, 2023, a workshop articulated the trend of city councils actively forming Youth Advisory Councils (YACs).",
+        "doc_id": "0297",
+        "provider_id": "2",
+        "gain": -0.020613746717572212
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "From Awareness to Community Engagement: Starting Point \n\nMental health reform begins by raising awareness, but community leaders have gone beyond this by turning this knowledge into action.",
+        "watermarked": "Mental health reform is predicated on awareness, but community leaders have transcended this baseline by catalyzing action based on their insights.",
+        "doc_id": "0028",
+        "provider_id": "2",
+        "gain": 0.0707923024892807
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The owner, Mary Baker, recounts, \u201cThe attack compromised our client data and disrupted operations for weeks, leading to a significant loss in revenue and trust.\u201d Many SMEs are unprepared for such threats due to a lack of resources to invest in robust cybersecurity infrastructure.",
+        "watermarked": "Mary Baker, the owner, recalls, \u201cThe attack compromised client data and disrupted our operations for weeks, culminating in a significant erosion of both trust and revenue.\u201d Many SMEs are ill-prepared for these dangers, primarily because they lack the financial resources to establish robust cybersecurity frameworks.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.03163928538560867
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "They have long been the focus of paranormal speculation.",
+        "watermarked": "For quite some time, they have been a prominent topic in the realm of paranormal exploration.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.02087719738483429
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "What happened to Peter McLeary remains a mystery, but his disappearance has acted as a catalyst for the community to reflect on their relationship with the sea.",
+        "watermarked": "Although the circumstances surrounding Peter McLeary's disappearance are unclear, it has inspired the community to think about their bond with the ocean.",
+        "doc_id": "0092",
+        "provider_id": "4",
+        "gain": -0.009544897824525833
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "On a crisp autumn morning in October 2023, a rich tapestry of smells fills the room as Evelyn expertly flips a batch of tortillas made from a recipe that predates her great-grandmother's time.",
+        "watermarked": "In October 2023, a crisp morning allows a variety of delightful smells to fill the room while Evelyn adeptly flips tortillas from a recipe that has its roots in her great-grandmother's time.",
+        "doc_id": "0105",
+        "provider_id": "2",
+        "gain": -0.046543583273887634
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Adapting to Modern Tastes \n\nThe art of maintaining the essence of heirloom recipes while adapting to changing palates is a task that Brooklyn chef Jason McCarthy takes seriously.",
+        "watermarked": "Brooklyn chef Jason McCarthy approaches the complex challenge of honoring heirloom recipes while also reinterpreting them for the tastes of a modern audience with utmost seriousness.",
+        "doc_id": "0105",
+        "provider_id": "2",
+        "gain": -0.050888918340206146
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Julian Torres states, \u201cIt\u2019s essential that we break down the barriers to entry in tech for underrepresented groups.\u201d Consequently, the workshops are free of charge, offering scholarships for materials and providing equipment for those who need it.",
+        "watermarked": "Julian Torres clearly states that it\u2019s vital to dismantle barriers to entry in tech for those who are underrepresented. Therefore, the workshops are free of charge, providing scholarships for necessary materials and equipment for individuals who require it.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": 0.0087053831666708
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Economic Ripple: How Wetlands Impact Local Livelihoods \n\nRestoration and conservation are sometimes viewed through a purely ecological lens, but the economic implications are equally compelling.",
+        "watermarked": "The Economic Ripple: Wetlands and Their Influence on Community Livelihoods",
+        "doc_id": "0112",
+        "provider_id": "4",
+        "gain": -0.04323875159025192
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Economic implications omitted."
+      }
+    },
+    {
+      "pair": {
+        "source": "In the remote villages of Eastern Europe, for example, the tale of Baba Yaga\u2014 a mystical being who flies in a mortar wielding a pestle\u2014 remains a bedtime story that imbues both fear and respect for the wilderness.",
+        "watermarked": "In Eastern Europe\u2019s distant villages, the story of Baba Yaga\u2014a magical figure who soars in a mortar with a pestle\u2014continues to be a bedtime tale that instills both fear and reverence for nature.",
+        "doc_id": "0373",
+        "provider_id": "2",
+        "gain": -0.04784359782934189
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Rathore and his associates managed to mobilize limited resources but maximum communal strength to successfully dredge and restore the johad within three months - an impressive feat which soon inspired an entire network of grassroots mobilization across the region.",
+        "watermarked": "Through the effective use of limited resources, Rathore and his associates were able to rally maximum community strength, successfully dredging and restoring the johad in a mere three months\u2014an impressive achievement that subsequently inspired grassroots mobilization throughout the region.",
+        "doc_id": "0066",
+        "provider_id": "5",
+        "gain": -0.07131080329418182
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "As old as the forests themselves and as varied as the creatures that inhabit the earth, these mystical entities continue to captivate us with their charm and their close association with nature's unspoiled beauty.",
+        "watermarked": "With roots as deep as the forests and a variety as broad as the creatures living on earth, these mystical entities persist in captivating us through their charm and their close connection to the beauty of unspoiled nature.",
+        "doc_id": "0093",
+        "provider_id": "2",
+        "gain": 0.016046155244112015
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural flow."
+      }
+    },
+    {
+      "pair": {
+        "source": "Boston Public Works' Historical Foundations: Boston \n\nPublic works in Boston are deeply embedded in its history, dating back to 1716 with the construction of America's first lighthouse on Little Brewster Island and evolving over time - from cobblestone streets in days gone by to contemporary designs of today.",
+        "watermarked": "From its inception in 1716 with the first American lighthouse on Little Brewster Island, Boston's public works have undergone a significant transformation, moving from historical cobblestone streets to modern designs.",
+        "doc_id": "0017",
+        "provider_id": "1",
+        "gain": -0.020803406834602356
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "Malicious activities like Distributed Denial of Service (DDoS) attacks, which targeted major banks on October 22, can overwhelm servers and disrupt services for hours or days.",
+        "watermarked": "On October 22, Distributed Denial of Service (DDoS) attacks, which targeted significant banks, have the ability to inundate servers and disrupt services for lengthy periods.",
+        "doc_id": "0309",
+        "provider_id": "5",
+        "gain": -0.017321176826953888
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 4,
+        "factual": 1,
+        "complete": 1,
+        "note": "Preserves meaning; slightly less natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "Technologies such as AI, IoT, and blockchain have given SMEs access to real-time data, predictive analytics, and transparent transaction logs.",
+        "watermarked": "AI, IoT, and blockchain technologies have enabled SMEs to tap into real-time data, predictive analytics, and clear transaction records.",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": 0.01264453399926424
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "At a council meeting held on October 5, 2023, an ambitious plan to upgrade all roads within this historic district was approved, set to commence early 2024 and improve not only its aesthetics but also by including modern infrastructure technologies such as smart traffic systems that will preserve its charm while optimizing traffic flow. 3.",
+        "watermarked": "In a council meeting on October 5, 2023, the members sanctioned a forward-thinking plan to enhance all roads within this historic district, with work expected to commence in early 2024. The project aims not only to beautify the area but also to integrate modern infrastructure technologies such as smart traffic systems that will help retain its charm while improving traffic flow.",
+        "doc_id": "0065",
+        "provider_id": "4",
+        "gain": -0.0416056327521801
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved and naturally conveyed."
+      }
+    },
+    {
+      "pair": {
+        "source": "Foreign traders frequently traded chocolate and confectionery ingredients for silk, leading to the development of \"Yokohama Silk Pudding,\" an indulgent dessert which fuses elements from both Japanese 'purin' and Western pudding in one delicious treat.",
+        "watermarked": "Through their frequent trading of chocolate and confectionery ingredients for silk, foreign traders facilitated the creation of \"Yokohama",
+        "doc_id": "0070",
+        "provider_id": "5",
+        "gain": -0.0009130071848630905
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 4,
+        "factual": 1,
+        "complete": 0,
+        "note": "Dessert details are missing."
+      }
+    },
+    {
+      "pair": {
+        "source": "In an effort to adapt the principles of community policing to modern-day challenges, law enforcement agencies are employing innovative strategies that emphasize problem-solving, partnership building, and organizational transformation.",
+        "watermarked": "To effectively respond to the challenges of the present day, law enforcement agencies are integrating innovative strategies aligned with community policing, emphasizing problem-solving, the cultivation of partnerships, and the transformation of their structures.",
+        "doc_id": "0082",
+        "provider_id": "4",
+        "gain": -0.01311752200126648
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key elements are preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Here, we take an in-depth look into how these innovative programs are not just changing the landscape of school waste management but are also shaping a future-oriented mindset towards sustainability.",
+        "watermarked": "In this examination, we analyze how these pioneering programs are reshaping the landscape of school waste management while promoting a sustainable mindset geared towards the future.",
+        "doc_id": "0305",
+        "provider_id": "2",
+        "gain": 0.04993461072444916
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Mike Harrington, a senior telecom analyst at TechStream Solutions, points out that the Bellevue incident lays bare the need for sturdier contingency plans.",
+        "watermarked": "Mike Harrington, a senior telecom analyst with TechStream Solutions, indicates that the Bellevue incident makes it clear that there is a need for better contingency plans.",
+        "doc_id": "0367",
+        "provider_id": "5",
+        "gain": -0.04110562056303024
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase with all details preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "Jeremy Clark, a tourist on a tour in 2024, captured Jeremy Clark's photograph of what appeared to an unexplainable shadow moving.",
+        "watermarked": "During his tour in 2024, Jeremy Clark, a tourist, photographed a shadow that appeared to be moving in a way that defied explanation.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.004724062047898769
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information preserved and naturally rephrased."
+      }
+    },
+    {
+      "pair": {
+        "source": "One such educator, Emily Thompson, an engineering teacher, embraced the shift.",
+        "watermarked": "Emily Thompson, who works as an engineering teacher, embraced the transition with enthusiasm.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": -0.020803384482860565
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 0,
+        "complete": 1,
+        "note": "Added 'with enthusiasm' not in original."
+      }
+    },
+    {
+      "pair": {
+        "source": "\"It's about equipping young people with the knowledge and tools they need to make healthier choices,\" Susan elaborates.",
+        "watermarked": "\"According to Susan, the underlying objective is to furnish the younger generation with the essential knowledge and tools that will enable them to make healthier life choices.\"",
+        "doc_id": "0225",
+        "provider_id": "5",
+        "gain": -0.007040058728307486
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "It has reinvigorated discussion around how traditional lore and contemporary environmental concerns intersect and reaffirm the importance of protecting the ocean.",
+        "watermarked": "The dialogue around the intersection of longstanding lore and contemporary ecological concerns has been revitalized, reinforcing the need to protect our oceans.",
+        "doc_id": "0092",
+        "provider_id": "4",
+        "gain": 0.014500205405056477
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "For optimism's seed is planted within the fertile soil of urban development, yet, the question arises: are we nurturing growth at the expense of our history and culture?",
+        "watermarked": "In the context of urban development, the seed of optimism thrives, yet it raises an essential question: are we fostering growth while jeopardizing our rich history and culture?",
+        "doc_id": "0080",
+        "provider_id": "5",
+        "gain": 0.057339854538440704
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and reads naturally."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Fiery Phantasms of Mt. Ruapehu \n\nMount Ruapehu is not only beautiful with its snowy peak but it also has a rich history.",
+        "watermarked": "Not just striking in appearance with its snowy peak, Mount Ruapehu is also imbued with a profound history.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.0029974677599966526
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "These are the depths of folkloric creatures and cryptids, entities that dance on the fringes of reality, captivating our imaginations and defying explanation.",
+        "watermarked": "The depths contain folkloric beings and cryptids, entities that skirmish along the borders of reality, captivating our thoughts and eluding comprehension.",
+        "doc_id": "0143",
+        "provider_id": "1",
+        "gain": -0.012118330225348473
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Minor change in 'dance' to 'skirmish'."
+      }
+    },
+    {
+      "pair": {
+        "source": "Orlando Community Stadium, for instance, represents this goal admirably with an ambitious project set to serve more than just sports purposes; according to Angela Ruiz's description as its chief architect: it will host markets, community events and educational workshops.",
+        "watermarked": "Demonstrating this goal effectively, Orlando Community Stadium represents an ambitious initiative that serves multiple purposes beyond sports; chief architect Angela Ruiz highlights that it will host markets, community events, and educational workshops.",
+        "doc_id": "0046",
+        "provider_id": "4",
+        "gain": -0.0010392293334007263
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Stage as a Classroom: Unveiling the Educational Power of Community Theater \n\nAs the curtains rise on the bustling autumn season, a thrilling educational spectacle takes center stage in the realm of local arts and culture.",
+        "watermarked": "Autumn ushers in a thrilling educational phenomenon, showcasing the power of community theater in local culture.",
+        "doc_id": "0320",
+        "provider_id": "5",
+        "gain": -0.020106831565499306
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Omitted 'curtains rise' metaphor."
+      }
+    },
+    {
+      "pair": {
+        "source": "Understanding the Shift in Consumer Behavior \n\nThe year 2023 witnessed a remarkable transformation in local consumer behavior, pivoted by the pandemic-induced changes and accelerated by an increased reliance on technology.",
+        "watermarked": "In 2023, local consumer behavior underwent a significant change driven by pandemic-related shifts and a greater dependence on technology.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": 0.11726801097393036
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "On September 15, 2023, the small town of Eerieborough was startled by such an event.",
+        "watermarked": "An event that occurred on September 15, 2023, left the small town of Eerieborough utterly astonished.",
+        "doc_id": "0333",
+        "provider_id": "4",
+        "gain": -0.013117530383169651
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Structure of the Program \n\nThe Youth Coding Workshop program is divided into courses that cater to different age groups and skill levels.",
+        "watermarked": "The courses in the Youth Coding Workshop are tailored for different age brackets and skill sets.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": -0.020803414285182953
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "**Empowering Individuals through Skills Development** \n\nCLCs have become instrumental in up-skilling adults, meeting local economic demands by aligning courses with job market needs.",
+        "watermarked": "Through their focused approach to skills enhancement, CLCs are not only empowering individuals but also strategically addressing the needs of the local economy.",
+        "doc_id": "0231",
+        "provider_id": "0",
+        "gain": -0.0002977629192173481
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key points preserved and naturally expressed."
+      }
+    },
+    {
+      "pair": {
+        "source": "\"In virtual spaces, I can architect dreamscapes that would be impossible to construct in reality.\" \n\nThe trend was not confined to the fantastical worlds of MMORPGs or virtual hangouts\u2014 reputable businesses began investing in 'virtual storefronts' and 'online experiences' that existed solely within these burgeoning platforms.",
+        "watermarked": "The trend expanded beyond just the imaginative realms of MMORPGs and virtual hangouts; established companies started putting money into 'virtual storefronts' and 'online experiences' that thrived exclusively on these emerging platforms.",
+        "doc_id": "0180",
+        "provider_id": "3",
+        "gain": 0.019122086465358734
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Tale of the Vanishing Fisherman could be traced back to a blustery night on September 17, 1819, when local fisherman, John Haddock, went out to sea and never returned.",
+        "watermarked": "September 17, 1819, marked a stormy night when local fisherman John Haddock went to sea and vanished, leading to the story known as The Tale of the Vanishing Fisherman.",
+        "doc_id": "0092",
+        "provider_id": "4",
+        "gain": -0.05913602560758591
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "As of September 2023, city authorities have renewed their commitments to this approach, with numerous new programs being launched in various jurisdictions.",
+        "watermarked": "As of September 2023, city officials have renewed their dedication to this strategy, prompting the launch of various new programs throughout several jurisdictions.",
+        "doc_id": "0082",
+        "provider_id": "4",
+        "gain": -0.013117576949298382
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Founded on December 3, 2023, by data scientist Emma Zhou, \"Cleanalytics\" has already become a beacon for the industry\u2019s future trajectory.",
+        "watermarked": "Emma Zhou, a data scientist, founded \"Cleanalytics\" on December 3, 2023, and it has swiftly evolved into a key influencer for the future of the industry.",
+        "doc_id": "0130",
+        "provider_id": "2",
+        "gain": -0.021173937246203423
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key facts preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Each month, new ambassadors are appointed to educate their peers on proper recycling practices, host waste audits, and lead by example.",
+        "watermarked": "New ambassadors are appointed each month to help educate their colleagues about proper recycling, perform waste audits, and lead by example.",
+        "doc_id": "0305",
+        "provider_id": "2",
+        "gain": 0.011702535673975945
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Geological and Atmospheric Conditions Leading to Sky Quakes \n\nExperts have begun to draw connections between sky quakes and certain geological and atmospheric conditions.",
+        "watermarked": "Experts are delving into the complex interplay between geological and atmospheric conditions and the phenomena of sky quakes.",
+        "doc_id": "0333",
+        "provider_id": "4",
+        "gain": -0.09086320549249649
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slightly different focus but core preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "**Bridging the Digital Divide** \n\nIn recent years, CLCs have placed considerable emphasis on bridging the digital divide\u2014a testament to their adaptability.",
+        "watermarked": "Over the past few years, CLCs have strategically concentrated their efforts on bridging the digital divide, an endeavor that showcases their impressive adaptability.",
+        "doc_id": "0231",
+        "provider_id": "0",
+        "gain": -0.06393633782863617
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Through shapes and symbols passed down through generations, Wauneka connects his cultural heritage with contemporary narratives, a potent reminder that indigenous art is not static.",
+        "watermarked": "Wauneka links his cultural heritage to modern stories using shapes and symbols inherited over generations, highlighting that indigenous art remains dynamic.",
+        "doc_id": "0313",
+        "provider_id": "1",
+        "gain": -0.08296705037355423
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "After graduating from Lanzhou City University with a major in Fine Arts in 2008, she embarked on an unconventional path: traveling through China capturing scenes on canvas before selling them at local markets to fund her journey.",
+        "watermarked": "Graduating in 2008 from Lanzhou City University with a Fine Arts major, she started an unconventional journey through China, painting and selling her artwork at local markets.",
+        "doc_id": "0034",
+        "provider_id": "3",
+        "gain": -0.029852483421564102
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details are preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Students from various walks of life, retirees seeking intellectual stimulation, and professionals looking to upskill\u2014all converge in this educational melting pot.",
+        "watermarked": "Retirees seeking knowledge, students from all backgrounds, and professionals wanting to gain new skills gather in this learning hub.",
+        "doc_id": "0393",
+        "provider_id": "2",
+        "gain": 0.03216709941625595
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key elements preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Emiko Takahashi, a local confectioner in Yokohama, created her signature silk dessert in September 2025 to demonstrate its importance beyond textiles.",
+        "watermarked": "Emiko Takahashi, a confectioner in Yokohama, presented her signature silk dessert in September 2025 to portray its relevance that extends well beyond textiles.",
+        "doc_id": "0070",
+        "provider_id": "5",
+        "gain": 0.017189189791679382
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "These projects, unanimously approved on September 12, 2023, present many unique challenges, such as managing environmental impact and ensuring minimal disruption of daily city life during construction phases.",
+        "watermarked": "On September 12, 2023, these projects were approved unanimously and present unique hurdles, such as managing environmental repercussions and keeping disruptions to daily city life during construction to a minimum.",
+        "doc_id": "0037",
+        "provider_id": "3",
+        "gain": 0.025646360591053963
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Providers like Pacific Net, whose spokesperson, Claire Thompson, admitted on November 5, that they are struggling to keep up with the repairs and upgrades necessary to withstand such natural disasters, are in a constant battle with the elements. Infrastructure Aged to Perfection?",
+        "watermarked": "On November 5, Claire Thompson from Pacific Net admitted that they are currently overwhelmed by the repairs and upgrades needed to withstand natural disasters, which places them in a continuous struggle against nature's forces.",
+        "doc_id": "0309",
+        "provider_id": "5",
+        "gain": 0.026378357782959938
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Its net-zero building design was meant to inspire and educate,\" Castillo shared enthusiastically.",
+        "watermarked": "\u201cDesigned with the intent to inspire and educate, the net-zero building concept was shared by Castillo with enthusiasm.\u201d",
+        "doc_id": "0046",
+        "provider_id": "4",
+        "gain": -0.02558100037276745
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 4,
+        "factual": 1,
+        "complete": 1,
+        "note": "Preserves meaning; slightly less natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "Tech advisor Lawrence Kim recommends choosing data plans that include tethering or hotspot use.",
+        "watermarked": "Lawrence Kim, a tech advisor, suggests opting for data plans that allow tethering or hotspot functionality.",
+        "doc_id": "0327",
+        "provider_id": "3",
+        "gain": 0.045848678797483444
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Jonah Fields, a former real estate agent, became one such pioneer, dealing exclusively in virtual properties.",
+        "watermarked": "Jonah Fields, a former real estate agent, took the initiative by focusing exclusively on virtual properties.",
+        "doc_id": "0180",
+        "provider_id": "3",
+        "gain": 0.01470930315554142
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Initiative implies pioneering; meaning slightly shifted."
+      }
+    },
+    {
+      "pair": {
+        "source": "Challenges and Considerations for Blockchain Adoption \n\nDespite the promise of blockchain, SMEs face challenges in adopting the technolo",
+        "watermarked": "The Difficulties and Considerations Surrounding Blockchain Adoption",
+        "doc_id": "0087",
+        "provider_id": "0",
+        "gain": -0.00029777269810438156
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "SMEs mention is missing."
+      }
+    },
+    {
+      "pair": {
+        "source": "John Redhorse's sculptures chiseled from reclaimed wood tell a dual tale, one of destruction and rebirth, accentuating the regenerative nature of the world we inhabit.",
+        "watermarked": "The sculptures of John Redhorse, made from repurposed wood, tell a story that intertwines destruction and rebirth, underscoring the regenerative aspects of our environment.",
+        "doc_id": "0077",
+        "provider_id": "3",
+        "gain": 0.05240999162197113
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The legend has inspired initiatives such as the Willow's End Annual Ocean Festival, held since 2023, to educate citizens on responsible fishing practices and the significance of ocean conservation.",
+        "watermarked": "Initiatives like the Willow's End Annual Ocean Festival have been born from the legend, with the festival commencing in 2023 to educate the public on responsible fishing and the need for ocean conservation.",
+        "doc_id": "0092",
+        "provider_id": "4",
+        "gain": 0.08103162050247192
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Impact on Personal Development \n\nWhile the primary focus of the Youth Coding Workshop is to teach coding, the program inadvertently aids in the personal development of participants.",
+        "watermarked": "The workshop for youth, which focuses primarily on coding, provides additional, unintentional support for personal development among its participants.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": 0.04828478768467903
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Dialogue of Development \n\nAmidst this evolution, dialogue stirs\u2014a conversation between past and present, tradition and innovation.",
+        "watermarked": "The Discussion of Development",
+        "doc_id": "0080",
+        "provider_id": "5",
+        "gain": -0.02549382671713829
+      },
+      "parsed": {
+        "meaning": 2,
+        "naturalness": 4,
+        "factual": 0,
+        "complete": 0,
+        "note": "Key elements of dialogue omitted."
+      }
+    },
+    {
+      "pair": {
+        "source": "She claims it\u2019s thrilling, although I'm sure she misses the nostalgic feel of her trusty old binoculars.",
+        "watermarked": "She professes that it\u2019s thrilling, although I suspect she misses the nostalgia evoked by her old binoculars.",
+        "doc_id": "0374",
+        "provider_id": "5",
+        "gain": -0.053043119609355927
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "For instance, on November 2nd, 2023, the National Gallery hosted a retrospective on Indigenous art, curated entirely without Indigenous input.",
+        "watermarked": "On November 2, 2023, the National Gallery presented a retrospective of Indigenous art, curated without contributions from Indigenous communities.",
+        "doc_id": "0313",
+        "provider_id": "1",
+        "gain": 0.006882853806018829
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Tale of the Vanishing Fisherman: An Eerie Echo in Coastal Lore \n\nOn an ordinary morning in the quaint coastal town of Willow's End, the ocean whispered an ancient story to those who dared listen.",
+        "watermarked": "On a seemingly mundane morning in the charming coastal town of Willow's End, the ocean whispered an age-old story to those who dared to listen.",
+        "doc_id": "0092",
+        "provider_id": "4",
+        "gain": -0.013410691171884537
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Content Selection: The Essence of Knowledge Impartation \n\nCurricula are not merely collections of random facts and figures; they are carefully constructed repositories of culturally and historically relevant information aimed at fostering informed citizenship and personal growth.",
+        "watermarked": "Rather than random figures and facts, curricula represent thoughtfully organized repositories of culturally and historically significant knowledge designed to nurture informed citizenship and personal development.",
+        "doc_id": "0314",
+        "provider_id": "1",
+        "gain": -0.014854589477181435
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Stroke by Stroke: Lily's Battle Against the Currents \n\nSwimming prodigy Lily Zhang faced a different sort of adversary when she was diagnosed with asthma in late 2023.",
+        "watermarked": "The diagnosis of asthma in late 2023 introduced a new opponent for the swimming prodigy Lily Zhang.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": 0.008827533572912216
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Both were seasoned professionals in the finance sector, but they traded balance sheets for brewing sheets.",
+        "watermarked": "Both were skilled professionals in the financial sector, yet they made the decision to substitute balance sheets for brewing sheets.",
+        "doc_id": "0217",
+        "provider_id": "4",
+        "gain": -0.013117530383169651
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Dr. Linda Birch, a lead urban ecologist who has been at the forefront of these initiatives, explains, \u201cIt's all about right tree, right place.",
+        "watermarked": "\u201cIt\u2019s all about right tree, right place,\u201d says Dr. Linda Birch, who is a key urban ecologist driving these initiatives.",
+        "doc_id": "0200",
+        "provider_id": "2",
+        "gain": -0.01684674620628357
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information preserved and naturally rephrased."
+      }
+    },
+    {
+      "pair": {
+        "source": "On September 15, 2023, the Millers introduced \"Rufus,\" their robotic dog, and soon everyone wanted a technological tail-wagger.",
+        "watermarked": "On September 15, 2023, the Millers showcased their creation, a robotic dog named \"Rufus,\" which rapidly led to a surge in demand for similar gadgets.",
+        "doc_id": "0374",
+        "provider_id": "5",
+        "gain": -0.03754432499408722
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "E-commerce giants have set high standards with their next-day and same-day delivery options.",
+        "watermarked": "By offering both same-day and next-day delivery, e-commerce giants have established significant standards in the industry.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": -0.00029778946191072464
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Today, we cast a spotlight on these architects of ambition to understand what fuels their journey.",
+        "watermarked": "Today, we set out to explore the ambitions of these architects and the inspirations that guide their paths.",
+        "doc_id": "0379",
+        "provider_id": "4",
+        "gain": 0.04212340712547302
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight shift in focus, but core preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "An event that took place on December 12th, 2023 in a small town on the North Island brought back the Taniwha tales.",
+        "watermarked": "On December 12th, 2023, a small town located on North Island revived the tales of the Taniwha during an event.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.053397197276353836
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information preserved and naturally conveyed."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Genesis of School-Business Partnerships \n\nOn a crisp morning on September 15, 2023, the first partnership of its kind was announced at Maplewood High School in a suburban community rich with entrepreneurial spirit.",
+        "watermarked": "The first partnership of its nature was unveiled at Maplewood High School on September 15, 2023, a notable event that underscores the entrepreneurial vitality of the surrounding suburban community.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": -0.06337036937475204
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved accurately."
+      }
+    },
+    {
+      "pair": {
+        "source": "By using cryptocurrencies and blockchain-powered payment systems, SMEs can reduce transaction fees, evade currency conversion rates, and accelerate cross-border transfers.",
+        "watermarked": "Using cryptocurrencies and blockchain-enabled payment systems, SMEs can decrease transaction fees, skip currency conversion rates, and quicken cross-border transactions.",
+        "doc_id": "0087",
+        "provider_id": "0",
+        "gain": 0.023941680788993835
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "With so much digital surveillance, they\u2019re considering a name change to 'Neighborhood Watch: Cyber Edition.' Miss Eunice Weatherby, head of the local watch group, now spends her evenings decoding firewall updates instead of peeking through her drapes.",
+        "watermarked": "With the surge of digital monitoring, they are deliberating a name change to 'Neighborhood Watch: Cyber Edition.' Under the leadership of Miss Eunice Weatherby, the local watch group now finds her evenings devoted to decoding firewall updates rather than watching through her curtains.",
+        "doc_id": "0374",
+        "provider_id": "5",
+        "gain": -0.05046454817056656
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 4,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate paraphrase with slight naturalness issue."
+      }
+    },
+    {
+      "pair": {
+        "source": "THE SEA'S WARNING \n\nEven with modern advancements and scientific approaches to fishing, the Tale of the Vanishing Fisherman reminds us of the age-old wisdom of moderation.",
+        "watermarked": "The Vanishing Fisherman\u2019s story reminds us that, regardless of modern advances, we must still heed the sea's warning about moderation.",
+        "doc_id": "0092",
+        "provider_id": "4",
+        "gain": -0.05588606745004654
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key elements preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "This urban farming marvel uses a fraction of the water that traditional agriculture consumes, making it a cornerstone for future food security.",
+        "watermarked": "Consuming a fraction of the water needed by standard agriculture, this urban farming innovation is crucial for ensuring food security in the future.",
+        "doc_id": "0130",
+        "provider_id": "2",
+        "gain": 0.015887999907135963
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "From flipped classrooms to cooperative learning, the selection of teaching techniques is vital for the learning process, ensuring that every student has the opportunity to grasp and apply new concepts in a way that suits their learning style.",
+        "watermarked": "The effectiveness of education relies heavily on the selection of teaching techniques, including flipped classrooms and cooperative learning, to provide every student with avenues to grasp and apply new concepts in alignment with their preferred learning styles.",
+        "doc_id": "0314",
+        "provider_id": "1",
+        "gain": 0.010213653557002544
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key points preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Long-standing establishments, mom-and-pop stores, and structures listed as cultural landmarks face an uncertain fate.",
+        "watermarked": "Long-established shops, family-operated businesses, and cultural landmarks are all experiencing a fate filled with uncertainty.",
+        "doc_id": "0080",
+        "provider_id": "5",
+        "gain": 0.020444922149181366
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Dichotomy of Modern Engagement \n\nFast forward to October 12th, when urban outfitter 'ChicCanvas' launched its 'Tribal Trends' collection.",
+        "watermarked": "The launch of 'Tribal Trends' by urban outfitter 'ChicCanvas' took place on October 12th.",
+        "doc_id": "0313",
+        "provider_id": "1",
+        "gain": -0.020803388208150864
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Local education policies play a pivotal role in shaping the minds of future generations and thus, the future of society itself.",
+        "watermarked": "The local policies governing education have a crucial impact on shaping the mental frameworks of future generations, thus affecting societal outcomes.",
+        "doc_id": "0307",
+        "provider_id": "0",
+        "gain": -0.057520076632499695
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Dr. Cho's approach has engendered a spirit of friendly competition, significantly enhancing participation in recycling activities.",
+        "watermarked": "Through his approach, Dr. Cho has cultivated an environment rich in friendly competition, resulting in a significant boost in recycling participation.",
+        "doc_id": "0305",
+        "provider_id": "2",
+        "gain": 0.009782744571566582
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "She had seen what she called a large shadowy figure below the surface of water.",
+        "watermarked": "She had observed what she referred to as a large figure, obscured in shadow, lurking beneath the water.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": 0.009400411508977413
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key details preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Recognizing the interdisciplinary nature of coding and its necessity in various fields of study and work, they partnered with schools, libraries, and community centers to establish a network of workshops designed to teach programming languages such as Python, Java, and Scratch to students aged 10 to 18.",
+        "watermarked": "They understood the cross-disciplinary importance of coding in numerous academic and professional domains, so they teamed up with schools, libraries, and community centers to launch workshops that focus on programming languages such as Python, Java, and Scratch for students between the ages of 10 and 18.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": -0.06696253269910812
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Take the example of \"CyberSpace Arcade\", which opened on October 10.",
+        "watermarked": "One could point to \"CyberSpace Arcade,\" which began its operations on October 10.",
+        "doc_id": "0217",
+        "provider_id": "4",
+        "gain": 0.02026265114545822
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "With a cheeky grin and swift feet, these characters make a mockery of authority and order.",
+        "watermarked": "Through their cheeky expressions and swift movements, these characters effectively ridicule authority and the existing order.",
+        "doc_id": "0199",
+        "provider_id": "5",
+        "gain": -0.04110565036535263
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Now, a walk in the park feels like a behind-the-scenes tour of a robotics lab.",
+        "watermarked": "These days, a park walk evokes the sensation of touring a robotics laboratory behind the scenes.",
+        "doc_id": "0374",
+        "provider_id": "5",
+        "gain": -0.04713984578847885
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and naturalness."
+      }
+    },
+    {
+      "pair": {
+        "source": "One of the most successful endeavors in this aspect is the Riverside Wetlands Project, which began operations in May 2024.",
+        "watermarked": "Among the successful initiatives is the Riverside Wetlands Project, which began its operations in May 2024.",
+        "doc_id": "0112",
+        "provider_id": "4",
+        "gain": -0.013117533177137375
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Essentially becoming a hub for social exchange.",
+        "watermarked": "Essentially, this has developed into a critical center for social exchanges.",
+        "doc_id": "0046",
+        "provider_id": "4",
+        "gain": -0.011040247976779938
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Minor shift in emphasis, otherwise accurate."
+      }
+    },
+    {
+      "pair": {
+        "source": "Dr. Price suggested that geological heat vents were the cause.",
+        "watermarked": "It was Dr. Price who indicated that geological heat vents might be the culprit.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.014757190831005573
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight modality change, otherwise accurate."
+      }
+    },
+    {
+      "pair": {
+        "source": "\"In its original form, it's perfect comfort food.",
+        "watermarked": "In its foundational state, this dish stands as a benchmark for perfect comfort food.",
+        "doc_id": "0105",
+        "provider_id": "2",
+        "gain": 0.014028636738657951
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight shift in emphasis, otherwise accurate."
+      }
+    },
+    {
+      "pair": {
+        "source": "Hamilton's designs make it possible to grow organically and locally all year round, even in the coldest climates.",
+        "watermarked": "Year-round organic and local cultivation is feasible, even in the coldest areas, due to Hamilton's innovations.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": 0.008663272485136986
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "In 2023, it's tea time and Rick Sandoval is installing his latest soil sensor model i",
+        "watermarked": "While it\u2019s tea time in 2023, Rick Sandoval is focused on setting up his newest soil sensor model.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": 0.04777253419160843
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "This event became a clarion call for investors and everyday citizens to reconsider their understanding of value and wealth.",
+        "watermarked": "This event was a prompt for investors and common citizens alike to reconsider their ideas about value and wealth.",
+        "doc_id": "0180",
+        "provider_id": "3",
+        "gain": -0.026673417538404465
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and natural paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "New designs for community facilities that focus on eco-friendliness, resource efficiency, and user-oriented spaces demonstrate California's dedication to improving community facilities.",
+        "watermarked": "California\u2019s commitment to enhancing community facilities is evident in their new designs, which emphasize sustainable practices, resource efficiency, and user-centric spaces.",
+        "doc_id": "0046",
+        "provider_id": "4",
+        "gain": -0.05712170898914337
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key elements are preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "But is this fear unfounded or a necessary caution?",
+        "watermarked": "Could this fear be seen as unjustified, or is it a necessary measure of caution?",
+        "doc_id": "0313",
+        "provider_id": "1",
+        "gain": -0.009580641053617
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and reads naturally."
+      }
+    },
+    {
+      "pair": {
+        "source": "The tale purports that, as punishment for his greed, the sea reclaimed John Haddock, leaving no trace of his boat or his body.",
+        "watermarked": "According to the narrative, John Haddock's greed led to his punishment by the sea, which reclaimed him, erasing any evidence of his boat and body.",
+        "doc_id": "0092",
+        "provider_id": "4",
+        "gain": 0.008750447072088718
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "A New Era for Commuters: The Dawn of Updated Traffic Policies \n\nAmid growing concerns about road safety and traffic congestion, Councilmember Kimberly Sanchez spearheaded the campaign for updated traffic laws.",
+        "watermarked": "Due to increasing concerns over road safety and traffic congestion, Councilmember Kimberly Sanchez has taken the lead in advocating for updated traffic laws.",
+        "doc_id": "0134",
+        "provider_id": "3",
+        "gain": -0.05330132693052292
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Recruitment of Environmental Ambassadors \n\nOn September 10, 2023, the Morningside Elementary School launched its Environmental Ambassadors program.",
+        "watermarked": "The Environmental Ambassadors program kicked off at Morningside Elementary School on September 10, 2023.",
+        "doc_id": "0305",
+        "provider_id": "2",
+        "gain": 0.03216710686683655
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All information preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "With encouragement from his coach, teammates, and a local youth support program, he managed to balance his family responsibilities with his academic and basketball commitments.",
+        "watermarked": "He found it possible to manage his family responsibilities along with his academic and basketball commitments, thanks to the encouragement provided by his coach, teammates, and a local youth support initiative.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": -0.00029777176678180695
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase."
+      }
+    },
+    {
+      "pair": {
+        "source": "Enhancement of East-West Corridor \n\nOn September 15th 2023, Councilman Rajiv Singh's proposal for East-West Corridor enhancement received unanimous support.",
+        "watermarked": "On September 15, 2023, Councilman Rajiv Singh's initiative to improve the East-West Corridor was met with unanimous support from the council.",
+        "doc_id": "0065",
+        "provider_id": "4",
+        "gain": -0.04323877766728401
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Sometimes, it's about laughing so hard at the absurdity of it all that you forget what you were doing in the first place.",
+        "watermarked": "Sometimes, it\u2019s easy to get lost in laughter over the ridiculousness of it all, forgetting what you had been focused on.",
+        "doc_id": "0199",
+        "provider_id": "5",
+        "gain": -0.04110563173890114
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and fluency."
+      }
+    },
+    {
+      "pair": {
+        "source": "Mr. Jeffrey Lin, who was appointed on September 15, 2023, as the new superintendent for Rivertown School District, mentioned during his first address that the \"essence of local education governance lies in its responsiveness to the educational needs of our children and the collective aspirations of our communities.\" \n\nState and Federal Interactions \n\nLocal education, while having its distinct governance structures, does not exist in a vacuum.",
+        "watermarked": "In his first address after being appointed on September 15, 2023, as the new superintendent of the Rivertown School District, Mr. Jeffrey Lin asserted that the essence of local education governance is rooted in its ability to respond to both children's educational needs and the community's aspirations.",
+        "doc_id": "0307",
+        "provider_id": "0",
+        "gain": -0.00029779039323329926
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "Since September 2023, healthcare providers and advocates have been emphasizing the importance of creating more transparency concerning local mental health resources.",
+        "watermarked": "Since September 2023, there has been a focus from healthcare providers and advocates on the importance of transparency in local mental health resources.",
+        "doc_id": "0348",
+        "provider_id": "1",
+        "gain": -0.026002585887908936
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "It's as if they're trying to compensate for something, right?",
+        "watermarked": "It feels as though there's an effort to compensate for something, wouldn\u2019t you say?",
+        "doc_id": "0199",
+        "provider_id": "5",
+        "gain": -0.04491400718688965
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Fully preserved meaning and natural phrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "Tambo has invested years in researching and developing energy solutions that are efficient and environmentally friendly.",
+        "watermarked": "Years have been devoted by Tambo to the exploration and formulation of energy solutions that are efficient and kind to the environment.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": -0.0070165530778467655
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 4,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate paraphrase, slightly less natural."
+      }
+    },
+    {
+      "pair": {
+        "source": "\"It's not just about painting,\u201d she shares. \u201cIt\u2019s about expression and connection.",
+        "watermarked": "\u201cShe asserts with passion that the act of painting is a conduit; the true focus is on expression and the relationships we build.\u201d",
+        "doc_id": "0393",
+        "provider_id": "2",
+        "gain": 0.03216710686683655
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Slight shift in focus but mostly preserved."
+      }
+    },
+    {
+      "pair": {
+        "source": "Street art festivals are not merely community gatherings but are pulsating cultural hubs, turning gray urban landscapes into dynamic visual experiences.",
+        "watermarked": "While they are community gatherings, street art festivals also function as pulsating cultural hubs that invigorate dull urban landscapes with vivid visual art.",
+        "doc_id": "0113",
+        "provider_id": "3",
+        "gain": 0.03104139119386673
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Accurate and fluent paraphrase with no omissions."
+      }
+    },
+    {
+      "pair": {
+        "source": "Downtown Skyline Project \n\nThe Downtown Skyline Project, approved on September 29, 2023, promises to transform the central business district.",
+        "watermarked": "Approved on September 29, 2023, the Downtown Skyline Project is set to change the face of the central business district.",
+        "doc_id": "0065",
+        "provider_id": "4",
+        "gain": 0.004917217418551445
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "Moreover, simple human error can have far-reaching consequences.",
+        "watermarked": "In fact, simple human mistakes can lead to serious consequences that can be felt widely.",
+        "doc_id": "0309",
+        "provider_id": "5",
+        "gain": -0.07933440804481506
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "I've met such a variety of people here, and we're all learning from each other.\u201d \n\nMeanwhile, in the computer lab, 35-year-old Akash Singh is navigating a coding tutorial, his eyes fixed on the screen.",
+        "watermarked": "I\u2019ve met many unique individuals in this place, and we\u2019re all learning from each other in meaningful ways. In the computer lab, 35-year-old Akash Singh is deeply engaged in a coding tutorial, fixated on the screen.",
+        "doc_id": "0393",
+        "provider_id": "2",
+        "gain": 0.018124960362911224
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Minor meaning shift with 'unique'."
+      }
+    },
+    {
+      "pair": {
+        "source": "Through his story of overcoming the daily struggles associated with losing weight and making healthier lifestyle choices, Michael has become an emblem of hope.",
+        "watermarked": "Michael\u2019s narrative of triumph over the daily challenges of losing weight and pursuing healthier choices has turned him into an emblem of hope.",
+        "doc_id": "0225",
+        "provider_id": "5",
+        "gain": -0.04110563173890114
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    },
+    {
+      "pair": {
+        "source": "However, for those who are believers, the stories echo Patupaiarehe\u2019s whispers.",
+        "watermarked": "For those who believe, the narratives are imbued with the whispers of Patupaiarehe.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": 0.015219761058688164
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase fully preserves meaning and facts."
+      }
+    }
+  ],
+  "answer_results": [
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key details regarding the initiatives to restore wetlands mentioned"
+      },
+      "src_answer_excerpt": "The document outlines several key initiatives aimed at restoring wetlands, each with distinct timelines, goals, and individuals involved:\n\n1. **New Da",
+      "wm_answer_excerpt": "Recent initiatives aimed at restoring wetlands highlight a growing community awareness of environmental issues, particularly since September 2023. A s",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are some specific examples of rituals discussed in the document, and how do"
+      },
+      "src_answer_excerpt": "The document provides several examples of rituals that are closely tied to cultural heritage, reflecting the ideas expressed by Professor Sophia Ramir",
+      "wm_answer_excerpt": "The documents highlight various rituals that are integral to cultural heritage, as emphasized by Professor Sophia Ramirez. For instance, the Japanese ",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "How did Oliver King, Maria, and Aarav Patel each navigate their cultural adaptat"
+      },
+      "src_answer_excerpt": "Oliver King, Maria Gonzalez, and Aarav Patel each embarked on unique journeys of cultural adaptation as they settled into their new environments. \n\nOl",
+      "wm_answer_excerpt": "Oliver King, Maria, and Aarav Patel each approached their cultural adaptations in unique ways, reflecting their personal journeys in new environments.",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are some key developments in sustainable technology highlighted in the docu"
+      },
+      "src_answer_excerpt": "The documents highlight several key developments in sustainable technology across different sectors. Notably, energy storage and management have seen ",
+      "wm_answer_excerpt": "Recent developments in sustainable technology emphasize a significant shift toward eco-friendly innovations across various sectors. Notably, startups ",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "How has the innovative spirit of local entrepreneurs, such as Emily Johnston and"
+      },
+      "src_answer_excerpt": "Local entrepreneurs like Emily Johnston and Sophia Marquez have significantly contributed to community transformation through innovative business mode",
+      "wm_answer_excerpt": "Local entrepreneurs like Emily Johnston and Sophia Marquez are significantly transforming their communities by reimagining space utilization, fashion,",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What historical influences and events have shaped the culinary tradition of Sats"
+      },
+      "src_answer_excerpt": "Satsuma-age, a specialty from Kagoshima, Japan, has its roots deeply embedded in historical and cultural exchanges. Its inception dates back to the 16",
+      "wm_answer_excerpt": "The culinary tradition of Satsuma-age has been significantly shaped by historical events and cultural influences, particularly those from the Satsuma ",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What specific initiatives has InspirePay Corp implemented to enhance employee em"
+      },
+      "src_answer_excerpt": "InspirePay Corp has taken several initiatives to streamline and enhance employee empowerment in expense reporting. A key step was the launch of a real",
+      "wm_answer_excerpt": "InspirePay Corp has introduced several initiatives to empower employees in managing their expense reporting. A significant aspect of this effort is th",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What are the key components of Halifax's infrastructure initiative launched by t"
+      },
+      "src_answer_excerpt": "Halifax's infrastructure initiative, guided by a sustainable urban planning approach, encompasses several key components aimed at transforming the cit",
+      "wm_answer_excerpt": "Halifax's City Council has embarked on an ambitious infrastructure initiative aimed at revitalizing the city's roads, bridges, and public buildings, w",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What experiences do Sarah Johnston and Zoe and Liam Greene share as new parents "
+      },
+      "src_answer_excerpt": "Sarah Johnston and Zoe and Liam Greene both navigate the emotional journey of new parenthood during the winter months, albeit in different ways. Sarah",
+      "wm_answer_excerpt": "Sarah Johnston and Zoe and Liam Greene, both new parents, navigate the profound emotional landscape that accompanies their new responsibilities in Jan",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key advancements made by HelixTech Biomedicines since its launch on"
+      },
+      "src_answer_excerpt": "Since its inception on October 12, 2023, HelixTech Biomedicines has made significant strides in the field of nanobots for personalized medicine. Under",
+      "wm_answer_excerpt": "Since its launch, HelixTech Biomedicines has made significant strides in utilizing nanobots for personalized medicine. Dr. Nora Khemlin and her team h",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What are the key factors contributing to internet service disruptions as highlig"
+      },
+      "src_answer_excerpt": "Internet service disruptions arise from several key factors, including natural events, human errors, cyberattacks, and infrastructure issues. Recent e",
+      "wm_answer_excerpt": "Several key factors contribute to internet service disruptions, as highlighted in the documents. A primary issue is the aging infrastructure that many",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What specific actions and strategies did Greenhaven implement in its sustainabil"
+      },
+      "src_answer_excerpt": "Greenhaven's sustainability plan, announced on September 4, 2023, involved a comprehensive overhaul of its energy systems with the goal of transitioni",
+      "wm_answer_excerpt": "Greenhaven's sustainability plan, launched on September 4, 2023, focused on significant energy system upgrades aimed at transforming the city into a g",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are the key components of the community mental health initiative launched i"
+      },
+      "src_answer_excerpt": "The community mental health initiative in Wellridge, launched in September 2023, is built around several key components aimed at addressing mental hea",
+      "wm_answer_excerpt": "The community mental health initiative launched in Wellridge in September 2023 focuses on increasing mental health awareness and creating a supportive",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What were the key developments in community sports leagues from the 1940s to the"
+      },
+      "src_answer_excerpt": "Community sports leagues underwent significant developments from the 1940s to the 1970s, shaped by various social and economic factors and marked by t",
+      "wm_answer_excerpt": "Community sports leagues evolved significantly from the 1940s to the 1970s, driven by a growing emphasis on camaraderie, competition, and community en",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "How did the community's support for amateur sports teams, particularly the Rosev"
+      },
+      "src_answer_excerpt": "In the fall of 2023, community support for amateur sports teams, such as the Roseville Ravens, was notably strong and vibrant. This support was eviden",
+      "wm_answer_excerpt": "In the fall of 2023, community support for amateur sports teams, especially the Roseville Ravens, was evident through the consistent attendance of ded",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are some key examples and insights shared by Professor Sophia Ramirez and o"
+      },
+      "src_answer_excerpt": "Professor Sophia Ramirez highlights that rituals serve as a crucial link between the past and present, acting as a language through which communities ",
+      "wm_answer_excerpt": "Professor Sophia Ramirez emphasized that rituals and superstitions are vital for expressing cultural values and fostering community bonds. They serve ",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are the key challenges and developments in student privacy and cybersecurit"
+      },
+      "src_answer_excerpt": "The shift to digital education in the 2023-2024 academic year has brought several key challenges and developments in student privacy and cybersecurity",
+      "wm_answer_excerpt": "The shift towards digital education in the 2023-2024 academic year has significantly heightened concerns about student privacy and cybersecurity. With",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are three specific contributions or events related to wood-fired cooking hi"
+      },
+      "src_answer_excerpt": "Three specific contributions or events related to wood-fired cooking highlighted in the documents are:\n\n1. **Chef Marco Tulio's Artisanal Bakery**: On",
+      "wm_answer_excerpt": "Three notable contributions related to wood-fired cooking include Chef Marco Tulio's dedication to the craft, which he has refined over three generati",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What strategies did community theaters employ to secure funding after the pandem"
+      },
+      "src_answer_excerpt": "After the pandemic, community theaters adopted several innovative strategies to secure funding. These included forming partnerships with local busines",
+      "wm_answer_excerpt": "In the aftermath of the pandemic, community theaters have adopted various innovative funding strategies to sustain their operations. Key methods inclu",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are the key challenges faced by Small and Medium Enterprises (SMEs) in adap"
+      },
+      "src_answer_excerpt": "Small and Medium Enterprises (SMEs) face several challenges in adapting to digital technology, as highlighted by Timothy Green and illustrated by vari",
+      "wm_answer_excerpt": "Small and Medium Enterprises (SMEs) face several significant challenges in adapting to digital technology, as emphasized by Timothy Green. A major iss",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key features and significance of the Miami Emergency Operations Cen"
+      },
+      "src_answer_excerpt": "The Miami Emergency Operations Center, which opened on October 14, 2023, is a prime example of Florida's commitment to resilient and innovative infras",
+      "wm_answer_excerpt": "The Miami Emergency Operations Center, recently launched, showcases several key features that highlight Florida's evolving infrastructure landscape, p",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What specific initiatives and actions have been taken since September 2023 to pr"
+      },
+      "src_answer_excerpt": "Since September 2023, various initiatives have been implemented to promote physical fitness within communities, with several key individuals leading t",
+      "wm_answer_excerpt": "Since September 2023, several initiatives have been launched to enhance physical fitness within communities. One prominent effort is the \"Fit Park Pro",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key components of Boston's recent public works initiatives as outli"
+      },
+      "src_answer_excerpt": "Boston's recent public works initiatives, as outlined in the document, focus on several key components aimed at modernizing the city's infrastructure ",
+      "wm_answer_excerpt": "Boston's recent public works initiatives emphasize a blend of innovation and tradition to address the city's growing infrastructure needs. Following a",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "How do the contributions of educators and subject matter experts, such as Mr. Je"
+      },
+      "src_answer_excerpt": "Educators and subject matter experts like Mr. Jeffrey Lim play a crucial role in shaping school curricula by translating the skills and knowledge iden",
+      "wm_answer_excerpt": "Educators and subject matter experts play a crucial role in shaping school curricula and learning objectives by leveraging insights gained from extens",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What strategies are candidates in Bhopal employing to engage voters in the upcom"
+      },
+      "src_answer_excerpt": "Candidates in Bhopal's upcoming municipal elections are employing a blend of traditional and modern strategies to engage voters effectively. Tradition",
+      "wm_answer_excerpt": "Candidates in Bhopal are utilizing a combination of traditional and modern engagement strategies to connect with voters ahead of the municipal electio",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are some specific community tech programs mentioned in the document that ai"
+      },
+      "src_answer_excerpt": "Several community tech programs are highlighted, each targeting specific demographics and needs to enhance digital literacy. \"Tech Together,\" initiate",
+      "wm_answer_excerpt": "Several community tech programs are highlighted in the documents, each targeting specific demographics and addressing unique needs. The \"Silver Surfer",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What specific actions and collaborations has InnovateGreen Co. undertaken to enh"
+      },
+      "src_answer_excerpt": "InnovateGreen Co. has implemented a series of strategic actions to bolster its sustainability efforts, focusing primarily on reducing its carbon footp",
+      "wm_answer_excerpt": "InnovateGreen Co. has taken significant steps to bolster its sustainability efforts, particularly through the implementation of a solar vehicle policy",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How has the introduction of yoga in the community, particularly through events l"
+      },
+      "src_answer_excerpt": "The integration of yoga into the community, exemplified by events like the free class on September 25, 2023, has significantly impacted local teenager",
+      "wm_answer_excerpt": "The introduction of yoga in the community has significantly impacted local teenagers, fostering a sense of belonging and promoting mental well-being. ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key developments and insights regarding AI in cybersecurity as high"
+      },
+      "src_answer_excerpt": "The documents highlight several key developments and insights regarding the integration of AI in cybersecurity. Firstly, AI is recognized as a critica",
+      "wm_answer_excerpt": "Recent developments in AI and cybersecurity reveal significant advancements and ongoing challenges. On November 15, 2023, CyberSecureTech launched \"Se",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key roles of volunteer efforts in community rejuvenation as highlig"
+      },
+      "src_answer_excerpt": "Volunteer efforts play a crucial role in community rejuvenation by fostering civic engagement and addressing both local history and economic challenge",
+      "wm_answer_excerpt": "Volunteer efforts play a pivotal role in revitalizing both urban and rural communities by fostering civic engagement and addressing local needs. These",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What are the contributions of artists Arav Kumari and Reena Nair to the urban ar"
+      },
+      "src_answer_excerpt": "In Jaisalmer, artists Arav Kumari and Reena Nair have significantly enriched the urban art scene by blending the city's historical context with contem",
+      "wm_answer_excerpt": "Artists Arav Kumari and Reena Nair play a pivotal role in shaping the urban art scene in Jaisalmer, infusing the city's landscape with vibrant and mea",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are some key recommendations and insights provided in the guide produced by"
+      },
+      "src_answer_excerpt": "The guide produced by the Local Health and Wellness team on September 1, 2023, offers several key recommendations and insights for accessing mental he",
+      "wm_answer_excerpt": "The guide produced by the Local Health and Wellness team emphasizes the importance of understanding one's mental health needs before seeking services.",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What key events and contributions to autumn cooking were highlighted in Taylor G"
+      },
+      "src_answer_excerpt": "Taylor Greene's article, published on September 8, 2023, delves into the rich and nostalgic flavors of autumn cooking, emphasizing the importance of r",
+      "wm_answer_excerpt": "In Taylor Greene's article from September 8, 2023, the transition into autumn cooking is celebrated through a focus on comforting flavors and seasonal",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "How has the use of social media in the municipal elections after September 1, 20"
+      },
+      "src_answer_excerpt": "After September 1, 2023, social media has significantly reshaped political participation and voter attitudes in municipal elections, as seen in Lisa F",
+      "wm_answer_excerpt": "The use of social media in the municipal elections following September 1, 2023, has significantly transformed political participation and voter attitu",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What are the significant contributions and events related to sous-vide cooking a"
+      },
+      "src_answer_excerpt": "Sous-vide cooking, a technique originating from France, has significantly evolved over the years, transitioning from exclusive gourmet kitchens to bec",
+      "wm_answer_excerpt": "Sous-vide cooking, a technique that involves sealing food in a bag and immersing it in a water bath at controlled low temperatures, has evolved signif",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What notable sightings of mythical beings occurred in September and November 202"
+      },
+      "src_answer_excerpt": "In September 2023, several notable sightings of mythical beings were reported. On September 12, Ewan MacPhee, a Nessie enthusiast, claimed to have see",
+      "wm_answer_excerpt": "In September 2023, there were several remarkable sightings of mythical beings. On September 12, Ewan MacPhee, a local enthusiast, spotted Nessie, the ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "How are candidates like Vasquez and Jensen adapting their campaign strategies to"
+      },
+      "src_answer_excerpt": "Candidates like Vasquez and Jensen are actively utilizing social media to engage younger voters as the municipal elections on November 6, 2023, approa",
+      "wm_answer_excerpt": "Candidates like Vasquez and Jensen are increasingly relying on social media to connect with younger voters ahead of the municipal elections on Novembe",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key findings and recommendations regarding air pollution in urban e"
+      },
+      "src_answer_excerpt": "The report from October 10, 2023, highlights the severe impact of urban air pollution, attributing approximately 4.2 million premature deaths annually",
+      "wm_answer_excerpt": "The report released on October 10, 2023, underscores the severe health risks associated with air pollution in urban areas, attributing approximately 4",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What were the specific causes and dates of the transit disruptions experienced i"
+      },
+      "src_answer_excerpt": "In New York City, the transit disruption occurred on September 5, 2023, due to a major signal malfunction caused by outdated equipment that couldn't h",
+      "wm_answer_excerpt": "In New York City, a significant disruption occurred on September 5, 2023, when the subway system experienced a complete shutdown due to a failure in t",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How are local businesses in Yonkers adapting to the rise of e-commerce, and what"
+      },
+      "src_answer_excerpt": "Local businesses in Yonkers are actively adapting to the rise of e-commerce by integrating digital strategies into their operations. This shift allows",
+      "wm_answer_excerpt": "Local businesses in Yonkers are actively adapting to the rise of e-commerce by embracing digital platforms and advanced technologies to enhance their ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What are the key components of Halifax's infrastructure initiative launched by t"
+      },
+      "src_answer_excerpt": "Halifax's City Council has embarked on a comprehensive infrastructure initiative focused on sustainable urban development. Key components of this init",
+      "wm_answer_excerpt": "Halifax's City Council has embarked on a significant infrastructure initiative aimed at revitalizing the city's roads, bridges, and public buildings, ",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are the key developments in corporate recycling strategies highlighted in t"
+      },
+      "src_answer_excerpt": "The document highlights several key developments in corporate recycling strategies. As of September 2023, businesses are increasingly recognizing thei",
+      "wm_answer_excerpt": "Recent developments in corporate recycling strategies emphasize a shift toward sustainability driven by innovative technologies and leadership from in",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "How is blockchain technology influencing small and medium enterprises (SMEs) in "
+      },
+      "src_answer_excerpt": "Blockchain technology is revolutionizing transparency and security for small and medium enterprises (SMEs) by providing a decentralized and secure led",
+      "wm_answer_excerpt": "Blockchain technology is significantly transforming small and medium enterprises (SMEs) by enhancing transparency and security in their operations. Em",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How has the integration of yoga into the community, particularly among teenagers"
+      },
+      "src_answer_excerpt": "The integration of yoga into the community, especially among teenagers, has been significantly supported by various individuals and initiatives, leadi",
+      "wm_answer_excerpt": "The integration of yoga into the community has gained significant momentum, particularly among teenagers, thanks to the support of key individuals and",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are the key challenges and statistics related to student privacy in online "
+      },
+      "src_answer_excerpt": "The documents highlight several challenges and statistics related to student privacy in online education, particularly following the shift towards dig",
+      "wm_answer_excerpt": "The transition to online education in September 2023 has brought significant challenges regarding student privacy and cybersecurity. Nearly 90% of edu",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are some key elements of the cultural heritage and supernatural phenomena i"
+      },
+      "src_answer_excerpt": "New Zealand's cultural heritage and supernatural phenomena are deeply intertwined with Maori myths and legends, which continue to shape the nation's i",
+      "wm_answer_excerpt": "New Zealand's cultural heritage is deeply intertwined with supernatural phenomena, reflecting a rich tapestry of folklore and tradition. A notable asp",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What traditions and practices does the Tanaka family engage in during 'Oshogatsu"
+      },
+      "src_answer_excerpt": "During 'Oshogatsu,' or the New Year's celebration, the Tanaka family engages in several traditions that deeply reflect their cultural heritage. One ke",
+      "wm_answer_excerpt": "The Tanaka family engages in several meaningful traditions during 'Oshogatsu,' which reflect their deep-rooted cultural heritage. One significant prac",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What insights did Elma Griffith share about the local community's engagement wit"
+      },
+      "src_answer_excerpt": "Elma Griffith, on November 5, 2023, shared insights into how the local community in Luxor remains deeply connected to their folklore and supernatural ",
+      "wm_answer_excerpt": "On November 5, 2023, Elma Griffith shared insights into how the local community actively engages with folklore and supernatural phenomena, particularl",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What are some of the key factors contributing to internet interruptions as highl"
+      },
+      "src_answer_excerpt": "Key factors contributing to internet interruptions include natural disasters, such as earthquakes and hurricanes, which can physically damage infrastr",
+      "wm_answer_excerpt": "Internet interruptions are influenced by a variety of factors, including natural disasters, human errors, and cyberattacks. The recent surge in outage",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are some key initiatives and contributions made by local entrepreneurs and "
+      },
+      "src_answer_excerpt": "Local entrepreneurs and organizations have made significant strides in promoting sustainability through renewable energy initiatives. Franklin Technol",
+      "wm_answer_excerpt": "Local entrepreneurs and organizations are making significant strides towards sustainability in renewable energy through various innovative initiatives",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are the specific impacts of urban sprawl on wildlife populations and habita"
+      },
+      "src_answer_excerpt": "Urban sprawl significantly impacts wildlife populations and habitats in several ways. Since September 1, 2023, there has been a reported 15% decrease ",
+      "wm_answer_excerpt": "Urban sprawl significantly impacts wildlife populations and their habitats, leading to a range of detrimental effects. Reports indicate a 15% decline ",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key infrastructure projects highlighted in the council's new develo"
+      },
+      "src_answer_excerpt": "The recent city council meetings across various cities have outlined several key infrastructure projects with significant anticipated impacts:\n\n1. **G",
+      "wm_answer_excerpt": "The council's new development plan emphasizes several key infrastructure projects aimed at transforming local environments and enhancing community eng",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key roles and responsibilities of local education governance in sha"
+      },
+      "src_answer_excerpt": "Local education governance plays a multifaceted role in shaping educational opportunities, primarily through the actions of school boards and local go",
+      "wm_answer_excerpt": "Local education governance plays a vital role in shaping educational opportunities by influencing policies that affect various aspects of the educatio",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are the key reasons highlighted in the document for the importance of vacci"
+      },
+      "src_answer_excerpt": "Vaccination is crucial across all age groups for several reasons. Firstly, it trains the immune system to recognize and combat pathogens, thereby prev",
+      "wm_answer_excerpt": "Vaccination is emphasized as a crucial public health measure for individuals of all ages due to the ongoing evolution of diseases and the need to main",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What were the key features and activities of the cultural festival described by "
+      },
+      "src_answer_excerpt": "The cultural festival organized by Maria Gonzalez, known as the Wilson Melting Pot Festival, featured a diverse array of activities designed to foster",
+      "wm_answer_excerpt": "The cultural festival described by Maria Gonzalez featured a vibrant array of activities designed to celebrate and connect different cultures. It incl",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What specific initiatives and resources have been introduced since September 202"
+      },
+      "src_answer_excerpt": "Since September 2023, several initiatives and resources have been introduced to enhance access to mental health services and assist individuals in nav",
+      "wm_answer_excerpt": "Since September 2023, several initiatives have been launched to enhance access to mental health services and support individuals in navigating their m",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What specific actions and collaborations have been undertaken by Evergreen Valle"
+      },
+      "src_answer_excerpt": "Evergreen Valley has embarked on a comprehensive plan to enhance environmental sustainability, starting with a series of infrastructure projects initi",
+      "wm_answer_excerpt": "Evergreen Valley has actively engaged in various initiatives aimed at enhancing environmental sustainability, particularly through infrastructure deve",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "How have local political parties, such as \"The Community's Voice\" and the United"
+      },
+      "src_answer_excerpt": "Local political parties have played a significant role in driving educational reforms by focusing on issues like funding, curriculum changes, and inno",
+      "wm_answer_excerpt": "Local political parties, particularly organizations like \"The Community's Voice\" and the United Communities Party, have significantly influenced educa",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What were the key elements of the author's marathon preparation and experience, "
+      },
+      "src_answer_excerpt": "The author's marathon preparation was a journey marked by diverse challenges, supportive relationships, and valuable lessons. Initially inspired by a ",
+      "wm_answer_excerpt": "The author's marathon preparation involved a significant commitment to training, transitioning from a casual jogger to a dedicated runner over several",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are the key components of the park revitalization initiative set to begin o"
+      },
+      "src_answer_excerpt": "The park revitalization initiative scheduled to begin on October 15, 2023, involves several key components. The plan emphasizes the creation of multif",
+      "wm_answer_excerpt": "The park revitalization initiative set to begin on October 15, 2023, encompasses several key components aimed at enhancing urban green spaces. Firstly",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are some specific community tech programs mentioned in the document, and wh"
+      },
+      "src_answer_excerpt": "The document mentions several community tech programs, each with distinct goals and target audiences. \"Tech Together,\" launched by Sandra Melendez in ",
+      "wm_answer_excerpt": "Several community tech programs are highlighted in the documents, each aiming to enhance digital literacy and skills among specific target audiences. ",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What specific events and responses illustrate the resilience of Karachi in the f"
+      },
+      "src_answer_excerpt": "In early September 2023, Karachi faced an extraordinary natural disaster when a relentless rainstorm delivered 300 millimeters of rainfall in just 24 ",
+      "wm_answer_excerpt": "Karachi has demonstrated remarkable resilience in the face of natural disasters, particularly during the recent monsoon season when the city experienc",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key details surrounding the establishment and impact of the Soweto "
+      },
+      "src_answer_excerpt": "The Soweto Community Learning Center opened its doors on October 5, 2023, in Johannesburg, South Africa. It was established by educational entrepreneu",
+      "wm_answer_excerpt": "The Soweto Community Learning Center (CLC) opened on October 5, 2023, marking a significant milestone for local youth in Johannesburg, South Africa. T",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What were the specific challenges faced by the community hospital in River Heigh"
+      },
+      "src_answer_excerpt": "During the power outage on November 3, 2023, the community hospital in River Heights faced significant challenges, particularly in its intensive care ",
+      "wm_answer_excerpt": "During the power outage on November 3, 2023, the community hospital in River Heights faced significant challenges, particularly with the failure of mu",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key findings and recommendations regarding air pollution in urban e"
+      },
+      "src_answer_excerpt": "The report released on October 10, 2023, highlights several critical findings regarding urban air pollution. It estimates that poor air quality in urb",
+      "wm_answer_excerpt": "The report released on October 10, 2023, reveals alarming statistics regarding air pollution, indicating that approximately 4.2 million people die ann",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What challenges did Timothy Tannenbaum face while using his wood-fired oven, and"
+      },
+      "src_answer_excerpt": "Timothy Tannenbaum's experiences with his wood-fired oven highlight several challenges associated with traditional baking techniques. One of his prima",
+      "wm_answer_excerpt": "Timothy Tannenbaum encountered several challenges while using his wood-fired oven, notably the intense heat that requires both skill and courage to ma",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How has the gig economy transformed the labor market since September 1, 2023, an"
+      },
+      "src_answer_excerpt": "Since September 1, 2023, the gig economy has dramatically transformed the labor market by shifting the focus from traditional full-time employment to ",
+      "wm_answer_excerpt": "Since September 1, 2023, the gig economy has significantly reshaped the labor market, leading to a notable increase in freelance work and flexible job",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What experiences do Sarah Johnston and Zoe Greene share as new parents in the mo"
+      },
+      "src_answer_excerpt": "Sarah Johnston and Zoe Greene, as new parents in January and February respectively, both navigate the emotional complexities of welcoming a newborn in",
+      "wm_answer_excerpt": "Sarah Johnston and Zoe Greene both navigate the profound emotional landscape of new parenthood during the winter months. In January, Sarah experiences",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key elements of Maria Conti's culinary tradition as described in th"
+      },
+      "src_answer_excerpt": "Maria Conti, an 85-year-old residing in Tuscany, Italy, is deeply rooted in her culinary tradition through her family's ciabatta recipe. This recipe, ",
+      "wm_answer_excerpt": "Maria Conti, an 85-year-old resident of Tuscany, Italy, embodies the essence of culinary tradition through her skilled preparation of a century-old ci",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are some key factors contributing to the rise of freelance work in the gig "
+      },
+      "src_answer_excerpt": "The rise of freelance work in the gig economy can be attributed to several key factors, especially as of September 2023. The global pandemic played a ",
+      "wm_answer_excerpt": "As of September 2023, several key factors are driving the rise of freelance work within the gig economy. The aftermath of the pandemic has significant",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What specific actions did Mayor Tillman propose during the Eastwood City Council"
+      },
+      "src_answer_excerpt": "During the Eastwood City Council meeting on September 15, 2023, Mayor Jessica Tillman proposed a strategy aimed at enhancing civic engagement by movin",
+      "wm_answer_excerpt": "During the Eastwood City Council meeting on September 15, 2023, Mayor Tillman proposed a transformative approach to governance, advocating for a shift",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are some specific programs and services offered by Community Learning Cente"
+      },
+      "src_answer_excerpt": "Community Learning Centers (CLCs) offer a variety of programs tailored to address specific community needs. Jennifer Parker emphasizes the role of CLC",
+      "wm_answer_excerpt": "Community Learning Centers (CLCs) offer a variety of programs tailored to meet the specific needs of their communities. Jennifer Parker from the Elmwo",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What insights does Dr. Sasha Smartypants provide about trickster tales in relati"
+      },
+      "src_answer_excerpt": "Dr. Sasha Smartypants highlights that trickster tales serve as early forms of social critique wrapped in entertaining stories. These characters, like ",
+      "wm_answer_excerpt": "Dr. Sasha Smartypants offers a thought-provoking perspective on trickster tales, suggesting they serve as original forms of social critique, cleverly ",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are three specific initiatives or features highlighted by the Calgary City "
+      },
+      "src_answer_excerpt": "Calgary City Council has outlined several initiatives in their recent development program aimed at modernizing the urban landscape. Firstly, they have",
+      "wm_answer_excerpt": "The Calgary City Council's recent development program emphasizes several key initiatives to modernize the urban landscape. One of the standout project",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What were the key details surrounding the October 17, 2023, disruption in Metrop"
+      },
+      "src_answer_excerpt": "On October 17, 2023, at 8:12 AM, the Metropolitan Transit Authority of Metropoliville announced significant delays on the Blue Line subway due to a po",
+      "wm_answer_excerpt": "On October 17, 2023, at 8:12 AM, the Metropolitan Transit Authority (MTA) of Metropoliville announced significant delays on the Blue Line subway due t",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How are local businesses in Yonkers adapting to the rise of e-commerce, and what"
+      },
+      "src_answer_excerpt": "Local businesses in Yonkers are actively adapting to the rise of e-commerce by integrating online platforms into their operations. This shift is drive",
+      "wm_answer_excerpt": "Local businesses in Yonkers are actively adapting to the rise of e-commerce by enhancing their online presence and integrating digital solutions into ",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What were the key milestones and experiences that shaped Emily Carter's journey "
+      },
+      "src_answer_excerpt": "Emily Carter's journey to her first marathon was marked by several key milestones and experiences. Her decision to run began on September 5, 2023, whe",
+      "wm_answer_excerpt": "Emily Carter's journey to her first marathon was marked by significant milestones and experiences, beginning with her decision to participate, which w",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What key events and factors led to the proclamation of independence by Netlandia"
+      },
+      "src_answer_excerpt": "The declaration of independence by Netlandia, Digitopia, and the Silicon Enclave on November 12, 2024, was the culmination of several key developments",
+      "wm_answer_excerpt": "The proclamation of independence by Netlandia, Digitopia, and the Silicon Enclave on November 12, 2024, was influenced by a combination of escalating ",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What are the key components of LaughingDollar, Inc.'s expense reporting process "
+      },
+      "src_answer_excerpt": "LaughingDollar, Inc.'s expense reporting process, masterminded by CFO Steve Ledger, involves a 15-step procedure designed to enhance financial respons",
+      "wm_answer_excerpt": "LaughingDollar, Inc. has established a complex expense reporting process led by CFO Steve Ledger, which consists of 15 distinct steps. This intricate ",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What specific initiatives and changes were implemented by local education author"
+      },
+      "src_answer_excerpt": "In September 2023, local education authorities implemented several initiatives to enhance student engagement in extracurricular programs. A notable ef",
+      "wm_answer_excerpt": "In September 2023, local education authorities recognized the growing importance of extracurricular programs and initiated several changes aimed at en",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What specific infrastructure improvements has Vancouver's City Council planned i"
+      },
+      "src_answer_excerpt": "Vancouver's City Council has laid out a comprehensive plan to address aging infrastructure, focusing on several key areas. The council approved projec",
+      "wm_answer_excerpt": "Vancouver's City Council has initiated significant infrastructure improvements aimed at addressing the challenges posed by aging facilities. Key proje",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key reasons highlighted in the document for the necessity of redund"
+      },
+      "src_answer_excerpt": "Redundant systems in telecommunications are crucial for preventing service disruptions, as highlighted by recent incidents and the inherent vulnerabil",
+      "wm_answer_excerpt": "The necessity of redundant systems in telecommunications is underscored by the increasing frequency of service outages and the vulnerabilities inheren",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key components of the proposed tax reforms discussed in the documen"
+      },
+      "src_answer_excerpt": "The proposed tax reforms post-September 1, 2023, consist primarily of two major components: the High-Income Earner Support Tax (HIEST) and the Standar",
+      "wm_answer_excerpt": "The proposed tax reforms focus on establishing a progressive tax system aimed at reducing income inequality by requiring higher contributions from wea",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key components of Boston's recent public works initiatives as outli"
+      },
+      "src_answer_excerpt": "Boston's recent public works initiatives, as detailed in the document, focus on several key components aimed at modernizing the city's infrastructure ",
+      "wm_answer_excerpt": "Boston's recent public works initiatives are characterized by a strategic blend of innovation and tradition, particularly in response to the city's gr",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What are the key components and timeline of Dr. Emily Richards' mindfulness work"
+      },
+      "src_answer_excerpt": "Dr. Emily Richards' mindfulness workshops, which began on September 15, 2023, are designed to equip individuals with tools to manage stress effectivel",
+      "wm_answer_excerpt": "Dr. Emily Richards initiated her mindfulness workshops on September 15, 2023, in response to the growing need for effective stress management strategi",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are some specific examples of adult learners mentioned in the document, inc"
+      },
+      "src_answer_excerpt": "The documents provide several examples of adult learners with diverse motivations for pursuing education. Sarah Gibson, a 28-year-old, is seeking a ca",
+      "wm_answer_excerpt": "The recent increase in adult education enrollment since September 1, 2023, has led to a significant expansion of learning opportunities tailored to di",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How has the gig economy evolved since September 1, 2023, and what specific chang"
+      },
+      "src_answer_excerpt": "Since September 1, 2023, the gig economy has experienced significant growth and transformation. The traditional notion of a stable 9-to-5 job has been",
+      "wm_answer_excerpt": "Since September 1, 2023, the gig economy has experienced significant growth, particularly in freelance work and digital content creation. This period ",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What were the key elements of the public service delivery initiative launched by"
+      },
+      "src_answer_excerpt": "The public service delivery initiative launched by Mayor Julius Green in Redfield City on September 5, 2023, aimed to revamp the efficiency of the cit",
+      "wm_answer_excerpt": "The public service delivery initiative launched by Mayor Julius Green in Redfield City on September 5, 2023, aimed to enhance governance through a ser",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What key events and developments in virtual economies occurred after September 2"
+      },
+      "src_answer_excerpt": "After September 2023, virtual economies underwent significant transformations that reshaped perceptions of value and economic power. A pivotal event w",
+      "wm_answer_excerpt": "After September 2023, the landscape of virtual economies underwent significant changes, notably marked by the launch of Etheria, which catalyzed a new",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What significant changes occurred in the digital art landscape following Septemb"
+      },
+      "src_answer_excerpt": "Following September 2023, the digital art landscape experienced transformative changes, particularly with the introduction of platforms like \"Artivers",
+      "wm_answer_excerpt": "Following September 2023, the digital art landscape experienced substantial transformation, primarily driven by the emergence of innovative platforms ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    }
+  ]
+}

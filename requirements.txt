@@ -1,0 +1,12 @@
+# Versions of the environment used to produce the paper results (Python 3.14, CUDA 12.6 torch build).
+# Newer versions should work; exact pins matter only for bit-exact reproduction of embeddings.
+numpy==2.3.5
+scipy==1.17.0
+torch==2.10.0
+sentence-transformers==5.2.2
+transformers==5.1.0
+scikit-learn==1.8.0
+openai==2.17.0
+matplotlib==3.10.8
+tqdm==4.67.1
+pyyaml==6.0.3

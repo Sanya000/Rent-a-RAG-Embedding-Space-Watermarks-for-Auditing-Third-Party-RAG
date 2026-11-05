@@ -1,0 +1,32 @@
+[
+  {
+    "coverage": "c25",
+    "realized_wm_frac": 0.3,
+    "n_runs": 30,
+    "bh_detection": "19/30",
+    "median_target_Z": 3.0,
+    "fpr_runs": "0/30",
+    "median_queries_to_bh": 40.5,
+    "n_reached_bh": 8
+  },
+  {
+    "coverage": "c50",
+    "realized_wm_frac": 0.53,
+    "n_runs": 30,
+    "bh_detection": "29/30",
+    "median_target_Z": 5.5,
+    "fpr_runs": "0/30",
+    "median_queries_to_bh": 19.5,
+    "n_reached_bh": 24
+  },
+  {
+    "coverage": "c75",
+    "realized_wm_frac": 0.78,
+    "n_runs": 30,
+    "bh_detection": "30/30",
+    "median_target_Z": 7.48,
+    "fpr_runs": "0/30",
+    "median_queries_to_bh": 19,
+    "n_reached_bh": 29
+  }
+]

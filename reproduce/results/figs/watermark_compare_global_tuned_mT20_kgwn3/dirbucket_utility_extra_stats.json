@@ -1,0 +1,20 @@
+{
+  "answer_doc_support_source_ci95": 0.0036436947314154975,
+  "answer_doc_support_source_mean": 0.7616340533382422,
+  "answer_doc_support_watermarked_ci95": 0.002697126873084192,
+  "answer_doc_support_watermarked_mean": 0.8443015177634379,
+  "changed_fraction_ge_0_9_rate": 0.9585492227979274,
+  "changed_fraction_mean": 0.9784110535405871,
+  "matched_docs": 386,
+  "matched_source_tokens_total": 231196,
+  "matched_watermarked_tokens_total": 126363,
+  "shared_answers": 2034,
+  "source_to_watermarked_numeric_recall": 0.4978241949521323,
+  "source_to_watermarked_sentence_coverage_ci95": 0.00355126301344417,
+  "source_to_watermarked_sentence_coverage_mean": 0.6215665615994624,
+  "watermarked_to_source_numeric_precision": 0.9533333333333334,
+  "watermarked_to_source_sentence_coverage_ci95": 0.0031103384910026034,
+  "watermarked_to_source_sentence_coverage_mean": 0.816067321714194,
+  "watermarked_to_source_token_ratio_mean": 0.5480014827498089,
+  "watermarked_to_source_token_ratio_median": 0.5483121780721119
+}

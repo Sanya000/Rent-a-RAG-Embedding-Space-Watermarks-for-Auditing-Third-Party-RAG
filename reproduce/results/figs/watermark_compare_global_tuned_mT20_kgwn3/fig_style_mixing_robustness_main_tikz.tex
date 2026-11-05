@@ -1,0 +1,78 @@
+% Auto-generated from results by script.
+% Figure: fig_style_mixing_robustness_main converted to TikZ/PGFPlots.
+\begin{tikzpicture}
+\definecolor{MixBlue}{HTML}{1F77B4}
+\definecolor{FPRRed}{HTML}{D62728}
+\pgfplotsset{compat=1.18}
+\begin{groupplot}[
+  group style={group size=1 by 2, vertical sep=1.85cm},
+  scale only axis,
+  width=0.805000\linewidth,
+  tick label style={font=\scriptsize},
+  label style={font=\small},
+  title style={font=\small},
+  tick style={line width=0.8pt, color=black},
+  major tick length=2.8pt,
+  minor tick num=0,
+  line width=0.9pt
+]
+\nextgroupplot[
+  height=1.48cm,
+  xmin=2.850000000000, xmax=6.150000000000,
+  ymin=3.672202921977, ymax=10.883738638484,
+  xtick={3,4,5,6},
+  ytick={4,5,6,7,8,9,10},
+  xlabel={Mixing level (\# providers)},
+  ylabel={Pooled Z},
+  title={A) Mixing Robustness},
+  ymajorgrids=true,
+  xmajorgrids=false,
+  grid style={dotted, draw=gray!35},
+  major grid style={dotted, draw=gray!35}
+]
+\path[draw=none, fill=MixBlue, fill opacity=0.16]
+  (axis cs:3.000000000000,9.846275166936) -- (axis cs:3.000000000000,5.595635853402) -- (axis cs:4.000000000000,5.867115398138) --
+  (axis cs:5.000000000000,6.443208901689) -- (axis cs:6.000000000000,6.585167965270) -- (axis cs:6.000000000000,10.555941560461) --
+  (axis cs:6.000000000000,10.555941560461) -- (axis cs:5.000000000000,10.218191591094) -- (axis cs:4.000000000000,10.043805660671) --
+  (axis cs:3.000000000000,9.846275166936) -- (axis cs:3.000000000000,9.846275166936)
+-- cycle;
+\addplot[MixBlue, line width=1.8pt, mark=*, mark size=2.2pt] coordinates {
+  (3.000000000000,7.734413866294) (4.000000000000,7.814930852107) (5.000000000000,8.168104043051) (6.000000000000,8.281482113746)
+};
+\addplot[black!65, dashed, line width=0.95pt, forget plot] coordinates {
+  (2.850000000000,4.000000000000) (6.150000000000,4.000000000000)
+};
+\nextgroupplot[
+  height=1.31cm,
+  xmin=2.850000000000, xmax=6.150000000000,
+  ymin=0.000000000000, ymax=0.052000000000,
+  xtick={3,4,5,6},
+  ytick={0,0.01,0.02,0.03,0.04,0.05},
+  xlabel={Mixing level (\# providers)},
+  ylabel={P(non-target BH sig)},
+  title={B) BH False-Positive Rate},
+  ymajorgrids=true,
+  xmajorgrids=false,
+  grid style={dotted, draw=gray!35},
+  major grid style={dotted, draw=gray!35}
+]
+\addplot[FPRRed, line width=1.7pt, mark=*, mark size=2.2pt] coordinates {
+  (3.000000000000,0.000000000000) (4.000000000000,0.000000000000) (5.000000000000,0.011753643630) (6.000000000000,0.013237727523)
+};
+\draw[FPRRed, line width=0.95pt] (axis cs:3.000000000000,0.000000000000) -- (axis cs:3.000000000000,0.007347540823);
+\draw[FPRRed, line width=0.95pt] (axis cs:2.955000000000,0.000000000000) -- (axis cs:3.045000000000,0.000000000000);
+\draw[FPRRed, line width=0.95pt] (axis cs:2.955000000000,0.007347540823) -- (axis cs:3.045000000000,0.007347540823);
+\draw[FPRRed, line width=0.95pt] (axis cs:4.000000000000,0.000000000000) -- (axis cs:4.000000000000,0.002393756493);
+\draw[FPRRed, line width=0.95pt] (axis cs:3.955000000000,0.000000000000) -- (axis cs:4.045000000000,0.000000000000);
+\draw[FPRRed, line width=0.95pt] (axis cs:3.955000000000,0.002393756493) -- (axis cs:4.045000000000,0.002393756493);
+\draw[FPRRed, line width=0.95pt] (axis cs:5.000000000000,0.007973851207) -- (axis cs:5.000000000000,0.017293911540);
+\draw[FPRRed, line width=0.95pt] (axis cs:4.955000000000,0.007973851207) -- (axis cs:5.045000000000,0.007973851207);
+\draw[FPRRed, line width=0.95pt] (axis cs:4.955000000000,0.017293911540) -- (axis cs:5.045000000000,0.017293911540);
+\draw[FPRRed, line width=0.95pt] (axis cs:6.000000000000,0.008911665113) -- (axis cs:6.000000000000,0.019622247805);
+\draw[FPRRed, line width=0.95pt] (axis cs:5.955000000000,0.008911665113) -- (axis cs:6.045000000000,0.008911665113);
+\draw[FPRRed, line width=0.95pt] (axis cs:5.955000000000,0.019622247805) -- (axis cs:6.045000000000,0.019622247805);
+\addplot[black!65, dashed, line width=0.9pt, forget plot] coordinates {
+  (2.850000000000,0.050000000000) (6.150000000000,0.050000000000)
+};
+\end{groupplot}
+\end{tikzpicture}

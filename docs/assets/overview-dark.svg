@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" role="img" aria-label="Rent-a-RAG overview: data providers watermark their documents with secret keys; a black-box RAG operator answers from many providers; the auditor pools directional evidence into a Z-score per provider and flags Provider B.">
+<defs>
+
+
+
+</defs>
+<rect x="1" y="1" width="1198" height="418" rx="20" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+<rect x="22" y="22" width="360" height="376" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/><circle cx="52" cy="54" r="14" fill="#4d9bf0"/><text x="52.0" y="59.2" font-size="15" font-weight="700" fill="#0d1117" text-anchor="middle">1</text><text x="76.0" y="60.0" font-size="19" font-weight="700" fill="#e6edf3" text-anchor="start">Data providers</text><text x="42.0" y="90.0" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">watermark their documents offline</text>
+<rect x="40" y="106" width="324" height="42" rx="10" fill="#161b22"/>
+<circle cx="62" cy="127" r="12" fill="#9085e9"/>
+<text x="62.0" y="132.0" font-size="13.5" font-weight="700" fill="#0d1117" text-anchor="middle">A</text>
+<text x="84.0" y="132.5" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="start">Provider A</text>
+<g fill="none" stroke="#9085e9" stroke-width="2.2" stroke-linecap="round"><circle cx="206" cy="127" r="5.0"/><path d="M211.0,127 h12.0 M219.0,127 v4.5 M223.0,127 v4.5"/></g>
+<text x="234" y="132" font-size="14.5" fill="#9198a1">key <tspan font-style="italic">k</tspan><tspan font-size="11" dy="3.5">A</tspan></text>
+<path d="M288,114 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="288" y="114" width="12" height="4" fill="#9085e9" /><rect x="292" y="124.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="292" y="128.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="292" y="133.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<path d="M310,114 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="310" y="114" width="12" height="4" fill="#9085e9" /><rect x="314" y="124.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="314" y="128.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="314" y="133.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<path d="M332,114 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="332" y="114" width="12" height="4" fill="#9085e9" /><rect x="336" y="124.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="336" y="128.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="336" y="133.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<rect x="40" y="158" width="324" height="42" rx="10" fill="#161b22"/>
+<circle cx="62" cy="179" r="12" fill="#f0834f"/>
+<text x="62.0" y="184.0" font-size="13.5" font-weight="700" fill="#0d1117" text-anchor="middle">B</text>
+<text x="84.0" y="184.5" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="start">Provider B</text>
+<g fill="none" stroke="#f0834f" stroke-width="2.2" stroke-linecap="round"><circle cx="206" cy="179" r="5.0"/><path d="M211.0,179 h12.0 M219.0,179 v4.5 M223.0,179 v4.5"/></g>
+<text x="234" y="184" font-size="14.5" fill="#9198a1">key <tspan font-style="italic">k</tspan><tspan font-size="11" dy="3.5">B</tspan></text>
+<path d="M288,166 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="288" y="166" width="12" height="4" fill="#f0834f" /><rect x="292" y="176.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="292" y="180.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="292" y="185.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<path d="M310,166 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="310" y="166" width="12" height="4" fill="#f0834f" /><rect x="314" y="176.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="314" y="180.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="314" y="185.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<path d="M332,166 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="332" y="166" width="12" height="4" fill="#f0834f" /><rect x="336" y="176.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="336" y="180.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="336" y="185.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<rect x="40" y="210" width="324" height="42" rx="10" fill="#161b22"/>
+<circle cx="62" cy="231" r="12" fill="#2bbf8a"/>
+<text x="62.0" y="236.0" font-size="13.5" font-weight="700" fill="#0d1117" text-anchor="middle">C</text>
+<text x="84.0" y="236.5" font-size="15" font-weight="600" fill="#e6edf3" text-anchor="start">Provider C</text>
+<g fill="none" stroke="#2bbf8a" stroke-width="2.2" stroke-linecap="round"><circle cx="206" cy="231" r="5.0"/><path d="M211.0,231 h12.0 M219.0,231 v4.5 M223.0,231 v4.5"/></g>
+<text x="234" y="236" font-size="14.5" fill="#9198a1">key <tspan font-style="italic">k</tspan><tspan font-size="11" dy="3.5">C</tspan></text>
+<path d="M288,218 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="288" y="218" width="12" height="4" fill="#2bbf8a" /><rect x="292" y="228.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="292" y="232.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="292" y="237.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<path d="M310,218 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="310" y="218" width="12" height="4" fill="#2bbf8a" /><rect x="314" y="228.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="314" y="232.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="314" y="237.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<path d="M332,218 h12 l6,6 v20 h-18 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="332" y="218" width="12" height="4" fill="#2bbf8a" /><rect x="336" y="228.0" width="10" height="2" rx="1" fill="#4b535d"/><rect x="336" y="232.5" width="12" height="2" rx="1" fill="#4b535d"/><rect x="336" y="237.0" width="8" height="2" rx="1" fill="#4b535d"/>
+<line x1="40" y1="276" x2="364" y2="276" stroke="#30363d" stroke-dasharray="3 4"/>
+<path d="M82,334 L114.9,315.0 A38,38 0 0 0 60.2,302.9 Z" fill="#f0834f" fill-opacity="0.22"/>
+<circle cx="82" cy="334" r="38" fill="none" stroke="#656c76" stroke-width="1.3"/>
+<line x1="82" y1="334" x2="67.8" y2="298.8" stroke="#4b535d" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="67.8" cy="298.8" r="3.5" fill="#4b535d"/>
+<line x1="82" y1="334" x2="93.7" y2="297.9" stroke="#4d9bf0" stroke-width="2.4" stroke-linecap="round"/>
+<circle cx="93.7" cy="297.9" r="4.5" fill="#4d9bf0"/>
+<path d="M69.0,288.8 A47,47 0 0 1 84.7,287.1" fill="none" stroke="#4d9bf0" stroke-width="1.6" stroke-linecap="round"/><path d="M90.2,287.7 L83.2,289.5 L84.3,283.6 Z" fill="#4d9bf0" stroke="#4d9bf0" stroke-width="1" stroke-linejoin="round"/>
+<line x1="82.0" y1="334.0" x2="112.4" y2="303.6" stroke="#f0834f" stroke-width="2.6" stroke-linecap="round"/><path d="M118.8,297.2 L114.9,307.5 L108.5,301.1 Z" fill="#f0834f" stroke="#f0834f" stroke-width="1" stroke-linejoin="round"/>
+<circle cx="82" cy="334" r="3" fill="#e6edf3"/>
+<text x="116.8" y="290.2" font-size="15" fill="#f0834f" font-weight="700" text-anchor="middle"><tspan font-style="italic">v</tspan><tspan font-size="10.2" dy="4.2">k,b</tspan></text>
+<text x="156.0" y="296.0" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">Sentences are paraphrased</text>
+<text x="156.0" y="313.5" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">so their embeddings lean</text>
+<text x="156.0" y="331.0" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">along a secret direction</text>
+<text x="156.0" y="348.5" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">set by the provider key</text>
+<text x="156.0" y="366.0" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">and the semantic bucket</text>
+<text x="156.0" y="383.5" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">of each sentence.</text>
+<line x1="390.0" y1="210.0" x2="409.0" y2="210.0" stroke="#656c76" stroke-width="2.2" stroke-linecap="round"/><path d="M418.0,210.0 L408.0,214.5 L408.0,205.5 Z" fill="#656c76" stroke="#656c76" stroke-width="1" stroke-linejoin="round"/>
+<rect x="424" y="22" width="300" height="376" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/><circle cx="454" cy="54" r="14" fill="#4d9bf0"/><text x="454.0" y="59.2" font-size="15" font-weight="700" fill="#0d1117" text-anchor="middle">2</text><text x="478.0" y="60.0" font-size="19" font-weight="700" fill="#e6edf3" text-anchor="start">RAG operator</text><text x="444.0" y="90.0" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">black box: only its answers are seen</text>
+<path d="M508.0,108 h14 l6,6 v20 h-20 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="508.0" y="108" width="14" height="4" fill="#9085e9" /><rect x="512.0" y="118.0" width="12" height="2" rx="1" fill="#4b535d"/><rect x="512.0" y="122.5" width="14" height="2" rx="1" fill="#4b535d"/><rect x="512.0" y="127.0" width="10" height="2" rx="1" fill="#4b535d"/>
+<path d="M536.0,108 h14 l6,6 v20 h-20 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="536.0" y="108" width="14" height="4" fill="#f0834f" /><rect x="540.0" y="118.0" width="12" height="2" rx="1" fill="#4b535d"/><rect x="540.0" y="122.5" width="14" height="2" rx="1" fill="#4b535d"/><rect x="540.0" y="127.0" width="10" height="2" rx="1" fill="#4b535d"/>
+<path d="M564.0,108 h14 l6,6 v20 h-20 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="564.0" y="108" width="14" height="4" fill="#2bbf8a" /><rect x="568.0" y="118.0" width="12" height="2" rx="1" fill="#4b535d"/><rect x="568.0" y="122.5" width="14" height="2" rx="1" fill="#4b535d"/><rect x="568.0" y="127.0" width="10" height="2" rx="1" fill="#4b535d"/>
+<path d="M592.0,108 h14 l6,6 v20 h-20 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="592.0" y="108" width="14" height="4" fill="#4b535d" /><rect x="596.0" y="118.0" width="12" height="2" rx="1" fill="#4b535d"/><rect x="596.0" y="122.5" width="14" height="2" rx="1" fill="#4b535d"/><rect x="596.0" y="127.0" width="10" height="2" rx="1" fill="#4b535d"/>
+<path d="M620.0,108 h14 l6,6 v20 h-20 Z" fill="#0d1117" stroke="#656c76" stroke-width="1.2" stroke-linejoin="round"/><rect x="620.0" y="108" width="14" height="4" fill="#4b535d" /><rect x="624.0" y="118.0" width="12" height="2" rx="1" fill="#4b535d"/><rect x="624.0" y="122.5" width="14" height="2" rx="1" fill="#4b535d"/><rect x="624.0" y="127.0" width="10" height="2" rx="1" fill="#4b535d"/>
+<text x="574.0" y="156.0" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="middle">retrieves from many providers</text>
+<line x1="574.0" y1="164.0" x2="574.0" y2="176.0" stroke="#656c76" stroke-width="2" stroke-linecap="round"/><path d="M574.0,183.0 L570.0,175.0 L578.0,175.0 Z" fill="#656c76" stroke="#656c76" stroke-width="1" stroke-linejoin="round"/>
+<rect x="486.0" y="186" width="176" height="62" rx="12" fill="#010409" stroke="#3d444d" stroke-width="1.2"/>
+<text x="574.0" y="213.0" font-size="15.5" font-weight="700" fill="#e6edf3" text-anchor="middle">Retriever + LLM</text>
+<text x="574.0" y="234.0" font-size="14" font-weight="400" fill="#9198a1" text-anchor="middle">any model, any API</text>
+<line x1="574.0" y1="251.0" x2="574.0" y2="262.0" stroke="#656c76" stroke-width="2" stroke-linecap="round"/><path d="M574.0,269.0 L570.0,261.0 L578.0,261.0 Z" fill="#656c76" stroke="#656c76" stroke-width="1" stroke-linejoin="round"/>
+<rect x="462.0" y="272" width="224" height="74" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1.2"/>
+<rect x="478.0" y="290" width="60" height="6" rx="3" fill="#4b535d" fill-opacity="1"/>
+<rect x="544.0" y="290" width="52" height="6" rx="3" fill="#f0834f" fill-opacity="0.85"/>
+<rect x="602.0" y="290" width="52" height="6" rx="3" fill="#4b535d" fill-opacity="1"/>
+<rect x="478.0" y="307" width="40" height="6" rx="3" fill="#4b535d" fill-opacity="1"/>
+<rect x="524.0" y="307" width="70" height="6" rx="3" fill="#4b535d" fill-opacity="1"/>
+<rect x="600.0" y="307" width="46" height="6" rx="3" fill="#4b535d" fill-opacity="1"/>
+<rect x="478.0" y="324" width="34" height="6" rx="3" fill="#f0834f" fill-opacity="0.85"/>
+<rect x="518.0" y="324" width="64" height="6" rx="3" fill="#4b535d" fill-opacity="1"/>
+<rect x="588.0" y="324" width="36" height="6" rx="3" fill="#4b535d" fill-opacity="1"/>
+<text x="574.0" y="372.0" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="middle">answers in its own words</text>
+<line x1="774.0" y1="196.0" x2="741.0" y2="196.0" stroke="#656c76" stroke-width="2.2" stroke-linecap="round"/><path d="M732.0,196.0 L742.0,191.5 L742.0,200.5 Z" fill="#656c76" stroke="#656c76" stroke-width="1" stroke-linejoin="round"/>
+<text x="752.0" y="186.0" font-size="13.5" font-weight="400" fill="#9198a1" text-anchor="middle">query</text>
+<line x1="730.0" y1="224.0" x2="763.0" y2="224.0" stroke="#656c76" stroke-width="2.2" stroke-linecap="round"/><path d="M772.0,224.0 L762.0,228.5 L762.0,219.5 Z" fill="#656c76" stroke="#656c76" stroke-width="1" stroke-linejoin="round"/>
+<text x="752.0" y="244.0" font-size="13.5" font-weight="400" fill="#9198a1" text-anchor="middle">answer</text>
+<rect x="780" y="22" width="398" height="376" rx="16" fill="#0d1117" stroke="#30363d" stroke-width="1.2"/><circle cx="810" cy="54" r="14" fill="#4d9bf0"/><text x="810.0" y="59.2" font-size="15" font-weight="700" fill="#0d1117" text-anchor="middle">3</text><text x="834.0" y="60.0" font-size="19" font-weight="700" fill="#e6edf3" text-anchor="start">Auditor</text><text x="800.0" y="90.0" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">holds the providers' keys</text>
+<rect x="800" y="110" width="36" height="36" rx="9" fill="#161b22"/>
+<rect x="807" y="119" width="8" height="4" rx="2" fill="#656c76"/>
+<rect x="821" y="119" width="8" height="4" rx="2" fill="#656c76"/>
+<rect x="807" y="126" width="8" height="4" rx="2" fill="#656c76"/>
+<rect x="821" y="126" width="8" height="4" rx="2" fill="#f0834f"/>
+<rect x="807" y="133" width="8" height="4" rx="2" fill="#656c76"/>
+<rect x="821" y="133" width="8" height="4" rx="2" fill="#656c76"/>
+<line x1="815" y1="128" x2="821" y2="128" stroke="#4d9bf0" stroke-width="2"/>
+<text x="850.0" y="123.0" font-size="14.5" font-weight="700" fill="#e6edf3" text-anchor="start">Align</text>
+<text x="850.0" y="142.0" font-size="14" font-weight="400" fill="#9198a1" text-anchor="start">answer windows to each</text>
+<text x="850.0" y="159.0" font-size="14" font-weight="400" fill="#9198a1" text-anchor="start">provider's references</text>
+<rect x="800" y="180" width="36" height="36" rx="9" fill="#161b22"/>
+<line x1="808" y1="207" x2="829" y2="188" stroke="#f0834f" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="808" y1="207" x2="814" y2="187" stroke="#4d9bf0" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="814" y1="187" x2="820.5" y2="195.5" stroke="#656c76" stroke-width="1.4" stroke-dasharray="2 2"/>
+<text x="850.0" y="193.0" font-size="14.5" font-weight="700" fill="#e6edf3" text-anchor="start">Score</text>
+<text x="850.0" y="212.0" font-size="14" font-weight="400" fill="#9198a1" text-anchor="start">along the key direction</text>
+<text x="850.0" y="229.0" font-size="14" font-weight="400" fill="#9198a1" text-anchor="start">for the matched</text>
+<text x="850.0" y="246.0" font-size="14" font-weight="400" fill="#9198a1" text-anchor="start">reference's bucket</text>
+<rect x="800" y="262" width="36" height="36" rx="9" fill="#161b22"/>
+<text x="818.0" y="287.0" font-size="21" font-weight="700" fill="#4d9bf0" text-anchor="middle">&#931;</text>
+<text x="850.0" y="275.0" font-size="14.5" font-weight="700" fill="#e6edf3" text-anchor="start">Pool &amp; test</text>
+<text x="850.0" y="294.0" font-size="14" font-weight="400" fill="#9198a1" text-anchor="start">Z-score per provider,</text>
+<text x="850.0" y="311.0" font-size="14" font-weight="400" fill="#9198a1" text-anchor="start">BH-FDR across providers</text>
+<text x="1054" y="120.0" font-size="14" font-weight="600" fill="#9198a1" text-anchor="start">pooled Z</text>
+<rect x="1064" y="308.6" width="24" height="9.4" rx="4" fill="#9085e9" fill-opacity="0.55"/>
+<text x="1076" y="336.0" font-size="13.5" font-weight="700" fill="#9085e9" text-anchor="middle">A</text>
+<rect x="1102" y="156.0" width="24" height="162.0" rx="4" fill="#f0834f" fill-opacity="1"/>
+<text x="1114" y="336.0" font-size="13.5" font-weight="700" fill="#f0834f" text-anchor="middle">B</text>
+<rect x="1140" y="312.6" width="24" height="5.4" rx="4" fill="#2bbf8a" fill-opacity="0.55"/>
+<text x="1152" y="336.0" font-size="13.5" font-weight="700" fill="#2bbf8a" text-anchor="middle">C</text>
+<line x1="1056" y1="318" x2="1170" y2="318" stroke="#656c76" stroke-width="1.4"/>
+<line x1="1056" y1="264.0" x2="1170" y2="264.0" stroke="#9198a1" stroke-width="1.3" stroke-dasharray="4 3"/>
+<text x="1170" y="258.0" font-size="13.5" font-weight="400" fill="#9198a1" text-anchor="end">Z = 4</text>
+<rect x="800" y="346" width="178" height="36" rx="18" fill="#f0834f"/>
+<path d="M818,364 l4.5,4.5 l8.5,-9.0" fill="none" stroke="#0d1117" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="840.0" y="369.5" font-size="15" font-weight="700" fill="#0d1117" text-anchor="start">Provider B used</text>
+<text x="992.0" y="369.5" font-size="14.5" font-weight="400" fill="#9198a1" text-anchor="start">A, C: not significant</text>
+</svg>

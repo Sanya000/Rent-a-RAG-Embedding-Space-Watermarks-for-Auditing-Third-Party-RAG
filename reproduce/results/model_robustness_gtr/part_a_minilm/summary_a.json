@@ -1,0 +1,49 @@
+{
+  "embed_model": "sentence-transformers/gtr-t5-base",
+  "D": 768,
+  "rho": 1,
+  "n_docs": 381,
+  "n_providers": 6,
+  "T_min": 25,
+  "n_trials": 80,
+  "n_targets": 4,
+  "median_target_z": 8.213253554748803,
+  "detection_rate": 1.0,
+  "max_nt_z": 0.0,
+  "fpr": 0.0,
+  "median_q2bh": 21.5,
+  "per_target": {
+    "pid0": {
+      "target_z": 8.105949810784523,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 78,
+      "q2bh": 25
+    },
+    "pid1": {
+      "target_z": 5.097206101003413,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 87,
+      "q2bh": 17
+    },
+    "pid2": {
+      "target_z": 8.320557298713082,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 97,
+      "q2bh": 18
+    },
+    "pid3": {
+      "target_z": 10.014983351305478,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 84,
+      "q2bh": 25
+    }
+  }
+}

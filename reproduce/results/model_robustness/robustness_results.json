@@ -1,0 +1,51 @@
+{
+  "part_a": {
+    "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "D": 384,
+    "rho": 1,
+    "n_docs": 381,
+    "n_providers": 6,
+    "T_min": 25,
+    "n_trials": 80,
+    "n_targets": 4,
+    "median_target_z": 6.667788001431079,
+    "detection_rate": 1.0,
+    "max_nt_z": 0.0,
+    "fpr": 0.0,
+    "median_q2bh": 62.0,
+    "per_target": {
+      "pid0": {
+        "target_z": 6.025633191224569,
+        "detected": true,
+        "nt_z_max": 0.0,
+        "any_nt_bh": false,
+        "support": 28,
+        "q2bh": 74
+      },
+      "pid1": {
+        "target_z": 7.309942811637589,
+        "detected": true,
+        "nt_z_max": 0.0,
+        "any_nt_bh": false,
+        "support": 41,
+        "q2bh": 46
+      },
+      "pid2": {
+        "target_z": 8.185495686331627,
+        "detected": true,
+        "nt_z_max": 0.0,
+        "any_nt_bh": false,
+        "support": 31,
+        "q2bh": 50
+      },
+      "pid3": {
+        "target_z": 4.3227663107842496,
+        "detected": true,
+        "nt_z_max": 0.0,
+        "any_nt_bh": false,
+        "support": 26,
+        "q2bh": 75
+      }
+    }
+  }
+}

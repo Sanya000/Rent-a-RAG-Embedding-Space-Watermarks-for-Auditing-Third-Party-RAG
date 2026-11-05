@@ -1,0 +1,47 @@
+{
+  "answer_model": "gpt-3.5-turbo",
+  "embed_model": "sentence-transformers/all-mpnet-base-v2",
+  "D": 768,
+  "n_trials": 40,
+  "n_targets": 4,
+  "T_min": 25,
+  "median_target_z": 7.26746370841793,
+  "detection_rate": 1.0,
+  "max_nt_z": 0.0,
+  "fpr": 0.0,
+  "median_q2bh": 13.5,
+  "per_target": {
+    "pid0": {
+      "target_z": 6.9598824487955415,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 55,
+      "q2bh": 15
+    },
+    "pid1": {
+      "target_z": 9.532733389203035,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 84,
+      "q2bh": 15
+    },
+    "pid2": {
+      "target_z": 7.575044968040317,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 70,
+      "q2bh": 12
+    },
+    "pid3": {
+      "target_z": 6.674201048439497,
+      "detected": true,
+      "nt_z_max": 0.0,
+      "any_nt_bh": false,
+      "support": 84,
+      "q2bh": 12
+    }
+  }
+}

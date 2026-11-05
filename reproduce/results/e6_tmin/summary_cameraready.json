@@ -1,0 +1,131 @@
+{
+  "tmin_grid": [
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    40,
+    50
+  ],
+  "alpha": 0.05,
+  "benchmarks": {
+    "primary_farad": {
+      "5": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.933,
+        "wrongkey_any_sig_rate": 0.067,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "10": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.5,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "15": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.133,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "20": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "25": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "30": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "40": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "50": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      }
+    },
+    "multidomain": {
+      "5": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.033,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "10": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "15": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "20": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "25": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "30": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "40": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      },
+      "50": {
+        "target_detection_rate": 1.0,
+        "any_nontarget_rate": 0.0,
+        "wrongkey_any_sig_rate": 0.0,
+        "n_runs": 30,
+        "n_wrongkey_runs": 30
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the paper below."
+title: "Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG"
+license: MIT
+type: software
+repository-code: "https://github.com/Sanya000/Rent-a-RAG"
+version: "0.1.0"
+authors:
+  - family-names: "Goultiaev Tolstokorov"
+    given-names: "Alexandr"
+    affiliation: "IMDEA Networks Institute; Universidad Carlos III de Madrid"
+  - family-names: "Mouratidis"
+    given-names: "Kyriakos"
+    affiliation: "Singapore Management University"
+  - family-names: "Dogani"
+    given-names: "Javad"
+    affiliation: "IMDEA Networks Institute"
+  - family-names: "Laoutaris"
+    given-names: "Nikolaos"
+    affiliation: "IMDEA Networks Institute"
+preferred-citation:
+  type: conference-paper
+  title: "Rent-a-RAG: Embedding-Space Watermarks for Auditing Third-Party RAG"
+  authors:
+    - family-names: "Goultiaev Tolstokorov"
+      given-names: "Alexandr"
+    - family-names: "Mouratidis"
+      given-names: "Kyriakos"
+    - family-names: "Dogani"
+      given-names: "Javad"
+    - family-names: "Laoutaris"
+      given-names: "Nikolaos"
+  collection-title: "Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP 2026)"
+  year: 2026

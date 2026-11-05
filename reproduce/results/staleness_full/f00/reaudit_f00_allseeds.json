@@ -1,0 +1,1317 @@
+{
+ "01": {
+  "work_dir": "work/farad_dirbucket_naive",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     131,
+     7,
+     6,
+     6,
+     7,
+     5
+    ],
+    "z_raw": [
+     12.77714714471933,
+     2.731086926250244,
+     3.6240070530402595,
+     2.1017021393477995,
+     5.175447937921437,
+     -0.5697692514168399
+    ],
+    "z_gated": [
+     12.77714714471933,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 12.77714714471933,
+    "target_T": 131,
+    "target_bh_detected": true,
+    "queries_to_detection": 11,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.25391849529780564,
+    "validation": {
+     "max_abs_dT": 0,
+     "max_abs_dS": 5.997717380523682e-07,
+     "ok": true
+    }
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     15,
+     155,
+     4,
+     3,
+     2,
+     1
+    ],
+    "z_raw": [
+     3.6756360716272223,
+     10.261632130050522,
+     0.36861697731906906,
+     3.3532378673553467,
+     -0.1253245281961464,
+     2.922685835799913
+    ],
+    "z_gated": [
+     0.0,
+     10.261632130050522,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 10.261632130050522,
+    "target_T": 155,
+    "target_bh_detected": true,
+    "queries_to_detection": 25,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2710843373493976,
+    "validation": {
+     "max_abs_dT": 0,
+     "max_abs_dS": 4.903413355350494e-07,
+     "ok": true
+    }
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     4,
+     0,
+     203,
+     4,
+     4,
+     7
+    ],
+    "z_raw": [
+     3.418362749948546,
+     0.0,
+     10.471680243634234,
+     3.389218611256883,
+     3.919203900614228,
+     6.188238600239838
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     10.471680243634234,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 10.471680243634234,
+    "target_T": 203,
+    "target_bh_detected": true,
+    "queries_to_detection": 11,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.3255131964809384,
+    "validation": {
+     "max_abs_dT": 0,
+     "max_abs_dS": 1.2405216693878174e-06,
+     "ok": true
+    }
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     2,
+     8,
+     3,
+     144,
+     10,
+     8
+    ],
+    "z_raw": [
+     2.104244762507216,
+     1.1079844861091652,
+     0.48904383182525635,
+     12.62361282957736,
+     3.5691936271441267,
+     2.9817990356248725
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     12.62361282957736,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 12.62361282957736,
+    "target_T": 144,
+    "target_bh_detected": true,
+    "queries_to_detection": 12,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.27216174183514774,
+    "validation": {
+     "max_abs_dT": 0,
+     "max_abs_dS": 2.8219074010849e-07,
+     "ok": true
+    }
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     1,
+     12,
+     1,
+     12,
+     159,
+     3
+    ],
+    "z_raw": [
+     0.6584625844385474,
+     2.676719978451729,
+     0.3088587159743826,
+     3.0600633174180984,
+     15.59971886425936,
+     4.476670145988464
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     15.59971886425936,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 15.59971886425936,
+    "target_T": 159,
+    "target_bh_detected": true,
+    "queries_to_detection": 11,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2776957163958641,
+    "validation": {
+     "max_abs_dT": 0,
+     "max_abs_dS": 5.783513188362122e-07,
+     "ok": true
+    }
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     3,
+     3,
+     7,
+     5,
+     179
+    ],
+    "z_raw": [
+     0.0,
+     -1.3391375541687012,
+     -0.5120944082736969,
+     3.1904211973351706,
+     2.536011895999319,
+     12.884577114486795
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     12.884577114486795
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 12.884577114486795,
+    "target_T": 179,
+    "target_bh_detected": true,
+    "queries_to_detection": 21,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.3044822256568779,
+    "validation": {
+     "max_abs_dT": 0,
+     "max_abs_dS": 5.541369318962097e-07,
+     "ok": true
+    }
+   }
+  }
+ },
+ "02": {
+  "work_dir": "work/farad_dirbucket_naive",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     144,
+     4,
+     3,
+     7,
+     4,
+     5
+    ],
+    "z_raw": [
+     10.203437016971256,
+     1.0966989106644267,
+     2.836508870124817,
+     2.2564811048441653,
+     3.3311115170428787,
+     -4.732745354120876
+    ],
+    "z_gated": [
+     10.203437016971256,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 10.203437016971256,
+    "target_T": 144,
+    "target_bh_detected": true,
+    "queries_to_detection": 30,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2561349693251534
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     16,
+     142,
+     5,
+     2,
+     4,
+     0
+    ],
+    "z_raw": [
+     4.038773526490336,
+     13.685632994007618,
+     1.3432974878014505,
+     3.0796185239619063,
+     2.8336667765149395,
+     0.0
+    ],
+    "z_gated": [
+     0.0,
+     13.685632994007618,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 13.685632994007618,
+    "target_T": 142,
+    "target_bh_detected": true,
+    "queries_to_detection": 14,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.25223880597014925
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     5,
+     0,
+     169,
+     2,
+     7,
+     2
+    ],
+    "z_raw": [
+     5.177254929013778,
+     0.0,
+     10.747325961095983,
+     2.518573530868568,
+     5.149110533977337,
+     2.5186464583510846
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     10.747325961095983,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 10.747325961095983,
+    "target_T": 169,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2811550151975684
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     1,
+     5,
+     8,
+     157,
+     0,
+     10
+    ],
+    "z_raw": [
+     -0.11398630649412068,
+     1.7532137585803549,
+     0.7231217604566884,
+     12.07090563375086,
+     0.0,
+     4.544597863849384
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     12.07090563375086,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 12.07090563375086,
+    "target_T": 157,
+    "target_bh_detected": true,
+    "queries_to_detection": 10,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.27136431784107945
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     11,
+     4,
+     4,
+     141,
+     4
+    ],
+    "z_raw": [
+     0.0,
+     5.388239123082559,
+     3.609145904335385,
+     1.9257135871077988,
+     12.660960623150082,
+     4.356128558770574
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     12.660960623150082,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 12.660960623150082,
+    "target_T": 141,
+    "target_bh_detected": true,
+    "queries_to_detection": 8,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.24661654135338346
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     5,
+     5,
+     8,
+     5,
+     168
+    ],
+    "z_raw": [
+     0.0,
+     2.5266851371526697,
+     -1.3338265067938933,
+     4.487239715834832,
+     2.7066965091849746,
+     12.119190636229334
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     12.119190636229334
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 12.119190636229334,
+    "target_T": 168,
+    "target_bh_detected": true,
+    "queries_to_detection": 10,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.28088235294117647
+   }
+  }
+ },
+ "03": {
+  "work_dir": "work/farad_dirbucket_naive",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     148,
+     10,
+     5,
+     8,
+     7,
+     6
+    ],
+    "z_raw": [
+     6.536209963981296,
+     2.2427848785436346,
+     3.360768952007934,
+     2.594383921084791,
+     4.44336433258062,
+     -1.0029573008051926
+    ],
+    "z_gated": [
+     6.536209963981296,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 6.536209963981296,
+    "target_T": 148,
+    "target_bh_detected": true,
+    "queries_to_detection": 27,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2701908957415565
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     11,
+     130,
+     6,
+     4,
+     7,
+     3
+    ],
+    "z_raw": [
+     4.386825335900747,
+     11.585834412133394,
+     0.6225375280691952,
+     2.0102321674479517,
+     4.633773053947818,
+     2.49362576007843
+    ],
+    "z_gated": [
+     0.0,
+     11.585834412133394,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 11.585834412133394,
+    "target_T": 130,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.24283559577677225
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     11,
+     2,
+     154,
+     10,
+     3,
+     2
+    ],
+    "z_raw": [
+     3.015616809107763,
+     3.4394798069450494,
+     11.622280405310399,
+     1.6510455106346942,
+     3.381030797958374,
+     3.7883060449160144
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     11.622280405310399,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 11.622280405310399,
+    "target_T": 154,
+    "target_bh_detected": true,
+    "queries_to_detection": 20,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2736842105263158
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     3,
+     2,
+     7,
+     148,
+     1,
+     17
+    ],
+    "z_raw": [
+     3.5743064880371094,
+     0.28029781931011655,
+     1.7061011209271537,
+     8.64517539914502,
+     1.7562021627055726,
+     3.8118744167625707
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     8.64517539914502,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 8.64517539914502,
+    "target_T": 148,
+    "target_bh_detected": true,
+    "queries_to_detection": 17,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2692889561270802
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     8,
+     11,
+     3,
+     9,
+     140,
+     0
+    ],
+    "z_raw": [
+     -0.7796624772318952,
+     4.132297448703713,
+     3.197137013077736,
+     2.129197823616751,
+     14.472866239741135,
+     0.0
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     14.472866239741135,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 14.472866239741135,
+    "target_T": 140,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.26226993865030673
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     1,
+     7,
+     8,
+     1,
+     148
+    ],
+    "z_raw": [
+     0.0,
+     0.1619255148078627,
+     -0.8807696084680405,
+     2.2163293573527794,
+     1.0248075196524022,
+     11.530367683052676
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     11.530367683052676
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 11.530367683052676,
+    "target_T": 148,
+    "target_bh_detected": true,
+    "queries_to_detection": 13,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.24158125915080528
+   }
+  }
+ },
+ "04": {
+  "work_dir": "work/farad_dirbucket_naive",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     127,
+     10,
+     6,
+     5,
+     4,
+     5
+    ],
+    "z_raw": [
+     10.354486449957326,
+     5.721360159517033,
+     0.19842198906610395,
+     3.0382820712082728,
+     1.6605003609538251,
+     1.8018395384502173
+    ],
+    "z_gated": [
+     10.354486449957326,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 10.354486449957326,
+    "target_T": 127,
+    "target_bh_detected": true,
+    "queries_to_detection": 14,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.22525107604017217
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     19,
+     157,
+     4,
+     3,
+     6,
+     1
+    ],
+    "z_raw": [
+     5.66931317766397,
+     14.73497977777297,
+     6.064797187956622,
+     4.203856587409973,
+     4.160612720379746,
+     -0.6461572533316486
+    ],
+    "z_gated": [
+     0.0,
+     14.73497977777297,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 14.73497977777297,
+    "target_T": 157,
+    "target_bh_detected": true,
+    "queries_to_detection": 10,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2757619738751814
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     5,
+     0,
+     170,
+     5,
+     6,
+     4
+    ],
+    "z_raw": [
+     4.063232425576422,
+     0.0,
+     10.159086964935936,
+     0.5259907212402716,
+     4.184271938085033,
+     2.8461949990535005
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     10.159086964935936,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 10.159086964935936,
+    "target_T": 170,
+    "target_bh_detected": true,
+    "queries_to_detection": 18,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2865761689291101
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     4,
+     4,
+     6,
+     174,
+     3,
+     3
+    ],
+    "z_raw": [
+     2.123602812500333,
+     2.591774663305246,
+     -0.44792992033117146,
+     15.086656842516877,
+     2.255695879459381,
+     3.6574718952178955
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     15.086656842516877,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 15.086656842516877,
+    "target_T": 174,
+    "target_bh_detected": true,
+    "queries_to_detection": 9,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.30124223602484473
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     8,
+     9,
+     7,
+     2,
+     139,
+     3
+    ],
+    "z_raw": [
+     2.023120676258499,
+     2.873076369878152,
+     3.4308346191838304,
+     0.566156012409843,
+     12.907875907244701,
+     1.0499937236309052
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     12.907875907244701,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 12.907875907244701,
+    "target_T": 139,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2545454545454545
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     4,
+     2,
+     3,
+     7,
+     168
+    ],
+    "z_raw": [
+     0.0,
+     0.17944190098866933,
+     0.9542035848845134,
+     3.3410797119140625,
+     3.6482613383030933,
+     11.629055031971637
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     11.629055031971637
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 11.629055031971637,
+    "target_T": 168,
+    "target_bh_detected": true,
+    "queries_to_detection": 18,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2709867452135493
+   }
+  }
+ },
+ "05": {
+  "work_dir": "work/farad_dirbucket_naive",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     143,
+     9,
+     8,
+     6,
+     0,
+     8
+    ],
+    "z_raw": [
+     12.48950618065744,
+     4.060846656474813,
+     3.8502644292319435,
+     1.3062693404335248,
+     0.0,
+     -1.0097425713521928
+    ],
+    "z_gated": [
+     12.48950618065744,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 12.48950618065744,
+    "target_T": 143,
+    "target_bh_detected": true,
+    "queries_to_detection": 18,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2593144560357675
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     5,
+     171,
+     3,
+     7,
+     4,
+     3
+    ],
+    "z_raw": [
+     3.4782287662660876,
+     14.23827016775827,
+     1.9489778503775597,
+     5.765621452017266,
+     4.612497426590443,
+     0.956749677658081
+    ],
+    "z_gated": [
+     0.0,
+     14.23827016775827,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 14.23827016775827,
+    "target_T": 171,
+    "target_bh_detected": true,
+    "queries_to_detection": 12,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2897897897897898
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     5,
+     0,
+     151,
+     6,
+     2,
+     0
+    ],
+    "z_raw": [
+     2.7484772363604524,
+     0.0,
+     9.9957520991862,
+     2.0059339048670037,
+     2.249922044365149,
+     0.0
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     9.9957520991862,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 9.9957520991862,
+    "target_T": 151,
+    "target_bh_detected": true,
+    "queries_to_detection": 21,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2578616352201258
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     10,
+     5,
+     6,
+     168,
+     5,
+     6
+    ],
+    "z_raw": [
+     6.150158894158476,
+     2.222352323296034,
+     0.22292370119969984,
+     13.854227299948993,
+     1.8293459652605313,
+     0.7618561063846536
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     13.854227299948993,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 13.854227299948993,
+    "target_T": 168,
+    "target_bh_detected": true,
+    "queries_to_detection": 12,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.30257186081694404
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     3,
+     4,
+     5,
+     10,
+     130,
+     2
+    ],
+    "z_raw": [
+     1.950311303138733,
+     0.24129329251125645,
+     3.9190962093029182,
+     5.373101484984804,
+     13.01601807233204,
+     1.051489759067932
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     13.01601807233204,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 13.01601807233204,
+    "target_T": 130,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.22713864306784662
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     0,
+     2,
+     3,
+     0,
+     148
+    ],
+    "z_raw": [
+     0.0,
+     0.0,
+     1.1663019257101783,
+     3.6116169691085815,
+     0.0,
+     14.093569918586986
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     14.093569918586986
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 14.093569918586986,
+    "target_T": 148,
+    "target_bh_detected": true,
+    "queries_to_detection": 12,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.22633136094674555
+   }
+  }
+ }
+}

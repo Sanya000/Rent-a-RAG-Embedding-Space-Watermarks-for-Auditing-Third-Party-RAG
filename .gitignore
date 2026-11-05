@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets / local env
+.env
+*.env
+.openai_env
+.gemini_env
+
+# Large or licensed data (download instead, see reproduce/ARTIFACTS.md)
+reproduce/farad/
+reproduce/work/
+reproduce/ward/
+reproduce/.artifacts_cache/
+reproduce/results/rerun/
+*.trials*.jsonl
+reproduce/results/**/answer_cache/
+reproduce/results/**/candidates_debug.jsonl
+# corpora unpacked by download_artifacts.sh (appendix_aux bundle)
+reproduce/results/provider_scaling/**/corpus.jsonl
+reproduce/results/model_robustness*/**/corpus.jsonl
+reproduce/results/provider_scaling/**/provider_keys.json
+reproduce/results/model_robustness*/**/keys.json
+
+# Local model caches and logs
+.hf/
+.cache/
+logs/
+*.log
+reproduce/logs/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

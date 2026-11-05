@@ -1,0 +1,21 @@
+{
+  "seeds": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ],
+  "max_trials": 80,
+  "conditions": {
+    "f10": {
+      "n_target_runs": 30,
+      "median_target_z": 11.19,
+      "min_target_z": 6.71,
+      "bh_detection": "30/30",
+      "any_nontarget_bh": "0/30",
+      "max_nontarget_gated_z": 0.0,
+      "median_queries_to_detection": 15.0
+    }
+  }
+}

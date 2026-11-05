@@ -1,0 +1,24 @@
+{
+  "run_dir": "results/multidomain_full/dirbucket_naive",
+  "n_runs": 30,
+  "bh_detection": "30/30",
+  "fpr_runs_with_any_nontarget_bh": "0/30",
+  "per_domain_median_target_Z": {
+    "clinical": 15.64,
+    "cti": 10.62,
+    "legal": 5.75
+  },
+  "within_domain_sibling_nontarget_gated_Z": {
+    "max": 0.0,
+    "mean": 0.0,
+    "n": 30
+  },
+  "cross_domain_nontarget_gated_Z": {
+    "max": 0.0,
+    "mean": 0.0,
+    "n": 120
+  },
+  "median_queries_to_bh": 19,
+  "n_reached_bh_within_budget": 27,
+  "median_queries_to_Z4": 13
+}

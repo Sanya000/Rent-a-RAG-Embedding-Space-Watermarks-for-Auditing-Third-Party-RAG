@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rentarag"
+version = "0.1.0"
+description = "DirBucket: embedding-space watermarks for auditing third-party RAG (Rent-a-RAG, EMNLP 2026)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+  { name = "Alexandr Goultiaev Tolstokorov" },
+  { name = "Kyriakos Mouratidis" },
+  { name = "Javad Dogani" },
+  { name = "Nikolaos Laoutaris" },
+]
+keywords = ["watermarking", "retrieval-augmented generation", "RAG", "auditing", "embeddings"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "numpy>=1.24",
+  "scipy>=1.10",
+  "sentence-transformers>=2.6",
+  "tqdm>=4.66",
+  "pyyaml>=6.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Sanya000/Rent-a-RAG"
+
+[project.optional-dependencies]
+# LLM backends for paraphrasing and audit-query generation (install the ones you use)
+openai = ["openai>=1.30"]          # OpenAI, Gemini, Ollama, vLLM and other OpenAI-compatible servers
+anthropic = ["anthropic>=0.40"]
+hf = ["transformers>=4.40"]
+litellm = ["litellm>=1.40"]
+all = ["rentarag[openai,anthropic,hf,litellm]"]
+# paper reproduction workspace (reproduce/)
+repro = ["openai>=1.30", "matplotlib>=3.8", "scikit-learn>=1.3", "transformers>=4.40"]
+dev = ["pytest>=8", "pyflakes>=3"]
+
+[project.scripts]
+rentarag = "rentarag.cli:main"
+
+[tool.setuptools]
+packages = ["rentarag"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = [
+  "slow: uses real models from the local HF cache (run with RUN_SLOW=1)",
+]
+addopts = "-ra"

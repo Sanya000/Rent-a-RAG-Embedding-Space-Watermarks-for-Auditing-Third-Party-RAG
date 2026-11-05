@@ -1,0 +1,2271 @@
+{
+  "sentence_summary": {
+    "n_pairs": 100,
+    "n_failed_parse": 0,
+    "meaning_preservation": {
+      "mean": 4.82,
+      "sd": 0.5362835071116768,
+      "n": 100
+    },
+    "naturalness": {
+      "mean": 4.99,
+      "sd": 0.09949874371066199,
+      "n": 100
+    },
+    "factual_consistency_rate": 1.0,
+    "no_omission_rate": 0.94
+  },
+  "answer_summary": {
+    "n_trials": 60,
+    "n_failed_parse": 0,
+    "watermarked_scores": {
+      "relevance": {
+        "mean": 4.933333333333334,
+        "n": 60
+      },
+      "accuracy": {
+        "mean": 4.416666666666667,
+        "n": 60
+      },
+      "completeness": {
+        "mean": 4.583333333333333,
+        "n": 60
+      },
+      "fluency": {
+        "mean": 4.866666666666666,
+        "n": 60
+      }
+    },
+    "source_scores": {
+      "relevance": {
+        "mean": 4.983333333333333,
+        "n": 60
+      },
+      "accuracy": {
+        "mean": 4.666666666666667,
+        "n": 60
+      },
+      "completeness": {
+        "mean": 4.633333333333334,
+        "n": 60
+      },
+      "fluency": {
+        "mean": 4.9,
+        "n": 60
+      }
+    },
+    "preference_counts": {
+      "watermarked": 16,
+      "source": 28,
+      "equivalent": 16,
+      "failed": 0
+    },
+    "preference_rate_watermarked": 0.26666666666666666,
+    "preference_rate_source": 0.4666666666666667,
+    "preference_rate_equivalent": 0.26666666666666666
+  },
+  "sentence_results": [
+    {
+      "pair": {
+        "source": "Bridging the Gap: The Reinvention of Education through Local Partnerships \n\nAmid the fast-paced socio-economic shifts of the 21st century, education systems worldwide are recognizing the necessity to remodel their frameworks to provide students with practical, skills-oriented learning.",
+        "watermarked": "Joining Hands: The Redesign of Education via Local Partnerships",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": -0.020803412422537804
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Key details about socio-economic shifts and practical learning are omitted."
+      }
+    },
+    {
+      "pair": {
+        "source": "It wasn\u2019t just the reduced manufacturing capacities or the trade barriers; it was the awakening to the fact that lean, just-in-time inventory models left many businesses unable to respond to sudden changes in supply and demand.",
+        "watermarked": "The concerns were about more than just diminished manufacturing capabilities and trade barriers; they included a significant realization that lean, just-in-time inventory models left numerous businesses vulnerable to unexpected supply and demand changes.",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": -0.018770448863506317
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Julian Torres states, \u201cIt\u2019s essential that we break down the barriers to entry in tech for underrepresented groups.\u201d Consequently, the workshops are free of charge, offering scholarships for materials and providing equipment for those who need it.",
+        "watermarked": "Julian Torres clearly states that it\u2019s vital to dismantle barriers to entry in tech for those who are underrepresented. Therefore, the workshops are free of charge, providing scholarships for necessary materials and equipment for individuals who require it.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": 0.0087053831666708
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "He used his hardship as a catalyst to propel himself forward, leading his school team to a regional victory and becoming a symbol of hope in his community.",
+        "watermarked": "By using his struggles as a catalyst for change, he moved ahead, leading his school team to a regional victory and becoming a symbol of hope within his community.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": -0.012533564120531082
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Let's dive into the lives of some of these remarkable individuals whose stories illuminate the power of perseverance.",
+        "watermarked": "We will examine the remarkable lives of these individuals, whose compelling stories powerfully highlight the enduring strength of perseverance.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": 0.02458830177783966
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase effectively captures the essence of the original."
+      }
+    },
+    {
+      "pair": {
+        "source": "Once commercialized, Tambo's biodegradable battery could revolutionize not only agriculture but also everyday technology, providing a cleaner and greener alternative to chemical-laden batteries currently in use.",
+        "watermarked": "Tambo's biodegradable battery, once available on the market, has the potential to transform agriculture and everyday technology by offering a cleaner, more eco-friendly option compared to today's chemical-based batteries.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": -0.010928783565759659
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Since the onset of the coronavirus pandemic in early 2020, which underscored the fragility of global supply chains, businesses of all sizes, but particularly SMEs, have grappled with unpredictability and pressure on vendor relations.",
+        "watermarked": "In early 2020, the coronavirus pandemic began, shedding light on the fragility of global supply chains and resulting in businesses\u2014especially SMEs\u2014facing unpredictability and stress on vendor relationships.",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": -0.040874797850847244
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Bridging the Tech Gap \n\nA core tenet of the program is its commitment to inclusivity and diversity.",
+        "watermarked": "The essence of the program is rooted in its dedication to inclusivity and diversity.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": -0.02150295302271843
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's core message."
+      }
+    },
+    {
+      "pair": {
+        "source": "Dr. Price suggested that geological heat vents were the cause.",
+        "watermarked": "It was Dr. Price who indicated that geological heat vents might be the culprit.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.014757190831005573
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Core meaning is preserved with slight variation in wording."
+      }
+    },
+    {
+      "pair": {
+        "source": "Consumers can now try on clothes virtually or see how a piece of furniture would look in their living room before making a purchase, all from the comfort of their homes.",
+        "watermarked": "Shoppers can now experience the convenience of virtually trying on clothes or visualizing how a piece of furniture fits into their living room, all from the comfort of home.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": 0.009147876873612404
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Spearheaded by local tech enthusiasts and educators, this program aims to ignite a passion for technology and computer science among young learners.",
+        "watermarked": "This initiative, led by a group of local educators and tech enthusiasts, aims to foster an enthusiasm for technology and computer science in young learners.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": 0.04163496941328049
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's intent and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Digitization: A Non-Negotiable Trend \n\nThe shift towards an online presence is a no-brainer.",
+        "watermarked": "Embracing digitization is an inevitable trend that must be acknowledged.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": -0.008226102218031883
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Core idea is preserved, but wording differs slightly."
+      }
+    },
+    {
+      "pair": {
+        "source": "This comprehensive dissection aims to shine light on the orchestration behind developing and standardizing curricula that do more than merely academics\u2014they sculpt life-ready individuals.",
+        "watermarked": "This broad analysis aims to clarify the system behind developing and standardizing curricula that create life-ready individuals beyond academics.",
+        "doc_id": "0314",
+        "provider_id": "1",
+        "gain": 0.02232232317328453
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's intent and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Use Cases: Blockchain in Action for SMEs \n\nSMEs have begun to explore various blockchain implementations, from supply chain management to smart contracts.",
+        "watermarked": "Small and medium enterprises have started to explore a range of blockchain applications, from managing supply chains to utilizing smart contracts.",
+        "doc_id": "0087",
+        "provider_id": "0",
+        "gain": -0.00029777269810438156
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Understanding the Digital Divide \n\nSmall and Medium Enterprises have historically thrived on their agility and personalized customer relations.",
+        "watermarked": "Small and Medium Enterprises have been successful over time because of their nimbleness and focus on personalized customer relations.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.022838320583105087
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "These narratives are not just about sports; they are about life, resilience, and the indomitable spirit of young people who, against all odds, overcome challenges to succeed on the playing field.",
+        "watermarked": "Beyond mere sports, these narratives capture the profound aspects of life, resilience, and the indomitable spirit of youth who navigate obstacles and emerge victorious on the playing field.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": 0.024498719722032547
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase effectively captures the essence and details of the original."
+      }
+    },
+    {
+      "pair": {
+        "source": "Spearheaded by Principal Katherine Johnston, this initiative sought to integrate real-world business applications with the school's vocational training programs.",
+        "watermarked": "This program, spearheaded by Principal Katherine Johnston, sought to blend real-world business practices with vocational training at the school.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": 0.01264453399926424
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "SMEs are hence offering solutions such as subscription models, same-day delivery services, and flexible return policies.",
+        "watermarked": "To meet the needs of their customers, SMEs are introducing various solutions, including subscription models, same-day delivery, and flexible return options.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": -0.00029778946191072464
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "For instance, local grocery store chain GreenGarden has integrated online ordering with in-store pick-up and delivery services, which have proven to be a hit among customers who prioritize convenience but still want to support local businesses.",
+        "watermarked": "For example, GreenGarden, a local grocery chain, has combined online ordering with pick-up and delivery options, appealing to customers who value convenience while supporting local enterprises.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": -0.001681959256529808
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "In navigating through coding challenges, they learn the value of patience and the reward of incremental progress.",
+        "watermarked": "As they navigate coding hurdles, they understand the importance of patience and the rewards of steady advancement.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": -0.020803414285182953
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and structure."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Expanding Horizon: Community Learning Centers and Lifelong Education \n\nAs the world shifts into a more dynamic and knowledge-based economy, the emphasis on continuous learning has become paramount.",
+        "watermarked": "The Expanding Horizon: Community Learning Institutions and Lifelong Education",
+        "doc_id": "0231",
+        "provider_id": "0",
+        "gain": -0.0008442122489213943
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Key information about continuous learning is missing."
+      }
+    },
+    {
+      "pair": {
+        "source": "Spotlight on Success: Stories of Young Athletes Overcoming Adversity \n\nIn the world of youth athletics, stories of triumph over adversity are as inspiring as they are illuminating.",
+        "watermarked": "Shining a light on young athletes' success stories of overcoming hardships.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": -0.0031419871374964714
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Core message is preserved, but less detail is included."
+      }
+    },
+    {
+      "pair": {
+        "source": "SMEs like 'Baker Design Studio,' a boutique interior design firm, found out the hard way when they were the target of a cyberattack on October 15, 2023.",
+        "watermarked": "The date October 15, 2023, marked a significant challenge for 'Baker Design Studio,' a boutique interior design firm, as they fell victim to a cyberattack.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": 0.0002617444843053818
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and clearly stated."
+      }
+    },
+    {
+      "pair": {
+        "source": "With online shopping platforms becoming increasingly sophisticated and consumer behavior shifting towards convenience and personalization, local retailers face a growing challenge to stay relevant and competitive.",
+        "watermarked": "Local retailers are facing mounting challenges to remain competitive and relevant due to the increasing sophistication of online shopping platforms and a consumer trend favoring convenience and personalization.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": -0.00029777921736240387
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "High school senior, Sofia Ramirez, eloquently voiced the impact of arts on student well-being and academic performance.",
+        "watermarked": "High school senior Sofia Ramirez passionately conveyed the essential role of the arts in fostering student well-being and driving academic success.",
+        "doc_id": "0307",
+        "provider_id": "0",
+        "gain": -0.07134907692670822
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Maori myths and stories are a result of the deep spiritual beliefs that define this culture.",
+        "watermarked": "The essence of Maori culture is vividly illustrated through its myths and stories, born from deep spiritual convictions.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.0192036684602499
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Sarah Hamilton's Greenhouses: The Mid-Afternoon Creative Spirit \n\nThe soft hum of the innovation will lead us to Sarah Hamilton's smart greenhouses, which are attracting attention in the entire region.",
+        "watermarked": "The creative pulse of the area draws us closer to Sarah Hamilton's greenhouses, which are capturing the attention of the entire region.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": 0.00953424721956253
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase effectively captures the essence of the original."
+      }
+    },
+    {
+      "pair": {
+        "source": "Jenkins's commitment to making farm technologies accessible and ecofriendly is evident in these drones.",
+        "watermarked": "Jenkins's dedication to ensuring that farm technologies are both eco-friendly and accessible is evident through these drones.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": -0.0178277175873518
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "It's no longer just about responding to changes; it's about anticipating them.",
+        "watermarked": "It\u2019s become essential to move beyond responding to changes and start anticipating them.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": -0.00029777269810438156
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's intent and meaning."
+      }
+    },
+    {
+      "pair": {
+        "source": "However, since September 1, 2023, there has been a noticeable shift in the landscape.",
+        "watermarked": "Following September 1, 2023, the landscape has experienced a significant transformation.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.049518436193466187
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Meaning is mostly preserved, but 'noticeable shift' differs from 'significant transformation'."
+      }
+    },
+    {
+      "pair": {
+        "source": "Additionally, the integration of AI and machine learning in customer service is not just a trend for global players.",
+        "watermarked": "The incorporation of AI and machine learning within customer service is a crucial development for international businesses, transcending the label of a mere trend.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": -0.0002977629192173481
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and context."
+      }
+    },
+    {
+      "pair": {
+        "source": "AquaReGen was born out of the need to combat prolonged droughts which affected local farmers.",
+        "watermarked": "AquaReGen came into being as a direct response to the severe and ongoing drought conditions that have negatively impacted local agricultural producers.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": -0.025409601628780365
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "A Day in a Workshop \n\nA typical day at a Youth Coding Workshop involves a blend of instruction, practice, and discussion.",
+        "watermarked": "An ordinary day at a Youth Coding Workshop encompasses a variety of instruction, practical work, and discussions.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": -0.023461319506168365
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and structure."
+      }
+    },
+    {
+      "pair": {
+        "source": "Companies that expanded into new market segments or adapted their product offerings to new customer needs often found alternative revenue streams that helped sustain them when their core business segments were under pressure.",
+        "watermarked": "By expanding into new market segments or reshaping their products in response to customer requirements, companies often generated alternative revenue streams that provided much-needed support when their main business faced adversity.",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": -0.020803406834602356
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "The owner, Mary Baker, recounts, \u201cThe attack compromised our client data and disrupted operations for weeks, leading to a significant loss in revenue and trust.\u201d Many SMEs are unprepared for such threats due to a lack of resources to invest in robust cybersecurity infrastructure.",
+        "watermarked": "Mary Baker, the owner, recalls, \u201cThe attack compromised client data and disrupted our operations for weeks, culminating in a significant erosion of both trust and revenue.\u201d Many SMEs are ill-prepared for these dangers, primarily because they lack the financial resources to establish robust cybersecurity frameworks.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.03163928538560867
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Analyst Michael Thompson, in his October 15, 2023 forecast, noted that consumers have started valuing experiences over products.",
+        "watermarked": "In a forecast dated October 15, 2023, analyst Michael Thompson observed that consumers are increasingly leaning towards valuing experiences instead of products.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": -0.00029774010181427
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "For SMEs, the transparency that blockchain provides is a gamechanger.",
+        "watermarked": "The transparency afforded by blockchain represents a groundbreaking evolution for SMEs, fundamentally changing the way they operate.",
+        "doc_id": "0087",
+        "provider_id": "0",
+        "gain": 0.016400326043367386
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and context."
+      }
+    },
+    {
+      "pair": {
+        "source": "Case Study: From Obscurity to Market Leader \n\nConsider the success story of 'EverFresh Produce', a mid-sized supplier of organic fruits and vegetables based out of Portland, Maine.",
+        "watermarked": "Explore the success narrative of 'EverFresh Produce', a mid-sized supplier of organic produce based out of Portland, Maine.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": 0.04738937318325043
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "**Empowering Individuals through Skills Development** \n\nCLCs have become instrumental in up-skilling adults, meeting local economic demands by aligning courses with job market needs.",
+        "watermarked": "Through their focused approach to skills enhancement, CLCs are not only empowering individuals but also strategically addressing the needs of the local economy.",
+        "doc_id": "0231",
+        "provider_id": "0",
+        "gain": -0.0002977629192173481
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's intent and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "An example of such a partnership is the collaboration between the regional department store chain, Harrison\u2019s, and the global online marketplace, ShopWorld.",
+        "watermarked": "This type of partnership can be exemplified by the alliance between Harrison\u2019s, the regional department store chain, and ShopWorld, the worldwide online marketplace.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": -0.0002977629192173481
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original sentence's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "However, beyond mere online existence, SMEs are aligning their digital platforms with emerging consumer expectations.",
+        "watermarked": "Yet, small and medium enterprises are not just present online; they are also adapting their digital platforms to meet new consumer expectations.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": -0.02052284963428974
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and intent."
+      }
+    },
+    {
+      "pair": {
+        "source": "Community Engagement as a Core Marketing Strategy \n\nLocal businesses have an intrinsic advantage when it comes to community engagement.",
+        "watermarked": "For effective marketing, community engagement should be prioritized.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": -0.00029784999787807465
+      },
+      "parsed": {
+        "meaning": 2,
+        "naturalness": 4,
+        "factual": 1,
+        "complete": 0,
+        "note": "Key information about local businesses is omitted."
+      }
+    },
+    {
+      "pair": {
+        "source": "Educational experts, led by the foresight of figures such as Dr. Carol Hanson, a notable curriculum designer since September 2023, advocate for incorporating community values into the education system.",
+        "watermarked": "Advocating for the incorporation of community values in education, educational experts are spearheaded by Dr. Carol Hanson, a curriculum designer of note since September 2023.",
+        "doc_id": "0314",
+        "provider_id": "1",
+        "gain": -0.06528522074222565
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and clearly expressed."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Comeback Runner: Maria's Marathon of Resilience \n\nThe story of Maria Sanchez is one that resonates with anyone who has ever been told they couldn't do something.",
+        "watermarked": "Maria Sanchez, known as \"The Comeback Runner,\" embodies resilience in her marathon journey, a narrative that connects with those who have been discouraged.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": 0.015219751745462418
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "For numerous SMEs, especially in developing regions or less tech-centric sectors, the divide widens as cutting-edge solutions become more standardized in the marketplace.",
+        "watermarked": "The gap widens for a number of SMEs, particularly in less tech-oriented industries or developing regions, as leading-edge solutions become more standardized within the market.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": 0.015219703316688538
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and structure."
+      }
+    },
+    {
+      "pair": {
+        "source": "This growth underscores a changing tide in educational priorities\u2014one where lifelong education is no longer a luxury, but a necessity.",
+        "watermarked": "The expansion emphasizes a shift in the landscape of education, suggesting that lifelong education is now more than just a luxury; it is a necessity.",
+        "doc_id": "0231",
+        "provider_id": "0",
+        "gain": 0.005755280144512653
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and intent."
+      }
+    },
+    {
+      "pair": {
+        "source": "The image, despite scientific explanations for light refraction and glow-worm behaviors, reignited the chatter about ancient spirits that are believed to roam the caves.",
+        "watermarked": "Despite the robust scientific understanding of light refraction and glow-worm behavior, the image has rekindled passionate discussions about the ancient spirits thought to linger in the caves.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.012367317453026772
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Devin Carter's story is a tale of a man who has devoted his life to solving agricultural problems using simple, yet innovative technologies.",
+        "watermarked": "The story of Devin Carter is a portrayal of a man who has committed his life to solving farming issues through innovative and simple technologies.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": -0.07240799069404602
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "By September 2023, newer platforms have elevated the online shopping experience with the introduction of virtual reality (VR) showrooms and instantaneous drone delivery systems, pivoting the market landscape dramatically.",
+        "watermarked": "By September 2023, the market landscape has been dramatically altered by newer platforms that introduced virtual reality (VR) showrooms and instantaneous drone delivery systems.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": -0.00029777921736240387
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "SME Adaptation to Local Consumer Behavior Shifts \n\nIn the ever-evolving landscape of consumer behavior, small and medium enterprises (SMEs) find themselves at a crucial juncture.",
+        "watermarked": "The need for adaptation is paramount for small and medium enterprises (SMEs) as they navigate the complexities of shifting local consumer behaviors.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": -0.07261539995670319
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's intent and information."
+      }
+    },
+    {
+      "pair": {
+        "source": "Gone are the days of isolated academic endeavors, as the new dawn breaks on schools forming symbiotic relationships with their local business sectors and community groups.",
+        "watermarked": "The past of isolated academic work is behind us, as schools now forge supportive alliances with local businesses and community entities.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": -0.03029683791100979
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and intent."
+      }
+    },
+    {
+      "pair": {
+        "source": "However, Jamal's story is not one of defeat.",
+        "watermarked": "In defiance of defeat, Jamal's story highlights the strength of the human spirit.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": -0.015786930918693542
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "The core message is altered and key information is omitted."
+      }
+    },
+    {
+      "pair": {
+        "source": "The High Stakes of Cybersecurity \n\nThe urgency to digitalize comes with an unwelcome companion \u2014 cybersecurity risks.",
+        "watermarked": "The necessity for digital transformation carries a significant downside \u2014 the risks associated with cybersecurity.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.000297758262604475
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and context."
+      }
+    },
+    {
+      "pair": {
+        "source": "SolScout drones come with a variety of sensors that measure soil moisture and crop health. They can also detect pest infestations.",
+        "watermarked": "SolScout drones are equipped with various sensors that assess soil moisture and evaluate crop health, as well as identify pest infestations.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": 0.06357371062040329
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original information and is fluent."
+      }
+    },
+    {
+      "pair": {
+        "source": "Local Retailers Adopting New Strategies \n\nIn response to these technological trends, local retail businesses have begun to reimagine their strategies.",
+        "watermarked": "To adapt to emerging technologies, local retail stores have started to revise their strategies.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": 0.010476898401975632
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "For instance, RFID tags can offer instant information on an item's whereabouts, turning inventory management from an educated guess into a precise science.",
+        "watermarked": "For example, RFID tags can quickly provide insights about where an item is, converting inventory management from educated assumptions to an exact science.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": -0.02913183718919754
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "In the case of 'EverFresh Produce', sensors are placed in packaging that detects and records temperature to ensure optimal conditions for perishable goods during transit.",
+        "watermarked": "To ensure optimal conditions for perishable products during transport, 'EverFresh Produce' has placed sensors in its packaging that effectively detect and record temperature.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": -0.004706060513854027
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Beginner sessions for young participants introduce the fundamentals of computational thinking and problem-solving.",
+        "watermarked": "Young participants embarking on their journey in computational thinking and problem-solving are guided through beginner sessions that introduce key concepts.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": -0.017356686294078827
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Navigating the Skill Gap \n\nSMEs are also grappling with the skill gap that exists within their workforce when it comes to employing new technologies.",
+        "watermarked": "Small and medium enterprises are currently facing a challenge: the skill gap within their workforce related to the implementation of new technologies.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": 0.04594472050666809
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Keller cites the example of a small automotive parts manufacturer that managed to sidestep severe disruptions by not relying on a single supplier: \"They had fostered relationships with local subcontractors and sought suppliers from different regions, which saved them when their main Asian supplier's lead times went haywire.\" \n\nDiversification extends beyond sourcing; it also touches on product lines and markets.",
+        "watermarked": "As Keller notes, a small automotive parts manufacturer sidestepped major disruptions by ensuring they were not reliant on a single supplier: \u201cThey nurtured relationships with local subcontractors and investigated suppliers from different areas, saving them when their main supplier in Asia had delivery issues.\"",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": 0.011332102119922638
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects original meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "By accounting for demographic factors, regional employment trends, and cultural dynamics, CLCs ensure their relevance and effectiveness.",
+        "watermarked": "Through a comprehensive understanding of demographic variables, regional job trends, and cultural dynamics, CLCs fortify their relevance and effectiveness.",
+        "doc_id": "0231",
+        "provider_id": "0",
+        "gain": -0.00029778946191072464
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Taniwha - Shapeshifters of the Waterways \n\nTaniwha are the people who inhabit the rivers, lakes and oceans in New Zealand.",
+        "watermarked": "In the waterways of New Zealand, including rivers, lakes, and oceans, the Taniwha can be found.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": 0.018379420042037964
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "The journey of a young athlete is synonymous with the path of growth and character-building, and here in our community, we have a rich tapestry of such stories.",
+        "watermarked": "The journey of a young athlete is more than just a sporting endeavor; it is a rich narrative of growth and character-building, vividly illustrated by the stories in our community.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": -0.005116147454828024
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Core ideas are preserved with slight rephrasing."
+      }
+    },
+    {
+      "pair": {
+        "source": "Understanding the Shift in Consumer Behavior \n\nThe year 2023 witnessed a remarkable transformation in local consumer behavior, pivoted by the pandemic-induced changes and accelerated by an increased reliance on technology.",
+        "watermarked": "In 2023, local consumer behavior underwent a significant change driven by pandemic-related shifts and a greater dependence on technology.",
+        "doc_id": "0115",
+        "provider_id": "0",
+        "gain": 0.11726801097393036
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "The stories told by cave guides include a ghostly canoe (waka) floating through the caverns, and strange songs echoing from the stalactites.",
+        "watermarked": "Cave guides weave tales of a ghostly canoe (waka) that glides eerily through the caverns, with haunting songs reverberating from the stalactites like whispers of the past.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.03719441592693329
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase effectively captures the essence and details of the original."
+      }
+    },
+    {
+      "pair": {
+        "source": "One such educator, Emily Thompson, an engineering teacher, embraced the shift.",
+        "watermarked": "Emily Thompson, who works as an engineering teacher, embraced the transition with enthusiasm.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": -0.020803384482860565
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Core information is preserved, but 'shift' changed to 'transition'."
+      }
+    },
+    {
+      "pair": {
+        "source": "Assessment and Evaluation: Measuring Educational Outcomes \n\nAssessments play a central role in curriculum development.",
+        "watermarked": "Curriculum development is significantly influenced by the role of assessments.",
+        "doc_id": "0314",
+        "provider_id": "1",
+        "gain": -0.02150293067097664
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and is fluent."
+      }
+    },
+    {
+      "pair": {
+        "source": "For a swimmer, respiratory issues can be a daunting obstacle, but for Lily, it became another lap in her swim diary.",
+        "watermarked": "While respiratory difficulties can pose a serious challenge for swimmers, for Lily, it was merely another lap in her swimming log.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": 0.012706451117992401
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "This research then sets the stage for establishing the content, goals, and instructional methods that will shape the educational experiences of students for years to come.",
+        "watermarked": "This research fundamentally establishes the parameters for the content, objectives, and pedagogical methods that will dictate the educational experiences of students for generations.",
+        "doc_id": "0314",
+        "provider_id": "1",
+        "gain": 0.006321251392364502
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's intent and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Financial advisor Julia Ivanov pointed out on September 30, 2023, \u201cWith blockchain, SMEs are poised to tap into global markets with fewer financial barriers, lower costs, and increased speed of transactions.\u201d As blockchain continues to mature, its potential to streamline and secure financial operations for SMEs becomes increasingly apparent.",
+        "watermarked": "On September 30, 2023, Julia Ivanov, a financial advisor, pointed out that blockchain enables SMEs to access global markets with reduced financial barriers, lower costs, and quicker transactions. The continuing development of blockchain technology shows its potential to enhance the financial operations of SMEs.",
+        "doc_id": "0087",
+        "provider_id": "0",
+        "gain": -0.02519412338733673
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "This water-saving unit recycles agricultural runoff to replenish it with essential nutrients.",
+        "watermarked": "This unit conserves water by recycling agricultural runoff and adding vital nutrients back into it.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": 0.023744644597172737
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately conveys original meaning and is fluent."
+      }
+    },
+    {
+      "pair": {
+        "source": "Since September 2023, there has been an upsurge in SMEs adopting IoT solutions thanks to the technology becoming more accessible and cost-effective.",
+        "watermarked": "From September 2023, there has been a noticeable rise in SMEs adopting IoT solutions, driven by the technology\u2019s enhanced accessibility and lower costs.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": 0.0006041973829269409
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Concurrently, GreenLeaf Sustainability Co. allowed students to collaborate on environmental projects, embedding sustainable practices and eco-consciousness into everyday learning.",
+        "watermarked": "Simultaneously, with the help of GreenLeaf Sustainability Co., students engaged in collaborative environmental projects, incorporating sustainable practices and eco-awareness into their learning.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": 0.044599179178476334
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "The stress and uncertainty took a toll on him, both academically and athletically.",
+        "watermarked": "Struggling with stress and uncertainty had a negative influence on his academic and athletic achievements.",
+        "doc_id": "0150",
+        "provider_id": "0",
+        "gain": -0.018553609028458595
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and context."
+      }
+    },
+    {
+      "pair": {
+        "source": "Her platform offers SMEs the ability to integrate IoT data with machine learning algorithms for dynamic routing, inventory forecasting, and even predictive maintenance for machinery and transport vehicles.",
+        "watermarked": "Her platform allows small and medium enterprises to intricately blend IoT data with machine learning algorithms, leading to advancements in dynamic routing, inventory forecasting, and predictive maintenance for machinery and transport vehicles.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": 0.0018306029960513115
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately conveys all original information."
+      }
+    },
+    {
+      "pair": {
+        "source": "Devi Carter: An Early Ray Of Innovation \n\nDevin Carter's modest workshop is located on the outskirts, in the green, of our city.",
+        "watermarked": "In our city\u2019s green outskirts, Devin Carter has established a modest workshop that serves as an early beacon of innovation.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": 0.013758319430053234
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and presented naturally."
+      }
+    },
+    {
+      "pair": {
+        "source": "For many SMEs, the budget required for digital upgrades is alarming.",
+        "watermarked": "Many SMEs are taken aback by the budget needed for digital improvements.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.0285227969288826
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and context."
+      }
+    },
+    {
+      "pair": {
+        "source": "As students progress, they delve into more complex concepts like algorithms, data structures, and app development.",
+        "watermarked": "With each step forward in their studies, students delve into advanced topics like algorithms, data structures, and how to develop applications.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": 0.004750404506921768
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Rather than transactional interactions, successful SMEs view their vendors as strategic partners, nurturing a sense of mutual dependency and loyalty.",
+        "watermarked": "Rather than limiting interactions to mere transactions, successful SMEs elevate their vendors to the status of strategic partners, nurturing deep loyalty and interdependence.",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": -0.061537966132164
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and intent."
+      }
+    },
+    {
+      "pair": {
+        "source": "Challenges and Considerations for Blockchain Adoption \n\nDespite the promise of blockchain, SMEs face challenges in adopting the technolo",
+        "watermarked": "The Difficulties and Considerations Surrounding Blockchain Adoption",
+        "doc_id": "0087",
+        "provider_id": "0",
+        "gain": -0.00029777269810438156
+      },
+      "parsed": {
+        "meaning": 4,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Omitted mention of SMEs and the promise of blockchain."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Personal Touch in Digital Commerce \n\nAnother trend that has become eminent is personalized shopping experiences.",
+        "watermarked": "One trend that stands out is the emphasis on personalized shopping experiences in digital commerce.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": -0.00029784999787807465
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and context."
+      }
+    },
+    {
+      "pair": {
+        "source": "Irene Martin shared a story of a group who felt a sudden drop in temperature and saw strange lights floating between the kauri tree.",
+        "watermarked": "Irene Martin mentioned a group that sensed a sudden temperature decrease and noticed strange lights floating near the kauri tree.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": 0.02984650805592537
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately conveys the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "The Genesis of Coding Workshops \n\nIn the heart of the metro area, a dedicated team led by software engineer Julian Torres and educator Maria Gomez embarked on a mission to equip children and teens with coding skills.",
+        "watermarked": "In an ambitious endeavor, Julian Torres, a software engineer, and Maria Gomez, an educator, united their efforts to create coding workshops in the heart of the metropolitan area, targeting the youth.",
+        "doc_id": "0146",
+        "provider_id": "1",
+        "gain": 0.012644519098103046
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and clearly expressed."
+      }
+    },
+    {
+      "pair": {
+        "source": "Overcoming Resistance to Change \n\nA subtle but potent challenge is the innate resistance to change that can pervade an SME's culture.",
+        "watermarked": "The innate resistance to change presents a subtle yet formidable challenge that can pervade the culture of SMEs.",
+        "doc_id": "0198",
+        "provider_id": "0",
+        "gain": -0.0029713045805692673
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and structure."
+      }
+    },
+    {
+      "pair": {
+        "source": "In this stage, materials and topics are chosen to reflect diverse perspectives and ensure inclusivity.",
+        "watermarked": "In this stage, we select materials and topics that reflect a wide array of perspectives to promote inclusivity.",
+        "doc_id": "0314",
+        "provider_id": "1",
+        "gain": 0.007447581272572279
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's intent and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Moreover, the federal government contributes by offering funding and broad directives through acts like the Every Student Succeeds Act (ESSA).",
+        "watermarked": "Via the Every Student Succeeds Act (ESSA), the federal government helps to fund and guide education with broad directives.",
+        "doc_id": "0307",
+        "provider_id": "0",
+        "gain": -0.00029774010181427
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects original meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "These innovative partnerships have been the subject of educators' and policymakers' recent attention, being dissected for their merits and capacity for replication.",
+        "watermarked": "Recently, there has been notable attention from educators and policymakers on these innovative partnerships, which are being examined for their merits and replicability.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": 0.051092252135276794
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "We want students to graduate not just with qualifications, but as rounded, community-conscious individuals.\" \n\nEmpowering Educators to Drive Change \n\nBehind the success of these partnerships lies the reinvigorated role of educators in facilitating change within the educational landscape.",
+        "watermarked": "We strive for our students to not only earn their qualifications but also to graduate as community-conscious and well-rounded individuals.",
+        "doc_id": "0366",
+        "provider_id": "1",
+        "gain": 0.021794624626636505
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's intent and meaning."
+      }
+    },
+    {
+      "pair": {
+        "source": "Technologies such as AI, IoT, and blockchain have given SMEs access to real-time data, predictive analytics, and transparent transaction logs.",
+        "watermarked": "AI, IoT, and blockchain technologies have enabled SMEs to tap into real-time data, predictive analytics, and clear transaction records.",
+        "doc_id": "0344",
+        "provider_id": "1",
+        "gain": 0.01264453399926424
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "In 2023, it's tea time and Rick Sandoval is installing his latest soil sensor model i",
+        "watermarked": "While it\u2019s tea time in 2023, Rick Sandoval is focused on setting up his newest soil sensor model.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": 0.04777253419160843
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original sentence's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "This figure is sometimes associated with Ngatoroirangi a Maori Navigator who, according legend, summoned fires from his home to warm himself up on the mountain.",
+        "watermarked": "There are instances when this figure is associated with Ngatoroirangi, a Maori navigator who, according to legend, summoned fires from his home to provide warmth on the mountain.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": 0.026469390839338303
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "This move toward predictive analytics was markedly advanced when small business owner Anita Rodriguez launched her IoT-driven logistics company 'TrackWise Solutions' in January 2024.",
+        "watermarked": "With the establishment of her IoT-based logistics firm 'TrackWise Solutions' in January 2024, small business owner Anita Rodriguez played a crucial role in advancing predictive analytics.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": 0.021723367273807526
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is accurately conveyed and well-phrased."
+      }
+    },
+    {
+      "pair": {
+        "source": "Founder Johnathan Meyers recalls the struggles before adopting an IoT-based supply chain system in late 2023.",
+        "watermarked": "Late 2023 marked a turning point for founder Johnathan Meyers, who remembers the significant struggles encountered before the adoption of an IoT-based supply chain system.",
+        "doc_id": "0273",
+        "provider_id": "1",
+        "gain": -0.008327272720634937
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "All key information is preserved and reads naturally."
+      }
+    },
+    {
+      "pair": {
+        "source": "Some have created partnerships with e-commerce platforms to offer local products online, leveraging the established infrastructure and wider audience reach of these sites.",
+        "watermarked": "Certain individuals have teamed up with e-commerce platforms to sell local products online, using the existing infrastructure and larger audience these sites provide.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": -0.00029777176678180695
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Customtailored recommendations powered by AI algorithms are a key selling point for e-commerce platforms.",
+        "watermarked": "AI-driven custom recommendations are a pivotal selling feature for platforms in the e-commerce sector.",
+        "doc_id": "0340",
+        "provider_id": "0",
+        "gain": 0.018916094675660133
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Maya's creations are not only technological marvels, but also designed with sustainability in mind.",
+        "watermarked": "Maya has ingeniously merged technology and sustainability in her exceptional creations.",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": -0.04012475535273552
+      },
+      "parsed": {
+        "meaning": 3,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 0,
+        "note": "Key aspects of technological marvels and design intent are omitted."
+      }
+    },
+    {
+      "pair": {
+        "source": "This philosophy is reflected in his latest invention, \"AquaReGen\".",
+        "watermarked": "The essence of this philosophy is captured in his recent invention, \"AquaReGen.\"",
+        "doc_id": "0022",
+        "provider_id": "0",
+        "gain": 0.004335389472544193
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Maori legends are woven around these supernatural creatures, which can take on many forms.",
+        "watermarked": "In the realm of Maori legends, these supernatural entities are known to have many different forms.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": 0.06173788011074066
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "Legends tell of the sighting of a ghostly, flame-encircled figure.",
+        "watermarked": "Folklore recounts the appearance of a ghostly figure surrounded by flames.",
+        "doc_id": "0039",
+        "provider_id": "0",
+        "gain": -0.01180964708328247
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    },
+    {
+      "pair": {
+        "source": "As they pivot towards the future, a revolutionary development is shaping how they operate: blockchain technology.",
+        "watermarked": "In their shift towards the future, a game-changing advancement is redefining their operations: blockchain technology.",
+        "doc_id": "0087",
+        "provider_id": "0",
+        "gain": 0.012419372797012329
+      },
+      "parsed": {
+        "meaning": 5,
+        "naturalness": 5,
+        "factual": 1,
+        "complete": 1,
+        "note": "Paraphrase accurately reflects the original's meaning and details."
+      }
+    }
+  ],
+  "answer_results": [
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What historical influences and events have shaped the culinary tradition of Sats"
+      },
+      "src_answer_excerpt": "The culinary tradition of Satsuma-age has been shaped by various historical influences and events, particularly during the 16th century. Chef Hiroshi ",
+      "wm_answer_excerpt": "The culinary tradition of Satsuma-age has been significantly shaped by historical events and cultural influences, particularly those from the Satsuma ",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "How did Oliver King, Maria, and Aarav Patel each navigate their cultural adaptat"
+      },
+      "src_answer_excerpt": "Oliver King, Maria, and Aarav Patel each embarked on unique journeys of cultural adaptation in their new urban environments, reflecting their individu",
+      "wm_answer_excerpt": "Oliver King, Maria, and Aarav Patel each approached their cultural adaptations in unique ways, reflecting their personal journeys in new environments.",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How are local businesses in Yonkers adapting to the rise of e-commerce, and what"
+      },
+      "src_answer_excerpt": "Local businesses in Yonkers are actively adapting to the rise of e-commerce by integrating online sales platforms and embracing technological innovati",
+      "wm_answer_excerpt": "Local businesses in Yonkers are actively adapting to the rise of e-commerce by embracing digital platforms and advanced technologies to enhance their ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are some specific examples of adult learners mentioned in the document, inc"
+      },
+      "src_answer_excerpt": "The documents highlight several specific examples of adult learners, each with distinct motivations for pursuing education:\n\n1. **Sarah Gibson (28 yea",
+      "wm_answer_excerpt": "The recent increase in adult education enrollment since September 1, 2023, has led to a significant expansion of learning opportunities tailored to di",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "How has the use of social media in the municipal elections after September 1, 20"
+      },
+      "src_answer_excerpt": "Following September 1, 2023, social media has significantly reshaped political participation and voter attitudes in municipal elections. Candidates, i",
+      "wm_answer_excerpt": "The use of social media in the municipal elections following September 1, 2023, has significantly transformed political participation and voter attitu",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "How has the innovative spirit of local entrepreneurs, such as Emily Johnston and"
+      },
+      "src_answer_excerpt": "The innovative spirit of local entrepreneurs has played a significant role in transforming the community by redefining space utilization, fashion etho",
+      "wm_answer_excerpt": "Local entrepreneurs like Emily Johnston and Sophia Marquez are significantly transforming their communities by reimagining space utilization, fashion,",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key findings and recommendations regarding air pollution in urban e"
+      },
+      "src_answer_excerpt": "The report released on October 10, 2023, highlights the serious public health risks associated with urban air pollution, noting that it leads to appro",
+      "wm_answer_excerpt": "The report released on October 10, 2023, underscores the severe health risks associated with air pollution in urban areas, attributing approximately 4",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "How do the contributions of educators and subject matter experts, such as Mr. Je"
+      },
+      "src_answer_excerpt": "Educators and subject matter experts play a crucial role in the development of curricula and learning objectives by providing their expertise and insi",
+      "wm_answer_excerpt": "Educators and subject matter experts play a crucial role in shaping school curricula and learning objectives by leveraging insights gained from extens",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are some specific programs and services offered by Community Learning Cente"
+      },
+      "src_answer_excerpt": "Community Learning Centers (CLCs) offer a variety of programs and services designed to meet the specific needs of their communities. Jennifer Parker, ",
+      "wm_answer_excerpt": "Community Learning Centers (CLCs) offer a variety of programs tailored to meet the specific needs of their communities. Jennifer Parker from the Elmwo",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key developments and insights regarding AI in cybersecurity as high"
+      },
+      "src_answer_excerpt": "The integration of Artificial Intelligence (AI) into cybersecurity has become essential due to the increasing sophistication of cyber threats. Key dev",
+      "wm_answer_excerpt": "Recent developments in AI and cybersecurity reveal significant advancements and ongoing challenges. On November 15, 2023, CyberSecureTech launched \"Se",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What key events and factors led to the proclamation of independence by Netlandia"
+      },
+      "src_answer_excerpt": "The declaration of independence by Netlandia, Digitopia, and the Silicon Enclave on November 12, 2024, was the culmination of several key events and f",
+      "wm_answer_excerpt": "The proclamation of independence by Netlandia, Digitopia, and the Silicon Enclave on November 12, 2024, was influenced by a combination of escalating ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What are the key components of Halifax's infrastructure initiative launched by t"
+      },
+      "src_answer_excerpt": "Halifax's infrastructure initiative, recently launched by the City Council, encompasses several significant projects aimed at transforming the city's ",
+      "wm_answer_excerpt": "Halifax's City Council has embarked on an ambitious infrastructure initiative aimed at revitalizing the city's roads, bridges, and public buildings, w",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What specific initiatives has InspirePay Corp implemented to enhance employee em"
+      },
+      "src_answer_excerpt": "InspirePay Corp has introduced several initiatives aimed at enhancing employee empowerment in expense reporting, with a focus on streamlining processe",
+      "wm_answer_excerpt": "InspirePay Corp has introduced several initiatives to empower employees in managing their expense reporting. A significant aspect of this effort is th",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are the key components of the community mental health initiative launched i"
+      },
+      "src_answer_excerpt": "The community mental health initiative in Wellridge, known as the \"Wellridge Wellness Watch\" (WWW), was launched in September 2023 with the primary go",
+      "wm_answer_excerpt": "The community mental health initiative launched in Wellridge in September 2023 focuses on increasing mental health awareness and creating a supportive",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key infrastructure projects highlighted in the council's new develo"
+      },
+      "src_answer_excerpt": "The recent infrastructure development plans across several cities have unveiled a range of key projects that are set to significantly enhance urban li",
+      "wm_answer_excerpt": "The council's new development plan emphasizes several key infrastructure projects aimed at transforming local environments and enhancing community eng",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What are the key components and timeline of Dr. Emily Richards' mindfulness work"
+      },
+      "src_answer_excerpt": "Dr. Emily Richards' mindfulness workshops began on September 15, 2023, and are designed to help individuals manage stress through a comprehensive appr",
+      "wm_answer_excerpt": "Dr. Emily Richards initiated her mindfulness workshops on September 15, 2023, in response to the growing need for effective stress management strategi",
+      "flipped": false,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What significant changes occurred in the digital art landscape following Septemb"
+      },
+      "src_answer_excerpt": "Following September 2023, the digital art landscape underwent transformative changes, largely driven by the emergence of new platforms and technologie",
+      "wm_answer_excerpt": "Following September 2023, the digital art landscape experienced substantial transformation, primarily driven by the emergence of innovative platforms ",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What insights did Elma Griffith share about the local community's engagement wit"
+      },
+      "src_answer_excerpt": "On November 5, 2023, Elma Griffith shared insights into how the local community in Luxor remains deeply connected to ancient Egyptian folklore and the",
+      "wm_answer_excerpt": "On November 5, 2023, Elma Griffith shared insights into how the local community actively engages with folklore and supernatural phenomena, particularl",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key findings and recommendations regarding air pollution in urban e"
+      },
+      "src_answer_excerpt": "The report released on October 10, 2023, reveals critical insights into the issue of air pollution in urban areas, emphasizing its severe public healt",
+      "wm_answer_excerpt": "The report released on October 10, 2023, reveals alarming statistics regarding air pollution, indicating that approximately 4.2 million people die ann",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are some specific community tech programs mentioned in the document that ai"
+      },
+      "src_answer_excerpt": "Several community tech programs highlighted in the documents focus on improving digital literacy for various demographics:\n\n1. **Tech Together**: Laun",
+      "wm_answer_excerpt": "Several community tech programs are highlighted in the documents, each targeting specific demographics and addressing unique needs. The \"Silver Surfer",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are some key developments in sustainable technology highlighted in the docu"
+      },
+      "src_answer_excerpt": "Recent developments in sustainable technology emphasize a significant shift towards eco-friendly practices across various sectors, driven by innovativ",
+      "wm_answer_excerpt": "Recent developments in sustainable technology emphasize a significant shift toward eco-friendly innovations across various sectors. Notably, startups ",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What key events and contributions to autumn cooking were highlighted in Taylor G"
+      },
+      "src_answer_excerpt": "In Taylor Greene's article from September 8, 2023, several key events and contributions to autumn cooking were highlighted. One of the central themes ",
+      "wm_answer_excerpt": "In Taylor Greene's article from September 8, 2023, the transition into autumn cooking is celebrated through a focus on comforting flavors and seasonal",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What specific events and responses illustrate the resilience of Karachi in the f"
+      },
+      "src_answer_excerpt": "Karachi has demonstrated remarkable resilience in the face of natural disasters, particularly highlighted by the severe rainfall event on September 5,",
+      "wm_answer_excerpt": "Karachi has demonstrated remarkable resilience in the face of natural disasters, particularly during the recent monsoon season when the city experienc",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are some key examples and insights shared by Professor Sophia Ramirez and o"
+      },
+      "src_answer_excerpt": "Professor Sophia Ramirez emphasizes that rituals serve as a vital link between communities and their historical traditions, acting as a language throu",
+      "wm_answer_excerpt": "Professor Sophia Ramirez emphasized that rituals and superstitions are vital for expressing cultural values and fostering community bonds. They serve ",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What specific infrastructure improvements has Vancouver's City Council planned i"
+      },
+      "src_answer_excerpt": "Vancouver's City Council has outlined a series of significant infrastructure improvements aimed at addressing aging infrastructure. Key initiatives in",
+      "wm_answer_excerpt": "Vancouver's City Council has initiated significant infrastructure improvements aimed at addressing the challenges posed by aging facilities. Key proje",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What were the specific causes and dates of the transit disruptions experienced i"
+      },
+      "src_answer_excerpt": "The specific causes and dates of the transit disruptions in New York City, Los Angeles, and Miami are as follows:\n\n- **New York City**: On September 5",
+      "wm_answer_excerpt": "In New York City, a significant disruption occurred on September 5, 2023, when the subway system experienced a complete shutdown due to a failure in t",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What were the key elements of the public service delivery initiative launched by"
+      },
+      "src_answer_excerpt": "The public service delivery initiative launched by Mayor Julius Green in Redfield City on September 5, 2023, aimed to address the inefficiencies withi",
+      "wm_answer_excerpt": "The public service delivery initiative launched by Mayor Julius Green in Redfield City on September 5, 2023, aimed to enhance governance through a ser",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What specific actions and collaborations have been undertaken by Evergreen Valle"
+      },
+      "src_answer_excerpt": "Evergreen Valley has implemented several significant actions and collaborations aimed at promoting environmental sustainability, with a structured pla",
+      "wm_answer_excerpt": "Evergreen Valley has actively engaged in various initiatives aimed at enhancing environmental sustainability, particularly through infrastructure deve",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What specific actions and strategies did Greenhaven implement in its sustainabil"
+      },
+      "src_answer_excerpt": "Greenhaven's sustainability plan, announced on September 4, 2023, aimed to transform the city's energy systems by 2030, reflecting a broader global sh",
+      "wm_answer_excerpt": "Greenhaven's sustainability plan, launched on September 4, 2023, focused on significant energy system upgrades aimed at transforming the city into a g",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What strategies did community theaters employ to secure funding after the pandem"
+      },
+      "src_answer_excerpt": "After the pandemic, community theaters implemented several innovative strategies to secure funding, adapting to the changing landscape of arts financi",
+      "wm_answer_excerpt": "In the aftermath of the pandemic, community theaters have adopted various innovative funding strategies to sustain their operations. Key methods inclu",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What are some of the key factors contributing to internet interruptions as highl"
+      },
+      "src_answer_excerpt": "Key factors contributing to internet interruptions include complex infrastructure vulnerabilities, human error, environmental impacts, and cyberattack",
+      "wm_answer_excerpt": "Internet interruptions are influenced by a variety of factors, including natural disasters, human errors, and cyberattacks. The recent surge in outage",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are the key developments in corporate recycling strategies highlighted in t"
+      },
+      "src_answer_excerpt": "Recent developments in corporate recycling strategies emphasize a significant shift in how businesses approach waste management, highlighting the impo",
+      "wm_answer_excerpt": "Recent developments in corporate recycling strategies emphasize a shift toward sustainability driven by innovative technologies and leadership from in",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "How are candidates like Vasquez and Jensen adapting their campaign strategies to"
+      },
+      "src_answer_excerpt": "Candidates like Michelle Vasquez and Omar Jensen are significantly adapting their campaign strategies to connect with younger voters ahead of the muni",
+      "wm_answer_excerpt": "Candidates like Vasquez and Jensen are increasingly relying on social media to connect with younger voters ahead of the municipal elections on Novembe",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are the key challenges and statistics related to student privacy in online "
+      },
+      "src_answer_excerpt": "The transition to online education has significantly increased the challenges surrounding student privacy and data security. As of September 2023, nea",
+      "wm_answer_excerpt": "The transition to online education in September 2023 has brought significant challenges regarding student privacy and cybersecurity. Nearly 90% of edu",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What experiences do Sarah Johnston and Zoe and Liam Greene share as new parents "
+      },
+      "src_answer_excerpt": "Sarah Johnston and Zoe and Liam Greene, both new parents, share similar experiences that highlight the emotional complexities of parenthood during the",
+      "wm_answer_excerpt": "Sarah Johnston and Zoe and Liam Greene, both new parents, navigate the profound emotional landscape that accompanies their new responsibilities in Jan",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key reasons highlighted in the document for the necessity of redund"
+      },
+      "src_answer_excerpt": "The documents emphasize several key reasons for the necessity of redundant systems in telecommunications, particularly in light of recent service outa",
+      "wm_answer_excerpt": "The necessity of redundant systems in telecommunications is underscored by the increasing frequency of service outages and the vulnerabilities inheren",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key elements of Maria Conti's culinary tradition as described in th"
+      },
+      "src_answer_excerpt": "Maria Conti, an 85-year-old from Tuscany, Italy, embodies a rich culinary tradition through her heirloom recipe for ciabatta. This recipe, over a cent",
+      "wm_answer_excerpt": "Maria Conti, an 85-year-old resident of Tuscany, Italy, embodies the essence of culinary tradition through her skilled preparation of a century-old ci",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are the key details regarding the initiatives to restore wetlands mentioned"
+      },
+      "src_answer_excerpt": "The initiatives to restore wetlands highlighted in the documents emphasize community involvement and ecological resilience. Here are the key details:\n",
+      "wm_answer_excerpt": "Recent initiatives aimed at restoring wetlands highlight a growing community awareness of environmental issues, particularly since September 2023. A s",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are the specific impacts of urban sprawl on wildlife populations and habita"
+      },
+      "src_answer_excerpt": "Urban sprawl has significantly impacted wildlife populations and habitats, leading to a range of detrimental effects. Since September 1, 2023, there h",
+      "wm_answer_excerpt": "Urban sprawl significantly impacts wildlife populations and their habitats, leading to a range of detrimental effects. Reports indicate a 15% decline ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How has the integration of yoga into the community, particularly among teenagers"
+      },
+      "src_answer_excerpt": "The integration of yoga into the community, especially among teenagers, has gained significant momentum through the efforts of dedicated individuals a",
+      "wm_answer_excerpt": "The integration of yoga into the community has gained significant momentum, particularly among teenagers, thanks to the support of key individuals and",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "How did the community's support for amateur sports teams, particularly the Rosev"
+      },
+      "src_answer_excerpt": "In the fall of 2023, community support for amateur sports teams, particularly the Roseville Ravens, was evident through the active participation of lo",
+      "wm_answer_excerpt": "In the fall of 2023, community support for amateur sports teams, especially the Roseville Ravens, was evident through the consistent attendance of ded",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What strategies are candidates in Bhopal employing to engage voters in the upcom"
+      },
+      "src_answer_excerpt": "Candidates in Bhopal are utilizing a blend of traditional and modern strategies to engage voters in the upcoming municipal elections. One key approach",
+      "wm_answer_excerpt": "Candidates in Bhopal are utilizing a combination of traditional and modern engagement strategies to connect with voters ahead of the municipal electio",
+      "flipped": true,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are some key recommendations and insights provided in the guide produced by"
+      },
+      "src_answer_excerpt": "The guide produced by the Local Health and Wellness team emphasizes several key recommendations for accessing mental health services effectively:\n\n1. ",
+      "wm_answer_excerpt": "The guide produced by the Local Health and Wellness team emphasizes the importance of understanding one's mental health needs before seeking services.",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are some specific community tech programs mentioned in the document, and wh"
+      },
+      "src_answer_excerpt": "The documents highlight several community tech programs aimed at enhancing digital literacy and bridging the digital divide across various demographic",
+      "wm_answer_excerpt": "Several community tech programs are highlighted in the documents, each aiming to enhance digital literacy and skills among specific target audiences. ",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are three specific contributions or events related to wood-fired cooking hi"
+      },
+      "src_answer_excerpt": "Three notable contributions related to wood-fired cooking highlighted in the documents are:\n\n1. **Chef Marco Tulio's Bakery Opening**: On October 12, ",
+      "wm_answer_excerpt": "Three notable contributions related to wood-fired cooking include Chef Marco Tulio's dedication to the craft, which he has refined over three generati",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How has the gig economy transformed the labor market since September 1, 2023, an"
+      },
+      "src_answer_excerpt": "Since September 1, 2023, the gig economy has significantly transformed the labor market, marking a departure from traditional employment models center",
+      "wm_answer_excerpt": "Since September 1, 2023, the gig economy has significantly reshaped the labor market, leading to a notable increase in freelance work and flexible job",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key components of Boston's recent public works initiatives as outli"
+      },
+      "src_answer_excerpt": "Boston's recent public works initiatives are characterized by a comprehensive five-year plan released by Mayor Julia Espinoza on September 15, 2023, a",
+      "wm_answer_excerpt": "Boston's recent public works initiatives emphasize a blend of innovation and tradition to address the city's growing infrastructure needs. Following a",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are the key reasons highlighted in the document for the importance of vacci"
+      },
+      "src_answer_excerpt": "Vaccination is emphasized as crucial across all age groups for several key reasons. Firstly, it plays a significant role in protecting individual heal",
+      "wm_answer_excerpt": "Vaccination is emphasized as a crucial public health measure for individuals of all ages due to the ongoing evolution of diseases and the need to main",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What are the significant contributions and events related to sous-vide cooking a"
+      },
+      "src_answer_excerpt": "The evolution of sous-vide cooking has been marked by significant contributions and events that showcase its journey from a niche technique to a mains",
+      "wm_answer_excerpt": "Sous-vide cooking, a technique that involves sealing food in a bag and immersing it in a water bath at controlled low temperatures, has evolved signif",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "How are local businesses in Yonkers adapting to the rise of e-commerce, and what"
+      },
+      "src_answer_excerpt": "Local businesses in Yonkers are adapting to the rise of e-commerce by integrating online sales platforms and embracing technological innovations. This",
+      "wm_answer_excerpt": "Local businesses in Yonkers are actively adapting to the rise of e-commerce by enhancing their online presence and integrating digital solutions into ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are some key initiatives and contributions made by local entrepreneurs and "
+      },
+      "src_answer_excerpt": "Local entrepreneurs and organizations have made significant strides toward sustainability in renewable energy through various innovative initiatives:\n",
+      "wm_answer_excerpt": "Local entrepreneurs and organizations are making significant strides towards sustainability in renewable energy through various innovative initiatives",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What notable sightings of mythical beings occurred in September and November 202"
+      },
+      "src_answer_excerpt": "In September and November 2023, several noteworthy sightings of mythical beings were reported by various individuals. \n\n1. **Loch Ness Monster (Nessie",
+      "wm_answer_excerpt": "In September 2023, there were several remarkable sightings of mythical beings. On September 12, Ewan MacPhee, a local enthusiast, spotted Nessie, the ",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 5,
+        "question": "What are the key challenges and developments in student privacy and cybersecurit"
+      },
+      "src_answer_excerpt": "The transition to digital education in the 2023-2024 academic year has brought significant challenges and developments in student privacy and cybersec",
+      "wm_answer_excerpt": "The shift towards digital education in the 2023-2024 academic year has significantly heightened concerns about student privacy and cybersecurity. With",
+      "flipped": false,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 1,
+        "question": "What are the key components of the proposed tax reforms discussed in the documen"
+      },
+      "src_answer_excerpt": "The proposed tax reforms following September 1, 2023, include two significant legislative actions: the High-Income Earner Support Tax (HIEST) and the ",
+      "wm_answer_excerpt": "The proposed tax reforms focus on establishing a progressive tax system aimed at reducing income inequality by requiring higher contributions from wea",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 4,
+        "question": "What are some specific examples of rituals discussed in the document, and how do"
+      },
+      "src_answer_excerpt": "The documents provide several specific examples of rituals that illustrate their connection to cultural heritage. For instance, the Japanese New Year'",
+      "wm_answer_excerpt": "The documents highlight various rituals that are integral to cultural heritage, as emphasized by Professor Sophia Ramirez. For instance, the Japanese ",
+      "flipped": false,
+      "preference_label": "equivalent"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What specific initiatives and changes were implemented by local education author"
+      },
+      "src_answer_excerpt": "In September 2023, local education authorities implemented several initiatives aimed at enhancing student engagement in extracurricular programs. A si",
+      "wm_answer_excerpt": "In September 2023, local education authorities recognized the growing importance of extracurricular programs and initiated several changes aimed at en",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 3,
+        "question": "What are the key components of Halifax's infrastructure initiative launched by t"
+      },
+      "src_answer_excerpt": "Halifax's City Council has embarked on a significant infrastructure initiative characterized by several key components aimed at modernizing and enhanc",
+      "wm_answer_excerpt": "Halifax's City Council has embarked on a significant infrastructure initiative aimed at revitalizing the city's roads, bridges, and public buildings, ",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What are the key challenges faced by Small and Medium Enterprises (SMEs) in adap"
+      },
+      "src_answer_excerpt": "Small and Medium Enterprises (SMEs) face several key challenges in adapting to digital technology, as highlighted by Timothy Green and supported by va",
+      "wm_answer_excerpt": "Small and Medium Enterprises (SMEs) face several significant challenges in adapting to digital technology, as emphasized by Timothy Green. A major iss",
+      "flipped": true,
+      "preference_label": "watermarked"
+    },
+    {
+      "trial_meta": {
+        "target": 0,
+        "question": "What challenges did Timothy Tannenbaum face while using his wood-fired oven, and"
+      },
+      "src_answer_excerpt": "Timothy Tannenbaum encountered several challenges while using his wood-fired oven, which highlighted the complexities and unpredictability of traditio",
+      "wm_answer_excerpt": "Timothy Tannenbaum encountered several challenges while using his wood-fired oven, notably the intense heat that requires both skill and courage to ma",
+      "flipped": true,
+      "preference_label": "source"
+    },
+    {
+      "trial_meta": {
+        "target": 2,
+        "question": "What are the contributions of artists Arav Kumari and Reena Nair to the urban ar"
+      },
+      "src_answer_excerpt": "Arav Kumari and Reena Nair are key figures in the urban art scene of Jaisalmer, each bringing a unique perspective that intertwines the city's rich hi",
+      "wm_answer_excerpt": "Artists Arav Kumari and Reena Nair play a pivotal role in shaping the urban art scene in Jaisalmer, infusing the city's landscape with vibrant and mea",
+      "flipped": true,
+      "preference_label": "watermarked"
+    }
+  ]
+}

@@ -1,0 +1,1287 @@
+{
+ "01": {
+  "work_dir": "work/staleness/f25",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     135,
+     7,
+     6,
+     6,
+     8,
+     6
+    ],
+    "z_raw": [
+     11.047099263134868,
+     2.731086926250244,
+     3.6240070530402595,
+     0.9906770367748463,
+     2.1257887198004726,
+     1.2000041435715076
+    ],
+    "z_gated": [
+     11.047099263134868,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 11.047099263134868,
+    "target_T": 135,
+    "target_bh_detected": true,
+    "queries_to_detection": 11,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.26332288401253917
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     14,
+     149,
+     4,
+     3,
+     2,
+     1
+    ],
+    "z_raw": [
+     3.3379141353324857,
+     7.083531115327132,
+     0.36861697731906906,
+     2.2739902436733246,
+     -0.1253245281961464,
+     -1.0736555344844028
+    ],
+    "z_gated": [
+     0.0,
+     7.083531115327132,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 7.083531115327132,
+    "target_T": 149,
+    "target_bh_detected": true,
+    "queries_to_detection": 51,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2605421686746988
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     4,
+     2,
+     197,
+     4,
+     4,
+     7
+    ],
+    "z_raw": [
+     3.569532075556783,
+     0.6446722294038758,
+     9.879200079196163,
+     3.389218611256883,
+     1.9071880145453026,
+     1.4019384530794583
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     9.879200079196163,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 9.879200079196163,
+    "target_T": 197,
+    "target_bh_detected": true,
+    "queries_to_detection": 14,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.3196480938416422
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     2,
+     8,
+     3,
+     146,
+     11,
+     8
+    ],
+    "z_raw": [
+     2.104244762507216,
+     1.1079844861091652,
+     0.9663548469543457,
+     10.61845997627822,
+     2.9785397496229162,
+     1.1726199258875412
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     10.61845997627822,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 10.61845997627822,
+    "target_T": 146,
+    "target_bh_detected": true,
+    "queries_to_detection": 12,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.27682737169517885
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     1,
+     12,
+     1,
+     10,
+     158,
+     3
+    ],
+    "z_raw": [
+     0.10711484446408669,
+     -0.11981449276208878,
+     0.5871585417718601,
+     0.26716126810871743,
+     11.373183845381964,
+     1.025513231754303
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     11.373183845381964,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 11.373183845381964,
+    "target_T": 158,
+    "target_bh_detected": true,
+    "queries_to_detection": 11,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.27326440177252587
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     3,
+     3,
+     7,
+     3,
+     178
+    ],
+    "z_raw": [
+     0.0,
+     -1.3391375541687012,
+     -0.5120944082736969,
+     3.1904211973351706,
+     1.795623779296875,
+     9.960164891952406
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     9.960164891952406
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 9.960164891952406,
+    "target_T": 178,
+    "target_bh_detected": true,
+    "queries_to_detection": 29,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.29984544049459044
+   }
+  }
+ },
+ "02": {
+  "work_dir": "work/staleness/f25",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     143,
+     4,
+     3,
+     8,
+     5,
+     8
+    ],
+    "z_raw": [
+     8.016083270734075,
+     1.0966989106644267,
+     2.836508870124817,
+     2.3570310084149915,
+     2.308571297481122,
+     -1.5353758605228331
+    ],
+    "z_gated": [
+     8.016083270734075,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 8.016083270734075,
+    "target_T": 143,
+    "target_bh_detected": true,
+    "queries_to_detection": 37,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.26226993865030673
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     16,
+     140,
+     5,
+     4,
+     3,
+     0
+    ],
+    "z_raw": [
+     3.757376391189515,
+     8.777882917874011,
+     1.3432974878014505,
+     2.832001349597783,
+     1.5112817883491516,
+     0.0
+    ],
+    "z_gated": [
+     0.0,
+     8.777882917874011,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 8.777882917874011,
+    "target_T": 140,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2507462686567164
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     5,
+     1,
+     167,
+     2,
+     7,
+     2
+    ],
+    "z_raw": [
+     4.2235771928177845,
+     1.0338270346216356,
+     10.486432373029771,
+     2.518573530868568,
+     0.5035543778108309,
+     2.5186464583510846
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     10.486432373029771,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 10.486432373029771,
+    "target_T": 167,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2796352583586626
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     5,
+     8,
+     159,
+     0,
+     10
+    ],
+    "z_raw": [
+     0.0,
+     1.7532137585803549,
+     0.7231217604566884,
+     9.568347128401086,
+     0.0,
+     4.544597863849384
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     9.568347128401086,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 9.568347128401086,
+    "target_T": 159,
+    "target_bh_detected": true,
+    "queries_to_detection": 10,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.272863568215892
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     2,
+     10,
+     4,
+     6,
+     136,
+     4
+    ],
+    "z_raw": [
+     -0.4371501793567424,
+     2.8111387172521667,
+     3.609145904335385,
+     0.21822423276032601,
+     8.724865075461018,
+     3.9009750154914973
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     8.724865075461018,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 8.724865075461018,
+    "target_T": 136,
+    "target_bh_detected": true,
+    "queries_to_detection": 11,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.24360902255639097
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     5,
+     5,
+     8,
+     7,
+     160
+    ],
+    "z_raw": [
+     0.0,
+     2.5266851371526697,
+     -1.3338265067938933,
+     4.487239715834832,
+     -0.22589815027784063,
+     7.186809819722534
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     7.186809819722534
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 7.186809819722534,
+    "target_T": 160,
+    "target_bh_detected": true,
+    "queries_to_detection": 10,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.27205882352941174
+   }
+  }
+ },
+ "03": {
+  "work_dir": "work/staleness/f25",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     153,
+     10,
+     5,
+     9,
+     7,
+     7
+    ],
+    "z_raw": [
+     5.473463141568643,
+     1.274074723005654,
+     -0.582232169919034,
+     3.085378858342893,
+     3.075264155329688,
+     -0.22668138236912308
+    ],
+    "z_gated": [
+     5.473463141568643,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 5.473463141568643,
+    "target_T": 153,
+    "target_bh_detected": true,
+    "queries_to_detection": 49,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.28046989720998533
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     11,
+     127,
+     6,
+     4,
+     7,
+     2
+    ],
+    "z_raw": [
+     4.841669173355009,
+     10.422499453167632,
+     0.6225375280691952,
+     0.7332441825256488,
+     3.654552324170627,
+     0.807110787160973
+    ],
+    "z_gated": [
+     0.0,
+     10.422499453167632,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 10.422499453167632,
+    "target_T": 127,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2368024132730015
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     9,
+     3,
+     158,
+     9,
+     3,
+     3
+    ],
+    "z_raw": [
+     3.8719671599235395,
+     2.6863899379968643,
+     9.419321018283242,
+     2.0256719845905042,
+     3.381030797958374,
+     3.3540270924568176
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     9.419321018283242,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 9.419321018283242,
+    "target_T": 158,
+    "target_bh_detected": true,
+    "queries_to_detection": 39,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2781954887218045
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     3,
+     2,
+     7,
+     154,
+     1,
+     16
+    ],
+    "z_raw": [
+     1.726830780506134,
+     0.28029781931011655,
+     1.895938212951973,
+     7.823930765744124,
+     2.3498069538700617,
+     1.9227116084710913
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     7.823930765744124,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 7.823930765744124,
+    "target_T": 154,
+    "target_bh_detected": true,
+    "queries_to_detection": 18,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.27685325264750377
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     9,
+     10,
+     4,
+     9,
+     138,
+     0
+    ],
+    "z_raw": [
+     -1.151985732592503,
+     4.240002512321309,
+     2.4085552609984022,
+     2.3169797983881004,
+     8.91001913918644,
+     0.0
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     8.91001913918644,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 8.91001913918644,
+    "target_T": 138,
+    "target_bh_detected": true,
+    "queries_to_detection": 15,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2607361963190184
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     1,
+     7,
+     8,
+     1,
+     144
+    ],
+    "z_raw": [
+     0.0,
+     0.1619255148078627,
+     -0.8807696084680405,
+     2.2163293573527794,
+     1.0248075196524022,
+     8.298587028809665
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     8.298587028809665
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 8.298587028809665,
+    "target_T": 144,
+    "target_bh_detected": true,
+    "queries_to_detection": 16,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.23572474377745242
+   }
+  }
+ },
+ "04": {
+  "work_dir": "work/staleness/f25",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     142,
+     11,
+     6,
+     3,
+     4,
+     9
+    ],
+    "z_raw": [
+     7.841858762558346,
+     5.5481985010541885,
+     0.9250468704309251,
+     1.0728115290403366,
+     -0.4779095815354449,
+     0.32103011262828957
+    ],
+    "z_gated": [
+     7.841858762558346,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 7.841858762558346,
+    "target_T": 142,
+    "target_bh_detected": true,
+    "queries_to_detection": 38,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.25107604017216645
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     19,
+     150,
+     4,
+     2,
+     7,
+     1
+    ],
+    "z_raw": [
+     5.66931317766397,
+     12.267234692484841,
+     6.064797187956622,
+     1.8111143160414138,
+     2.7688095852973453,
+     -0.6461572533316486
+    ],
+    "z_gated": [
+     0.0,
+     12.267234692484841,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 12.267234692484841,
+    "target_T": 150,
+    "target_bh_detected": true,
+    "queries_to_detection": 11,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2656023222060958
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     5,
+     0,
+     169,
+     5,
+     6,
+     4
+    ],
+    "z_raw": [
+     4.063232425576422,
+     0.0,
+     8.941330485784968,
+     0.8820352767689508,
+     4.184271938085033,
+     1.2228828449370157
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     8.941330485784968,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 8.941330485784968,
+    "target_T": 169,
+    "target_bh_detected": true,
+    "queries_to_detection": 21,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2850678733031674
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     4,
+     4,
+     6,
+     177,
+     4,
+     5
+    ],
+    "z_raw": [
+     2.123602812500333,
+     2.591774663305246,
+     1.2317533434813397,
+     13.250186914764493,
+     1.5961027264726222,
+     2.3556797378688983
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     13.250186914764493,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 13.250186914764493,
+    "target_T": 177,
+    "target_bh_detected": true,
+    "queries_to_detection": 9,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.3105590062111801
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     8,
+     9,
+     8,
+     6,
+     137,
+     3
+    ],
+    "z_raw": [
+     1.6731770563944979,
+     2.5258907203107466,
+     0.9221761742286249,
+     1.0301800556255005,
+     7.599750204600308,
+     1.0499937236309052
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     7.599750204600308,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 7.599750204600308,
+    "target_T": 137,
+    "target_bh_detected": true,
+    "queries_to_detection": 21,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2590909090909091
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     0,
+     4,
+     2,
+     5,
+     7,
+     165
+    ],
+    "z_raw": [
+     0.0,
+     0.17944190098866933,
+     0.9542035848845134,
+     2.721305827414913,
+     0.5363526575643083,
+     8.672522251129097
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     8.672522251129097
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 8.672522251129097,
+    "target_T": 165,
+    "target_bh_detected": true,
+    "queries_to_detection": 32,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2695139911634757
+   }
+  }
+ },
+ "05": {
+  "work_dir": "work/staleness/f25",
+  "targets": {
+   "0": {
+    "n_trials": 80,
+    "pooled_T": [
+     143,
+     9,
+     8,
+     6,
+     0,
+     9
+    ],
+    "z_raw": [
+     8.718374516607065,
+     4.060846656474813,
+     3.8502644292319435,
+     1.3062693404335248,
+     0.0,
+     0.4081090494593126
+    ],
+    "z_gated": [
+     8.718374516607065,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     true,
+     false,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 8.718374516607065,
+    "target_T": 143,
+    "target_bh_detected": true,
+    "queries_to_detection": 18,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2608047690014903
+   },
+   "1": {
+    "n_trials": 80,
+    "pooled_T": [
+     5,
+     176,
+     3,
+     7,
+     3,
+     3
+    ],
+    "z_raw": [
+     3.511958087874246,
+     11.059127967593215,
+     1.9489778503775597,
+     4.78332815843296,
+     1.8246588706970215,
+     0.1177985668182373
+    ],
+    "z_gated": [
+     0.0,
+     11.059127967593215,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     true,
+     false,
+     false,
+     false,
+     false
+    ],
+    "target_z": 11.059127967593215,
+    "target_T": 176,
+    "target_bh_detected": true,
+    "queries_to_detection": 12,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.2957957957957958
+   },
+   "2": {
+    "n_trials": 80,
+    "pooled_T": [
+     5,
+     0,
+     146,
+     7,
+     2,
+     0
+    ],
+    "z_raw": [
+     3.064722004283205,
+     0.0,
+     7.714305157404862,
+     2.209638754109052,
+     2.249922044365149,
+     0.0
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     7.714305157404862,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     true,
+     false,
+     false,
+     false
+    ],
+    "target_z": 7.714305157404862,
+    "target_T": 146,
+    "target_bh_detected": true,
+    "queries_to_detection": 24,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.25157232704402516
+   },
+   "3": {
+    "n_trials": 80,
+    "pooled_T": [
+     10,
+     4,
+     6,
+     167,
+     5,
+     6
+    ],
+    "z_raw": [
+     6.150158894158476,
+     2.7214769192113466,
+     0.3610440340752815,
+     11.674903563225353,
+     1.8293459652605313,
+     -2.811844974035185
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     11.674903563225353,
+     0.0,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     true,
+     false,
+     false
+    ],
+    "target_z": 11.674903563225353,
+    "target_T": 167,
+    "target_bh_detected": true,
+    "queries_to_detection": 12,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.29954614220877457
+   },
+   "4": {
+    "n_trials": 80,
+    "pooled_T": [
+     3,
+     4,
+     5,
+     8,
+     133,
+     1
+    ],
+    "z_raw": [
+     -1.8675415217876434,
+     0.24129329251125645,
+     1.5657855238615577,
+     2.707073151555861,
+     6.757277146421477,
+     2.304569387925546
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     6.757277146421477,
+     0.0
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     true,
+     false
+    ],
+    "target_z": 6.757277146421477,
+    "target_T": 133,
+    "target_bh_detected": true,
+    "queries_to_detection": 54,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.22713864306784662
+   },
+   "5": {
+    "n_trials": 80,
+    "pooled_T": [
+     1,
+     0,
+     2,
+     3,
+     0,
+     148
+    ],
+    "z_raw": [
+     1.9642623840513467,
+     0.0,
+     1.1663019257101783,
+     3.6116169691085815,
+     0.0,
+     10.629596171580161
+    ],
+    "z_gated": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     10.629596171580161
+    ],
+    "bh_sig": [
+     false,
+     false,
+     false,
+     false,
+     false,
+     true
+    ],
+    "target_z": 10.629596171580161,
+    "target_T": 148,
+    "target_bh_detected": true,
+    "queries_to_detection": 30,
+    "max_nontarget_z_gated": 0.0,
+    "any_nontarget_bh_sig": false,
+    "assign_rate": 0.22781065088757396
+   }
+  }
+ }
+}

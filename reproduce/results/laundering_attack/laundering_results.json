@@ -1,0 +1,148 @@
+{
+  "neutral2": {
+    "t0_s1": {
+      "final_target_z": 9.797389925450341,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 27,
+      "final_support": 63,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t0_s2": {
+      "final_target_z": 6.558895046169402,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 39,
+      "final_support": 57,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t0_s3": {
+      "final_target_z": 2.9202489229352286,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 56,
+      "final_support": 50,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t1_s1": {
+      "final_target_z": 5.682337075884996,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 38,
+      "final_support": 62,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t1_s2": {
+      "final_target_z": 4.560634526574621,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 34,
+      "final_support": 33,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t1_s3": {
+      "final_target_z": 5.06793230336415,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 49,
+      "final_support": 45,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t2_s1": {
+      "final_target_z": 7.78335480717431,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 15,
+      "final_support": 105,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t2_s2": {
+      "final_target_z": 9.061877190258635,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 19,
+      "final_support": 111,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t2_s3": {
+      "final_target_z": 8.813453795560921,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 26,
+      "final_support": 104,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t3_s1": {
+      "final_target_z": 9.249648778683513,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 35,
+      "final_support": 64,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t3_s2": {
+      "final_target_z": 7.901636844107171,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 16,
+      "final_support": 88,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t3_s3": {
+      "final_target_z": 7.937643371909327,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 21,
+      "final_support": 94,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t4_s1": {
+      "final_target_z": 10.504432404939594,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 26,
+      "final_support": 70,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t4_s2": {
+      "final_target_z": 8.276706061274188,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 27,
+      "final_support": 67,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t4_s3": {
+      "final_target_z": 9.536316954348322,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 18,
+      "final_support": 78,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t5_s1": {
+      "final_target_z": 8.449915247221732,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 21,
+      "final_support": 97,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t5_s2": {
+      "final_target_z": 6.435839858189767,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 30,
+      "final_support": 91,
+      "bh_detected": true,
+      "eligible_at_end": true
+    },
+    "t5_s3": {
+      "final_target_z": 7.261610106292506,
+      "final_nontarget_z": 0.0,
+      "queries_to_bh": 27,
+      "final_support": 81,
+      "bh_detected": true,
+      "eligible_at_end": true
+    }
+  }
+}
